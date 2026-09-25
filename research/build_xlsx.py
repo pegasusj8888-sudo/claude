@@ -55,14 +55,18 @@ notes=['이 표는 락스미스(자동차 키 제작/프로그래밍) 참고용�
 '※ 색상',
 "- 빨간색: 확인 불가/확인 필요 — 절대 그대로 신뢰해서 작업하지 마세요.",
 "- 주황색: 출처가 서로 상충하거나 원문으로 직접 확인되지 않은 경우 — 작업 전 VIN/실물 모듈로 재확인.",
-"- 전환기(CAS3→CAS3+, CAS4→CAS4+, FEM→BDC, BDC2→BDC3)는 색 표시 없이 이모빌라이저 칸에 전환 전·후를 함께 적었습니다(예: CAS3(2008 중반 이전 생산) / CAS3+(2008 중반 이후 생산)).",
+"- 전환기(EWS3→EWS4, CAS1→CAS2, CAS2→CAS3, CAS3→CAS3+, CAS4→CAS4+, BDC2→BDC3)는 색 표시 없이 이모빌라이저 칸에 전환 전·후를 함께 적었습니다(예: CAS3(2008 중반 이전 생산) / CAS3+(2008 중반 이후 생산)).",
 '',
 '※ 조사하며 확인된 주요 사항',
 "- CAS4/CAS4+ 키의 칩은 PCF7953(Hitag Pro, ID49, EWS5)입니다(이전 초안의 'Hitag2' 표기는 오류였음).",
 "- CAS4+ 도입 시점은 자료마다 다릅니다(2012 중반 이후 생산분 vs 2013년 F10부터) — 2012년식은 주황색.",
-"- BDC3는 G30/G31 기준 2020.7 이후 생산분부터(Autel 자료). BDC2 키: N5F-ID21A(9367401-01), 2022년 이후 순정 키: IYZBK1.",
+"- [이모빌라이저 재검증] F20/F22/F30/F32/F80/F82/F87은 LCI 이후에도 FEM(딜러 부품 FEM 61355A7FB57 등) — BDC가 아닙니다. F15/F16/F85/F86/F45/F48/F39/i3/i8은 BDC.",
+"- BDC2(BDC_G11): G11/G12(~2019.2), G30/G31/G32/F90(~2020.6), G01/G02/F97/F98(~2021.7), G08(~2021.8). 이후 생산분은 BDC3.",
+"- BDC3(BDC_G05): G05/G06/G07/G20/G15/G29/F40/F44/G42/G22/G80/G82/G87/F95/F96은 출시부터 BDC3.",
+"- BCP: i7/7시리즈 G70·iX(딜러 부품 'Control u.basic computing platform (BCP)' 61355A9A210), U06/U10/U11, G45. G60/i5/G90은 BDC3·BCP 자료 상충(주황색).",
+"- BDC2 키: N5F-ID21A(9367401-01), 2022년 이후 순정 키: IYZBK1.",
 "- U섀시(U06/U10/U11)는 BCP 이모빌라이저 + UWB 키(NCF2951/Hitag Pro/ID49, FCC IYZBK1).",
-"- F40·F44는 G시리즈 전장이라 BDC2/BDC3 표기가 자료마다 다릅니다(주황색)."]
+"- E65는 2005 LCI 전 CAS1, 이후 CAS2. E60/E61/E63은 2007.3 LCI 전 CAS2, 이후 CAS3. E83은 2006 중 EWS3→EWS4."]
 for n in notes: g.append([n])
 g.column_dimensions['A'].width=150
 for c in g['A']: c.font=Font(name='Arial',size=10); c.alignment=Alignment(wrap_text=True,vertical='top')
