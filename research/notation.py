@@ -2,7 +2,7 @@
 #   - 여러 값은 ", "로만 구분 ("/", "·", "또는", 범위 줄임 안 씀)
 #   - ( ) 안에는 부품번호(칩 번호·모듈 품번)만:  ID49(PCF7953), SKM(87570-36010)
 #   - [ ] 안에는 적용 조건만(키 종류·버튼 수·옵션·생산 시기·차종 코드·추정)
-#   - 부품번호 칸은 부품번호만. FCC ID는 "FCC ", 한국 전파인증은 "KC " 접두
+#   - 부품번호 칸은 순정 부품번호만(애프터마켓 호환품 번호는 뺌). FCC ID는 "FCC ", 한국 전파인증은 "KC " 접두
 # 사용: python3 research/notation.py            → 저장소 루트의 모든 .xlsx에 적용
 #       python3 research/notation.py --check    → 규칙 위반 값만 출력(파일 안 바꿈)
 #       build_xlsx.py에서는 apply_file(경로) 호출
@@ -121,8 +121,18 @@ def normalize(col, value, brand=''):
     if col in PN_COLS and brand.startswith('기아'):
         r = kia_pn(v)
         if r is not None:
-            return r
+            v = r
+    if col in PN_COLS:
+        v = ', '.join(it for it in _top_items(v) if it and not _aftermarket(it))
     return v
+
+
+# 부품번호 칸에는 순정(제조사) 부품번호만 — 애프터마켓 호환품 번호는 뺌
+AFTERMARKET = re.compile(r'애프터마켓|^(ILCO|KD|Keydiy|Xhorse) |^(IKEY|ABK-|KR-B|HU\d+-PT|IN-151$|2013DJ)')
+
+
+def _aftermarket(it):
+    return bool(AFTERMARKET.search(it))
 
 
 def _top_items(v):
@@ -158,6 +168,8 @@ def problems(col, v):
         base = re.sub(r'\[[^\]]*\]$', '', it)
         if '[' in base or ']' in base:
             p.append('조건 위치: ' + it)
+        if col in PN_COLS and _aftermarket(it):
+            p.append('애프터마켓 부품번호: ' + it)
         if col in PN_COLS + (KEYWAY,) and '(' in base:
             p.append('부품번호 칸 괄호: ' + it)
         m = re.search(r'\(([^()]*)\)', base)
@@ -168,6 +180,7 @@ def problems(col, v):
 
 # ───── 안내 시트 ─────
 GUIDE_FIX = {  # 예전 표기를 설명하던 문장 고치기
+    "'KC ' = 한국 전파인증번호, [애프터마켓] = 순정이 아닌 호환품 번호. 설명": "'KC ' = 한국 전파인증번호. 순정(제조사) 부품번호만 적고 애프터마켓 호환품 번호는 넣지 않았습니다. 설명",
     "- 복수 칩이 확인된 경우 'ID46(PCF7952) / ID47(NCF2951)' 처럼 '/'로 나열합니다. 다른 컬럼도 동일 규칙 적용.":
         "- 복수 칩이 확인된 경우 'ID46(PCF7952), ID47(NCF2951)'처럼 쉼표로 나열합니다. 다른 컬럼도 같은 규칙입니다(아래 '표기 규칙' 참고).",
     "'(카드키용)'으로 구분해": "'[카드키용]'으로 구분해",
@@ -186,7 +199,7 @@ GUIDE_BLOCK = [
     "- ( ) 안에는 부품번호만 적습니다. 칩코드 'ID49(PCF7953)' = ID49 칩, 칩 부품번호 PCF7953. 이모빌라이저 'SKM(87570-36010)' = SKM 모듈, 품번 87570-36010. 칩 부품번호를 모르면 'ID46'처럼 ID만 적었습니다.",
     "- [ ] 안에는 그 값이 적용되는 조건을 적습니다(키 종류·버튼 수·옵션·생산 시기·차종 코드). 예: ID46(PCF7936)[폴딩키], ID46(PCF7952A)[스마트키] → 폴딩키는 PCF7936, 스마트키는 PCF7952A.",
     "- [추정] = 추정값, [일부 자료] = 일부 자료에만 나오는 값, [자료 상충] = 자료마다 달라 둘 중 무엇인지 미확정, [해외 공용 품번] = 해외 공용 품번(국내 순정 품번 미확인).",
-    "- 부품번호 칸에는 부품번호만 적습니다. 'FCC ' = 미국 FCC 인증번호(키 모델 식별용), 'KC ' = 한국 전파인증번호, [애프터마켓] = 순정이 아닌 호환품 번호. 설명·판매처·주파수(모두 국내 433/434MHz)는 적지 않았고, 부품번호가 없으면 공란입니다.",
+    "- 부품번호 칸에는 부품번호만 적습니다. 'FCC ' = 미국 FCC 인증번호(키 모델 식별용), 'KC ' = 한국 전파인증번호. 순정(제조사) 부품번호만 적고 애프터마켓 호환품 번호는 넣지 않았습니다. 설명·판매처·주파수(모두 국내 433/434MHz)는 적지 않았고, 부품번호가 없으면 공란입니다.",
     "- Hitag2·Hitag Pro·Megamos·DST80 같은 칩 방식 이름은 ID 코드와 같은 뜻이라 칸에 따로 적지 않았습니다(아래 표).",
     '',
     '※ 칩 ID 코드 뜻',
