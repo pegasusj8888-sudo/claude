@@ -64,7 +64,7 @@ def kt_chevy(r):
     if m=='스파크 (쉐보레, M300)': return {'막대키'} if y<=2012 else ({'막대키','폴딩키'} if y==2013 else {'폴딩키'})
     if m=='콜로라도 (쉐보레)': return {'막대키'} if y<=2023 else ({'막대키','스마트키'} if y==2024 else {'스마트키'})
     return set(CH[m].split(',')) if CH[m] else set()
-KT={'benz':lambda r:{r['ktype_hint']},'bmw':kt_bmw,'renault':kt_renault,'kgm':kt_kgm,'chevy':kt_chevy}
+KT={'benz':lambda r:set(r['ktype_hint'].split(',')),'bmw':kt_bmw,'renault':kt_renault,'kgm':kt_kgm,'chevy':kt_chevy}
 
 # ---------- 비고: 주황/빨강 칸의 이유만 ----------
 def R_bmw(r):
