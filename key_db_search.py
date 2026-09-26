@@ -230,6 +230,8 @@ def _norm(s):
 
 def search(recs, model='', year=''):
     m, y = _norm(model), _norm(year)
+    if not m and not y:  # 빈 검색은 결과 없음
+        return []
     return [r for r in recs
             if (not m or m in _norm(r['values'].get(MODEL, '')))
             and (not y or y in _norm(r['values'].get(YEAR, '')))]
@@ -428,9 +430,12 @@ def run_gui():
             self.do_search()
 
         def do_search(self):
-            res = search(self.recs, self.e_model.get(), self.e_year.get())
             self.tree.delete(*self.tree.get_children())
             self.shown = {}
+            if not self.e_model.get().strip() and not self.e_year.get().strip():
+                self.status.set('%s  |  모델명 또는 연식을 입력하고 검색하세요' % getattr(self, 'base_status', ''))
+                return
+            res = search(self.recs, self.e_model.get(), self.e_year.get())
             for r in res:
                 vals = [r['values'].get(c, '') for c in self.cols[:-1]] + [os.path.basename(r['file'])]
                 iid = self.tree.insert('', 'end', values=vals, tags=(r['flag'],) if r['flag'] else ())
