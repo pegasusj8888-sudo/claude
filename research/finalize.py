@@ -64,7 +64,7 @@ def kt_chevy(r):
     if m=='스파크 (쉐보레, M300)': return {'막대키'} if y<=2012 else ({'막대키','폴딩키'} if y==2013 else {'폴딩키'})
     if m=='콜로라도 (쉐보레)': return {'막대키'} if y<=2023 else ({'막대키','스마트키'} if y==2024 else {'스마트키'})
     return set(CH[m].split(',')) if CH[m] else set()
-KT={'benz':lambda r:set(r['ktype_hint'].split(',')),'bmw':kt_bmw,'renault':kt_renault,'kgm':kt_kgm,'chevy':kt_chevy}
+KT={'audi':lambda r:set(r['ktype_hint'].split(',')),'benz':lambda r:set(r['ktype_hint'].split(',')),'bmw':kt_bmw,'renault':kt_renault,'kgm':kt_kgm,'chevy':kt_chevy}
 
 # ---------- 비고: 주황/빨강 칸의 이유만 ----------
 def R_bmw(r):
@@ -136,7 +136,7 @@ def R_chevy(r):
     if m=='토스카 (GM대우/쉐보레)': return ('2006년형 미적용·2007년형(2006.11~) 적용 — ' if y==2006 else '')+'칩은 같은 차 수출형(에피카) 4D60 기준'
     if m=='볼트 EV (쉐보레)': return '칩 표기 상충(ID46 vs ID49)' if y>=2022 else '국내형(433MHz) 스마트키 자료 없음 — 칩은 미국형 기준'
     return d.get(m)
-RS={'benz':lambda r:r['note'],'bmw':R_bmw,'renault':R_renault,'kgm':R_kgm,'chevy':R_chevy}
+RS={'audi':lambda r:r['note'],'benz':lambda r:r['note'],'bmw':R_bmw,'renault':R_renault,'kgm':R_kgm,'chevy':R_chevy}
 
 def process(brand,rows):
     for r in rows:
