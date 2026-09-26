@@ -217,7 +217,7 @@ def load_folder(folder):
 
 
 def all_columns(recs):
-    """파일마다 다른 컬럼을 엑셀 순서를 유지하며 합침(예: 기아 파일엔 '키종류' 없음)."""
+    """파일마다 다른 컬럼을 엑셀 순서를 유지하며 합침(파일마다 없는 컬럼이 있어도 됨)."""
     cols = []
     for r in recs:
         prev = -1

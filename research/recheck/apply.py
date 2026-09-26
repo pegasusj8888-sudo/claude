@@ -99,6 +99,21 @@ def apply_file(path, overrides=None):
                 g.cell(r2, 1)._style = copy(ref._style)
                 g.cell(r2, 1).alignment = Alignment(wrap_text=False, vertical='top')
                 n += 1
+        # 행 구분·열 설명 같은 규칙 문구(재조사 근거와 별도 제목 아래)
+        brands = {str(ws.cell(r, hdr['브랜드']).value or '') for r in range(hr + 1, ws.max_row + 1)}
+        rules = [o['rule'] for o in ovs if o.get('rule') and o['brand'] in brands]
+        if rules and '안내' in wb.sheetnames:
+            from openpyxl.styles import Alignment
+            g = wb['안내']
+            have = {c.value for c in g['A']}
+            head = '※ 행 구분 규칙'
+            ref = g.cell(g.max_row, 1)
+            for line in ([''] + [head] if head not in have else []) + ['- ' + t for t in rules if '- ' + t not in have]:
+                r2 = g.max_row + 1
+                g.cell(r2, 1).value = line or None
+                g.cell(r2, 1)._style = copy(ref._style)
+                g.cell(r2, 1).alignment = Alignment(wrap_text=False, vertical='top')
+                n += 1
         # 빈 이모빌라이저 칸의 주황·빨강 채우기 지우기(불완전한 칸에만 색)
         if '이모빌라이저 시스템' in hdr:
             for r in range(hr + 1, ws.max_row + 1):
