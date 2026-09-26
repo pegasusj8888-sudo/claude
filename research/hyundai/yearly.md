@@ -579,3 +579,9 @@ i40 (VF)|2014|[재조사] 품번별로 칩이 다름(상충 아님): 95440-3Z000
 포터2 일렉트릭|2020|[재조사] 95440-CN000 칩 원문 없음 — 같은 비상키 81996-CN000을 쓰는 후속 CN100은 AES 6A|hellowcar 포터2 전기차, vvdi 95440-CN100 AES 6A
 포터2 일렉트릭|2021|[재조사] 95440-CN000 칩 원문 없음 — 같은 비상키 81996-CN000을 쓰는 후속 CN100은 AES 6A|hellowcar 포터2 전기차, vvdi 95440-CN100 AES 6A
 포터2 일렉트릭|2022|[재조사] 95440-CN000 칩 원문 없음 — 같은 비상키 81996-CN000을 쓰는 후속 CN100은 AES 6A|hellowcar 포터2 전기차, vvdi 95440-CN100 AES 6A
+아이오닉 6 (CE)|2025|[3차] 헬로우카 아이오닉6 CE1 페이스리프트 스마트키 95440-KL500/KL510/KL550/KL560, 비상키 81996-KL010, 케이스 81995-KL010 — 칩 원문 여전히 없음|hellowcar 아이오닉6 CE1 페이스리프트
+아이오닉 6 (CE)|2026|[3차] 위와 동일(칩 원문 없음)|hellowcar 아이오닉6 CE1 페이스리프트
+포터2 일렉트릭|2019|[3차] 95440-CN000 2버튼 433MHz AES 6A(mk3 Porter2 EV CN000)|mk3 Hyundai Porter2 EV 95440-CN000
+포터2 일렉트릭|2020|[3차] 95440-CN000 2버튼 433MHz AES 6A(mk3 Porter2 EV CN000)|mk3 Hyundai Porter2 EV 95440-CN000
+포터2 일렉트릭|2021|[3차] 95440-CN000 2버튼 433MHz AES 6A(mk3 Porter2 EV CN000)|mk3 Hyundai Porter2 EV 95440-CN000
+포터2 일렉트릭|2022|[3차] 95440-CN000 2버튼 433MHz AES 6A(mk3 Porter2 EV CN000)|mk3 Hyundai Porter2 EV 95440-CN000
