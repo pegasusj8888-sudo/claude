@@ -4,6 +4,7 @@
 실행하면 엑셀 파일이 있는 폴더를 고르고, 그 폴더의 모든 .xlsx 파일
 (파일명 구분 없음)에서 모델명·연식으로 검색합니다.
 - 모델명/연식 중 하나만 넣어도 되고 둘 다 넣어도 됩니다(입력값을 포함하는 행 모두 표시).
+- 모델명 칸에는 브랜드도 함께 넣을 수 있습니다(예: "기아 K5" → 기아 K5, "기아" → 기아 모든 차).
 - 결과를 고르고 [수정](또는 더블클릭)하면 값을 고칠 수 있고, 원본 엑셀 파일에 바로 저장됩니다.
 - 파이썬 표준 라이브러리만 사용합니다(openpyxl 불필요). 저장할 때는 고친 셀만 바꾸고
   서식·색·다른 시트는 그대로 둡니다(한셀·엑셀에서 저장한 파일 모두 가능).
@@ -20,7 +21,8 @@ M = '{%s}' % NS_MAIN
 
 MODEL_ALIASES = ('모델명', '모델이름', '모델', '차종', '차명')
 YEAR_ALIASES = ('연식', '년식', '연도', '년도')
-MODEL, YEAR = '모델명', '연식'
+BRAND_ALIASES = ('브랜드', '제조사', '메이커')
+MODEL, YEAR, BRAND = '모델명', '연식', '브랜드'
 FILE_COL = '파일'
 # 설정(마지막 폴더·컬럼 너비)은 이 파이썬 파일과 같은 폴더에 저장
 _HERE = os.path.dirname(os.path.abspath(sys.executable if getattr(sys, 'frozen', False) else __file__))
@@ -148,6 +150,8 @@ def _canon(h):
         return MODEL
     if h in YEAR_ALIASES:
         return YEAR
+    if h in BRAND_ALIASES:
+        return BRAND
     return h
 
 
@@ -230,12 +234,26 @@ def _norm(s):
     return re.sub(r'\s+', '', str(s)).lower()
 
 
+def _match_model(query, brand, model):
+    """모델명 칸 검색: 띄어 쓴 낱말 중 브랜드에 들어 있는 낱말은 브랜드로 보고,
+    나머지 낱말을 이어 붙인 글자가 모델명에 들어 있으면 일치.
+    예) '기아 K5', '쌍용 렉스턴', '기아'(기아 전체), 'a 6'(A6)"""
+    b, mo = _norm(brand), _norm(model)
+    if _norm(query) in mo:
+        return True
+    words = [_norm(w) for w in query.split() if w.strip()]
+    rest = [w for w in words if not (b and w in b)]
+    if len(rest) == len(words):  # 브랜드 낱말이 없음
+        return False
+    return ''.join(rest) in mo
+
+
 def search(recs, model='', year=''):
     m, y = _norm(model), _norm(year)
     if not m and not y:  # 빈 검색은 결과 없음
         return []
     return [r for r in recs
-            if (not m or m in _norm(r['values'].get(MODEL, '')))
+            if (not m or _match_model(model, r['values'].get(BRAND, ''), r['values'].get(MODEL, '')))
             and (not y or y in _norm(r['values'].get(YEAR, '')))]
 
 
