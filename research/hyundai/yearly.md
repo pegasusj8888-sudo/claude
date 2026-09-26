@@ -386,3 +386,72 @@ i40 (VF)|2019|95440-3Z500 "i40 2019" 8A 433MHz — 2019 단종|mk3 i40 2019 3Z50
 포터2 일렉트릭|2024|95440-CN100|hellowcar
 포터2 일렉트릭|2025|95440-CN100|hellowcar
 포터2 일렉트릭|2026|95440-CN100|hellowcar
+제네시스 G80 (DH)|2016|제네시스 G80 2016.7 출시 — 스마트키 95440-D2000BLH(SY5HIFGE04 NCF29A1X ID47 433/434MHz), 비상키 81996-B1500|hellowcar 제네시스G80DH 95440D2000BLH/81996B1500, uhs-hardware 2017-2020 D2000
+제네시스 G80 (DH)|2017|95440-D2000BLH ID47|remotesandkeys 2017 G80 D2000
+제네시스 G80 (DH)|2018|위와 동일 ID47|remotesandkeys 2018 G80
+제네시스 G80 (DH)|2019|위와 동일 ID47|royalkeysupply 2017-2020
+제네시스 G80 (DH)|2020|2020.3 RG3 교체 — D2000BLH ID47|remotesandkeys 2020 G80
+제네시스 G80 (RG3)|2020|RG3 2020.3 출시 — 95440-T1000(6버튼)/T1010/T1200/T1210(8버튼 전기차 공용) TQ8-FOB-4F35 계열 Hitag3 ID47 433MHz|partsro 95440T1210, mk3 Genesis 2021 T1000 ID47, keyecu T1200 ID47
+제네시스 G80 (RG3)|2021|위와 동일 ID47|abkeys 2021-2023 T1210, key4 T1000
+제네시스 G80 (RG3)|2022|위와 동일 ID47|abkeys 2022+ T1010
+제네시스 G80 (RG3)|2023|2023.12 부분변경(2024년형) — 이전 T1xxx ID47|abkeys, remotesandkeys
+제네시스 G80 (RG3)|2024|부분변경 95440-T1AB0(7버튼 TQ8-FOB-4FA0U44)/T1BB0(5버튼 TQ8-FOB-4FAQU44) HITAG AES NCF29A1M ID4A|abkeys T1BB0 ID4A, yourcarkeyguys 2024-2026 T1AB0
+제네시스 G80 (RG3)|2025|T1AB0/T1BB0 ID4A|abkeys 2024-2025
+제네시스 G80 (RG3)|2026|T1AB0 ID4A|yourcarkeyguys 2024-2026
+제네시스 일렉트리파이드 G80 (RG3 EV)|2021|일렉트리파이드 G80 2021.7 출시 — 95440-T1210(8버튼 전기차 공용) ID47|partsro 95440T1210(전기차 공용)
+제네시스 일렉트리파이드 G80 (RG3 EV)|2022|95440-T1210 ID47|abkeys 2021-2023 T1210
+제네시스 일렉트리파이드 G80 (RG3 EV)|2023|95440-T1210 ID47|abkeys
+제네시스 일렉트리파이드 G80 (RG3 EV)|2024|부분변경(2024.? ) — 전용 품번 원문 없음(G80 부분변경 T1AB0 계열 ID4A 추정)|abkeys T1BB0
+제네시스 일렉트리파이드 G80 (RG3 EV)|2025|위와 동일 추정|abkeys
+제네시스 일렉트리파이드 G80 (RG3 EV)|2026|위와 동일 추정|abkeys
+제네시스 EQ900/G90 (HI)|2015|EQ900 2015.12 출시 — 스마트키 95440-D2000NNB(SY5HIFGE04 Hitag3 ID47 433MHz)|transponderisland 2017-2022 G90 D2000NNB, gskeyae D2000NNB
+제네시스 EQ900/G90 (HI)|2016|95440-D2000NNB ID47|gskeyae 2017-2021
+제네시스 EQ900/G90 (HI)|2017|위와 동일 ID47|transponderisland
+제네시스 EQ900/G90 (HI)|2018|G90(2018.11 부분변경·개명) — D2000NNB ID47|yourcarkeyguys 2017-2022
+제네시스 EQ900/G90 (HI)|2019|위와 동일 ID47, 95440-G9000(G70·G90 공용 4버튼 ID47)|gskeyae G9000 G70 G90
+제네시스 EQ900/G90 (HI)|2020|위와 동일 ID47|remotesandkeys 2021 G90 D2000NNB
+제네시스 EQ900/G90 (HI)|2021|위와 동일 ID47|remotesandkeys 2021 G90
+제네시스 EQ900/G90 (HI)|2022|2021.12 RS4 교체 — D2000NNB ID47|transponderisland 2017-2022
+제네시스 G90 (RS4)|2022|RS4 2021.12 출시 — 95440-T4100/T4110/T4120(TQ8-FOB-4F53U 7버튼) NCF29A HITAG3 ID47 433MHz(UWB 디지털키 2.0)|uhs-hardware T4100/T4110/T4120PH3 ID47, auto-keys.eu RS4 T4100 HITAG3
+제네시스 G90 (RS4)|2023|위와 동일 ID47|remotesandkeys 2023 G90 T4100/T4110
+제네시스 G90 (RS4)|2024|95440-T4120 ID47|uhs-hardware 2022-2024
+제네시스 G90 (RS4)|2025|95440-T4100/T4120 ID47(2023-2026 표기)|paylesscarkeys 2023-2026 T4100, sffobsinc 2023-2026
+제네시스 G90 (RS4)|2026|위와 동일 ID47|sffobsinc 2023-2026 T4100
+제네시스 G70 (IK)|2017|G70 2017.9 출시 — 95440-G9000(TQ8-FOB-4F16 4버튼, HITAG3 ID47 433MHz)|mk3 G70 2018+ G9000, auto-keys.eu G9000 ID47
+제네시스 G70 (IK)|2018|95440-G9000 ID47|keyless-city 2018-2021
+제네시스 G70 (IK)|2019|위와 동일 ID47|remotesandkeys 2019 G70
+제네시스 G70 (IK)|2020|더 뉴 G70(2020.10.20) — 신형 오벌 키(Hitag3 ID47)|remotesandkeys 2020 G70, 위키 Genesis G70
+제네시스 G70 (IK)|2021|위와 동일 ID47|remotesandkeys 2021 G70, paylesscarkeys 2022-2023 Hitag3
+제네시스 G70 (IK)|2022|오벌 키 ID47|paylesscarkeys 2022-2023 G70 Hitag3 ID47
+제네시스 G70 (IK)|2023|95440-G9720(TQ8-FOB-4F75M44 5버튼 HITAG AES NCF29A1M ID4A) 2023~ — ID47 키와 병존 가능|uhs-hardware 2023-2025 G9720 ID4A, paylesscarkeys 2022-2023
+제네시스 G70 (IK)|2024|95440-G9720/G9820 ID4A|bestkeysupply G9820 ID4A, mk3 2024 G9820
+제네시스 G70 (IK)|2025|위와 동일 ID4A|bestkeysupply 2024-2025 G9720
+제네시스 G70 (IK)|2026|95440-G9820 ID4A(2023-2026)|transponderisland 2023-2026 G9820
+제네시스 GV80 (JX1)|2020|GV80 2020.1 출시 — 95440-T6010/T6011/T6014/T6100/T6104(TQ8-FOB-4F35/4F36 ID47 433MHz), 비상키 81996-T6000|hellowcar 제네시스GV80 95440T6104/T6014/T6010/T6100/81996T6000/T6011, keyecu T6010 ID47, abkeys T6011
+제네시스 GV80 (JX1)|2021|위와 동일 ID47|abkeys 2021+ T6011, locksmithkeyless 2021-2024 T6100
+제네시스 GV80 (JX1)|2022|위와 동일 ID47|royalkeysupply 2022-2024 T6014
+제네시스 GV80 (JX1)|2023|2023.10 부분변경(2024년형) — 이전 T6xxx ID47|carandtruckremotes 2024 GV80 T6104
+제네시스 GV80 (JX1)|2024|부분변경 95440-T6AA0(7버튼)/T6BA0/T6DA0/T6DB0(5버튼 TQ8-FOB-4F75M44) HITAG AES NCF29A1M ID4A, 구형 T6104 병존|bestkeysupply T6AA0 ID4A, keyinnovations T6BA0 ID4A, uhs-hardware T6DB0
+제네시스 GV80 (JX1)|2025|T6AA0/T6DB0 ID4A|transponderisland 2024-2025 T6DB0
+제네시스 GV80 (JX1)|2026|T6AA0/T6DA0 ID4A(2024-2026)|yourcarkeyguys 2024-2026 T6AA0, sffobsinc T6DA0
+제네시스 GV80 쿠페 (JX1)|2024|GV80 쿠페 2024.3 출시 — GV80 부분변경과 같은 T6xA0 계열 HITAG AES ID4A(쿠페 전용 품번 원문 없음)|bestkeysupply T6AA0 2024-2026
+제네시스 GV80 쿠페 (JX1)|2025|위와 동일|bestkeysupply
+제네시스 GV80 쿠페 (JX1)|2026|위와 동일|bestkeysupply
+제네시스 GV70 (JK1)|2020|GV70 2020.12 출시 — 95440-AR000/AR001(6버튼 TQ8-FOB-4F36)/AR011(8버튼 TQ8-FOB-4F35) NCF29A1X ID47 433MHz|mk3 GV70 AR000, transponderisland AR001, yourcarkeyguys AR011
+제네시스 GV70 (JK1)|2021|위와 동일 ID47|key4 GV70 AR000
+제네시스 GV70 (JK1)|2022|위와 동일 ID47|keyless-city 2022-2024 AR001, vvdi 2022 GV70
+제네시스 GV70 (JK1)|2023|위와 동일 ID47|mykeysupply 2022-2024
+제네시스 GV70 (JK1)|2024|2024.8 부분변경(2025년형) — 이전 AR001/AR011 ID47|mykeysupply 2022-2024
+제네시스 GV70 (JK1)|2025|부분변경 95440-ARAA0/ARAB0(5버튼 TQ8-FOB-4F75M44)/ARDA0(7버튼 TQ8-FOB-4FA0U44) HITAG-AES 4A|bestkeysupply ARAA0 4A, royalkeysupply ARDA0, sffobsinc ARAB0
+제네시스 GV70 (JK1)|2026|위와 동일 ID4A|bestkeysupply 2025-2026
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2022|일렉트리파이드 GV70 2022.3 출시 — GV70 공용 AR0xx 계열 ID47(EV 전용 품번 원문 없음)|transponderisland 2022-2025 AR001
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2023|위와 동일 ID47|transponderisland
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2024|위와 동일 ID47|transponderisland
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2025|부분변경(2025.3) — GV70 부분변경 ARxx0 계열 4A 추정|bestkeysupply 2025-2026 ARAA0
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2026|위와 동일 추정|bestkeysupply
+제네시스 GV60 (JW1)|2021|GV60 2021.10 출시 — 95440-CU100/CU110/CU130(8버튼 TQ8-FOB-4F53U), CU200(6버튼)/CU300/CU310(TQ8-FOB-4F53M) HITAG3 ID47 433MHz|abkeys CU110/CU300 ID47, uhs-hardware CU110 ID47
+제네시스 GV60 (JW1)|2022|위와 동일 ID47|mk3 GV60 2022 CU300
+제네시스 GV60 (JW1)|2023|위와 동일 ID47|americankeysupply 23-24, sffobsinc 2023-2025 CU200
+제네시스 GV60 (JW1)|2024|위와 동일 ID47|dkey1 2023-2024 CU130
+제네시스 GV60 (JW1)|2025|2025.3.6 부분변경 — 이전 CU1xx ID47(2025 표기), 부분변경 신형은 2026 CU260|locksmithkeyless 2025 GV60 CU130/CU100, 위키 Genesis GV60
+제네시스 GV60 (JW1)|2026|95440-CU260(6버튼 TQ8-FOB-4F75M44 — G70·GV70 부분변경과 같은 HITAG AES 4A 계열)|royalkeysupply 2026 GV60 CU260
