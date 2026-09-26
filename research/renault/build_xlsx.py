@@ -4,18 +4,22 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 ROOT=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 rows=[json.loads(l) for l in open(os.path.join(ROOT,'research','renault','rows.jsonl'))]
 order=[l.strip() for l in open(os.path.join(ROOT,'research','renault','model_order.txt'))]
+import sys; sys.path.insert(0,os.path.join(ROOT,'research')); from finalize import process
+rows=process('renault',rows)
 rows.sort(key=lambda r:(order.index(r['model']),int(r['year'][:4])))
 
 def xt(chip):
-    if chip.startswith('확인'): return ('','','')
+    if chip.startswith(('확인','해당')) or not chip: return ('','','')
     new=any(k in chip for k in ('ID4A','ID47','ID49','ID8A','AES'))
-    old='ID46' in chip or 'ID60' in chip
+    old=any(k in chip for k in ('ID46','ID44','ID60','ID70','DST80','4D70','4D60x80'))
+    if 'ID48' in chip:
+        return ('△','△','O') if old else ('△','△','△')
     if old and new: return ('△','△','O')
     if old: return ('O','O','O')
     if new: return ('X','△','O')
     return ('','','')
 
-HDR=['모델명','연식','XT27A/A66 호환','XT27B 호환','XT57B 호환','칩코드 (예: ID46(PCF7936))','키블레이드(부품번호)','키블레이드(키웨이)','카드키(부품번호)','스마트키(부품번호)','폴딩키(부품번호)','이모빌라이저 시스템','출처','비고']
+HDR=['모델명','연식','XT27A/A66 호환','XT27B 호환','XT57B 호환','칩코드 (예: ID46(PCF7936))','키종류','키블레이드(부품번호)','키블레이드(키웨이)','카드키(부품번호)','스마트키(부품번호)','폴딩키(부품번호)','이모빌라이저 시스템','출처','비고']
 wb=openpyxl.Workbook(); ws=wb.active; ws.title='르노 트랜스폰더 DB'
 thin=Side(style='thin',color='FFBFBFBF'); bd=Border(left=thin,right=thin,top=thin,bottom=thin)
 ws.append(HDR)
@@ -27,7 +31,7 @@ XT={'O':(F('FFC6EFCE'),'FF006100'),'△':(F('FFFFEB9C'),'FF9C6500'),'X':(F('FFFF
 FLAG={'orange':(F('FFFFD599'),'FF000000'),'red':(F('FFFFC7CE'),'FF9C0006'),'gen':(F('FFDDEBF7'),'FF000000')}
 for r in rows:
     a,b,c=xt(r['chip'])
-    ws.append([r['model'],r['year'],a,b,c,r['chip'],r['blade_pn'],r['keyway'],r['card'],r['smart'],r['fold'],r['immo'],r['src'],r['note']])
+    ws.append([r['model'],r['year'],a,b,c,r['chip'],r['ktype'],r['blade_pn'],r['keyway'],r['card'],r['smart'],r['fold'],r['immo'],r['src'],r['note']])
     i=ws.max_row
     for cell in ws[i]:
         cell.font=Font(name='Arial',size=10); cell.border=bd; cell.alignment=Alignment(vertical='center',wrap_text=True)
@@ -37,17 +41,20 @@ for r in rows:
     fl=r.get('flag')
     if fl:
         fill,fc=FLAG[fl]
-        cols=(6,12,14) if fl in ('orange','red') else range(6,15)
+        cols=(6,13,15) if fl in ('orange','red') else range(6,16)
         for col in cols:
             ws.cell(i,col).fill=fill; ws.cell(i,col).font=Font(name='Arial',size=10,color=fc)
-for col,w in zip('ABCDEFGHIJKLMN',[30,14,12,11,11,26,26,22,12,36,12,22,48,48]): ws.column_dimensions[col].width=w
-ws.row_dimensions[1].height=30; ws.freeze_panes='B2'; ws.auto_filter.ref=f'A1:N{ws.max_row}'
+for col,w in zip('ABCDEFGHIJKLMNO',[30,14,12,11,11,26,16,26,22,12,36,12,22,48,48]): ws.column_dimensions[col].width=w
+ws.row_dimensions[1].height=30; ws.freeze_panes='B2'; ws.auto_filter.ref=f'A1:O{ws.max_row}'
 
 g=wb.create_sheet('안내')
 notes=['이 표는 락스미스(자동차 키 제작/프로그래밍) 참고용입니다.','',
 '※ 구성',
+"- '키종류'는 그 연식에 나온 키 형태(막대키·폴딩키·스마트키·카드키)를 모두 적었습니다. 트림별로 다른 경우 함께 적었습니다(예: 폴딩키,스마트키).",
+"- 키 부품번호는 국내 사양(433/434MHz)만 적었습니다. 미국(315MHz)·유럽(868MHz) 사양 키는 뺐습니다.",
+"- '비고'에는 주황색·빨간색 칸의 이유만 적었습니다.",
 "- 컬럼은 '기아_트랜스폰더_칩코드_DBnew.xlsx'와 동일합니다. 모델마다 연식별로 한 행씩, 2000년식부터 기록했습니다(SM5 1세대 1998년 출시분도 2000년식부터).",
-"- 원본 목록의 연식 범위가 실제 국내 판매와 다른 모델은 실제 기준으로 적고 비고에 적었습니다(SM3 2세대 2009~, SM6·QM6 2025 단종, 클리오는 4세대 2018~2019, 조에 2022 수입 중단, 마스터 밴 2018~).",
+"- 원본 목록의 연식 범위가 실제 국내 판매와 다른 모델은 실제 기준으로 적었습니다(SM3 2세대 2009~, SM6·QM6 2025 단종, 클리오는 4세대 2018~2019, 조에 2022 수입 중단, 마스터 밴 2018~).",
 "- '이모빌라이저 시스템': 르노 계열은 UCH(메간3/플루언스/래티튜드 세대) → BCM(클리오4·캡처 이후 Hitag AES 세대), 닛산 기반 구형 삼성 차종은 NATS(르노삼성 12자리 코드)로 적었습니다.",
 "- 카드형 스마트키(르노 카드)는 '카드키(부품번호)' 칸에 적었습니다. 부품번호는 동일 플랫폼 르노 차종의 순정 번호(285975779R, 285977147R 등)이며 국내 순정 품번은 대부분 확인되지 않았습니다 — 르노코리아 부품은 VIN(KNMA…)별로 상이.",
 "- '키블레이드(부품번호)'는 해당 연식 검색에서 직접 나온 경우에만 적었고 나머지는 공란입니다(기아 파일 규칙). 키웨이는 카드 비상키 블레이드 기준(VA2/NSN14 등)입니다.",

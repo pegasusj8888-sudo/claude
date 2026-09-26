@@ -4,12 +4,14 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 ROOT=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 rows=[json.loads(l) for l in open(os.path.join(ROOT,'research','chevy','rows.jsonl'))]
 order=[l.strip() for l in open(os.path.join(ROOT,'research','chevy','model_order.txt'))]
+import sys; sys.path.insert(0,os.path.join(ROOT,'research')); from finalize import process
+rows=process('chevy',rows)
 rows.sort(key=lambda r:(order.index(r['model']),int(r['year'][:4])))
 
 def xt(chip):
-    if chip.startswith('확인'): return ('','','')
+    if chip.startswith(('확인','해당')) or not chip: return ('','','')
     new=any(k in chip for k in ('ID4A','ID47','ID49','ID8A','AES'))
-    old=any(k in chip for k in ('ID46','ID60','ID70','DST80','4D70','4D60x80'))
+    old=any(k in chip for k in ('ID46','ID44','ID60','ID70','DST80','4D70','4D60x80'))
     if 'ID48' in chip:
         return ('△','△','O') if old else ('△','△','△')
     if old and new: return ('△','△','O')
@@ -17,7 +19,7 @@ def xt(chip):
     if new: return ('X','△','O')
     return ('','','')
 
-HDR=['모델명','연식','XT27A/A66 호환','XT27B 호환','XT57B 호환','칩코드 (예: ID46(PCF7936))','키블레이드(부품번호)','키블레이드(키웨이)','카드키(부품번호)','스마트키(부품번호)','폴딩키(부품번호)','이모빌라이저 시스템','출처','비고']
+HDR=['모델명','연식','XT27A/A66 호환','XT27B 호환','XT57B 호환','칩코드 (예: ID46(PCF7936))','키종류','키블레이드(부품번호)','키블레이드(키웨이)','카드키(부품번호)','스마트키(부품번호)','폴딩키(부품번호)','이모빌라이저 시스템','출처','비고']
 wb=openpyxl.Workbook(); ws=wb.active; ws.title='쉐보레(GM대우) 트랜스폰더 DB'
 thin=Side(style='thin',color='FFBFBFBF'); bd=Border(left=thin,right=thin,top=thin,bottom=thin)
 ws.append(HDR)
@@ -29,7 +31,7 @@ XT={'O':(F('FFC6EFCE'),'FF006100'),'△':(F('FFFFEB9C'),'FF9C6500'),'X':(F('FFFF
 FLAG={'orange':(F('FFFFD599'),'FF000000'),'red':(F('FFFFC7CE'),'FF9C0006'),'gen':(F('FFDDEBF7'),'FF000000')}
 for r in rows:
     a,b,c=xt(r['chip'])
-    ws.append([r['model'],r['year'],a,b,c,r['chip'],r['blade_pn'],r['keyway'],r['card'],r['smart'],r['fold'],r['immo'],r['src'],r['note']])
+    ws.append([r['model'],r['year'],a,b,c,r['chip'],r['ktype'],r['blade_pn'],r['keyway'],r['card'],r['smart'],r['fold'],r['immo'],r['src'],r['note']])
     i=ws.max_row
     for cell in ws[i]:
         cell.font=Font(name='Arial',size=10); cell.border=bd; cell.alignment=Alignment(vertical='center',wrap_text=True)
@@ -39,22 +41,24 @@ for r in rows:
     fl=r.get('flag')
     if fl:
         fill,fc=FLAG[fl]
-        cols=(6,12,14) if fl in ('orange','red') else range(6,15)
+        cols=(6,13,15) if fl in ('orange','red') else range(6,16)
         for col in cols:
             ws.cell(i,col).fill=fill; ws.cell(i,col).font=Font(name='Arial',size=10,color=fc)
-for col,w in zip('ABCDEFGHIJKLMN',[30,14,12,11,11,26,26,22,12,36,12,22,48,48]): ws.column_dimensions[col].width=w
-ws.row_dimensions[1].height=30; ws.freeze_panes='B2'; ws.auto_filter.ref=f'A1:N{ws.max_row}'
+for col,w in zip('ABCDEFGHIJKLMNO',[30,14,12,11,11,26,16,26,22,12,36,12,22,48,48]): ws.column_dimensions[col].width=w
+ws.row_dimensions[1].height=30; ws.freeze_panes='B2'; ws.auto_filter.ref=f'A1:O{ws.max_row}'
 
 g=wb.create_sheet('안내')
 notes=['이 표는 락스미스(자동차 키 제작/프로그래밍) 참고용입니다.','',
 '※ 구성',
+"- '키종류'는 그 연식에 나온 키 형태(막대키·폴딩키·스마트키·카드키)를 모두 적었습니다. 트림별로 다른 경우 함께 적었습니다(예: 폴딩키,스마트키).",
+"- 키 부품번호는 국내 사양(433/434MHz)만 적었습니다. 미국(315MHz)·유럽(868MHz) 사양 키는 뺐습니다.",
+"- '비고'에는 주황색·빨간색 칸의 이유만 적었습니다.",
 "- 컬럼은 '기아_트랜스폰더_칩코드_DBnew.xlsx'와 동일합니다. 모델마다 연식별로 한 행씩, 2000년식부터 기록했습니다.",
-"- 원본 목록 연식이 실제 국내 판매와 다른 모델은 실제 기준으로 적고 비고에 적었습니다(마티즈Ⅱ 2000.8~, 매그너스 1999.12~2006.1, 레조 2000.1~2007.6, 크루즈 J300 ~2017.11, 올 뉴 크루즈 2017.1~, 볼트(Volt) 2세대 2016.8~2019.3, 임팔라 ~2020, G2X ~2008.9, 트랙스 ~2022.11, 이쿼녹스 ~2024.4, 트래버스·타호 ~2025.3, 콜로라도 3세대 2024.7~).",
+"- 원본 목록 연식이 실제 국내 판매와 다른 모델은 실제 기준으로 적었습니다(마티즈Ⅱ 2000.8~, 매그너스 1999.12~2006.1, 레조 2000.1~2007.6, 크루즈 J300 ~2017.11, 올 뉴 크루즈 2017.1~, 볼트(Volt) 2세대 2016.8~2019.3, 임팔라 ~2020, G2X ~2008.9, 트랙스 ~2022.11, 이쿼녹스 ~2024.4, 트래버스·타호 ~2025.3, 콜로라도 3세대 2024.7~).",
 "- 캡티바 2세대(리뱃지)·이쿼녹스 EV는 국내에 출시되지 않아 '국내 미출시' 한 행만 남겼습니다(빨간색). 삭제할지 알려주세요.",
 "- 콜벳 C7·C8, 서버번은 한국GM 공식 판매 자료가 없고 수입업체 판매만 확인되어 주황색으로 표시했습니다.",
 "- 'XT27A/A66·XT27B·XT57B 호환'은 기아 파일 규칙을 따랐습니다: ID46·ID60(4D60) → O/O/O, ID49(Hitag Pro) → X/△/O, ID48(Megamos Crypto) → △/△/△, ID46·ID49 병기 → △/△/O. 실제 적용 전 장비로 재확인하세요.",
 "- 출처 칸은 해당 연식 검색에서 근거로 쓴 페이지입니다. 원문 페이지는 이 환경에서 열 수 없어 검색 결과 요약을 근거로 했습니다.",
-"- 쉐보레 신형 스마트키 품번은 대부분 미국/수출형 판매처 자료입니다. 국내형은 433MHz 사양이라 품번이 다를 수 있습니다(미국형 315MHz 품번은 칸에 표기).",
 '',
 '※ 색상',
 "- 빨간색: 확인 불가 또는 국내 미출시 — 마티즈Ⅱ(국내형 이모빌라이저 적용 자료 없음), 캡티바 2세대·이쿼녹스 EV(국내 미출시).",
