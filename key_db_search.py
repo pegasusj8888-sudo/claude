@@ -379,13 +379,37 @@ def run_gui():
             self.status = tk.StringVar()
             ttk.Label(root, textvariable=self.status, anchor='w', padding=4).pack(fill='x')
 
-            last = ''
+            # 저장된 설정(마지막 폴더·컬럼 너비) 불러오기
+            self.cfg = {}
             try:
                 with open(CONFIG, encoding='utf-8') as f:
-                    last = json.load(f).get('folder', '')
+                    self.cfg = json.load(f)
             except Exception:
                 pass
-            root.after(100, lambda: self.pick_folder(initial=last, first=True))
+            self.cfg.setdefault('widths', {})
+            # 컬럼 너비를 바꾸면(마우스 놓을 때)·프로그램을 닫을 때 저장
+            self.tree.bind('<ButtonRelease-1>', lambda ev: self.save_cfg(), add='+')
+            root.protocol('WM_DELETE_WINDOW', self.on_close)
+            last = self.cfg.get('folder', '')
+            if last and os.path.isdir(last):
+                self.folder = last
+                root.after(100, self.reload)  # 저장된 폴더는 바로 불러옴
+            else:
+                root.after(100, lambda: self.pick_folder(initial=last, first=True))
+
+        def save_cfg(self):
+            try:
+                for c in self.tree['columns']:
+                    self.cfg['widths'][c] = int(self.tree.column(c, 'width'))
+                self.cfg['folder'] = self.folder
+                with open(CONFIG, 'w', encoding='utf-8') as f:
+                    json.dump(self.cfg, f, ensure_ascii=False, indent=1)
+            except Exception:
+                pass
+
+        def on_close(self):
+            self.save_cfg()
+            self.root.destroy()
 
         def pick_folder(self, initial='', first=False):
             d = filedialog.askdirectory(title='엑셀 파일이 있는 폴더를 고르세요',
@@ -394,13 +418,10 @@ def run_gui():
                 if first and not self.folder:
                     self.status.set('폴더를 고르지 않았습니다. [폴더 변경]을 누르세요.')
                 return
+            self.save_cfg()  # 바꾸기 전 폴더의 컬럼 너비 저장
             self.folder = d
-            try:
-                with open(CONFIG, 'w', encoding='utf-8') as f:
-                    json.dump({'folder': d}, f, ensure_ascii=False)
-            except Exception:
-                pass
             self.reload()
+            self.save_cfg()
 
         def reload(self):
             if not self.folder:
@@ -414,7 +435,8 @@ def run_gui():
             self.cols = all_columns(self.recs) + [FILE_COL]
             self.tree['columns'] = self.cols
             for c in self.cols:
-                w = 260 if c in (MODEL, '출처', '비고') else 90 if c.startswith('XT') or c == YEAR else 170
+                w = self.cfg['widths'].get(c) or (
+                    260 if c in (MODEL, '출처', '비고') else 90 if c.startswith('XT') or c == YEAR else 170)
                 self.tree.heading(c, text=c)
                 self.tree.column(c, width=w, minwidth=40, stretch=False)
             msg = '폴더: %s  |  파일 %d개, 행 %d개' % (self.folder, len(files), len(self.recs))
