@@ -114,3 +114,63 @@
 엑센트 (RB, 4세대)|2013|엑센트 스마트키 95440-1R500/1R510(2011-2014, PCF7952 ID46 433MHz SVI-MDFEU03)|abkeys ABK-3283 95440-1R500/1R510
 엑센트 (RB, 4세대)|2015|95440-1R700(2015-2018, 3버튼 PCF7952A ID46 433MHz MSIP-CRM-SVI-MDFGE03)|abkeys ABK-4321, mk3 Accent 2018 95440-1R700
 엑센트 (RB, 4세대)|2019|2019.7 생산 중지, 2019.12 재고 소진·단종 — 2019년식 마지막|한국경제 2019.7.8 "엑센트도 단종", 나무위키 엑센트/4세대
+i30 (FD, 1세대)|2007|i30 FD 2007.7~2011.10 — 스마트키 95440-2L000, 리모컨(폴딩) 95430-2L500(i30·i30cw 공용, 현대모비스)|autopart.co.kr 954302L500 954402L000, wikipedia Hyundai i30
+i30 (FD, 1세대)|2008|위와 동일 — FD 스마트키 칩 원문 없음(동시대 현대 스마트키 PCF7952 ID46 433MHz)|mr-key Hyundai 433MHz ID46 PCF7952
+i30 (GD, 2세대)|2011|i30 GD 스마트키 95440-A5000 적용 2011.9.4~2014.12.1(433MHz PCF7952A)|hellowcar I30 스마트키 95440A5000, shopme365
+i30 (GD, 2세대)|2012|GD 플립키 트랜스폰더 리모컨(2012-2016), 스마트키 95440-A5000|ebay i30 GD flip key 2012-2016, hellowcar
+i30 (FD, 1세대)|2009|이모빌라이저 블랭킹키 81996-2L010(i30·i30cw 2007-11), ID46 433MHz 09/2007~04/2012|hellowcar i30 블랭킹키, keyline/aftermarket i30 FD ID46
+i30 (FD, 1세대)|2010|위와 동일 81996-2L010 ID46|hellowcar
+i30 (FD, 1세대)|2011|FD 2011.10까지 판매 — 81996-2L010 ID46|hellowcar, wikipedia Hyundai i30
+i30 (GD, 2세대)|2013|95440-A5000(2011.9~2014.12) PCF7952A ID46 433MHz|hellowcar 95440A5000
+i30 (GD, 2세대)|2014|95440-A5000 → 95440-A5010(2014.12.1~2016.7.26, SY5MDFNA433) ID46|hellowcar 95440A5010
+i30 (GD, 2세대)|2015|95440-A5010, 95440-A5110(3버튼 2015~) PCF7952A ID46 433MHz|hellowcar, abkeys 95440-A5110
+i30 (GD, 2세대)|2016|95440-A5010 적용 2016.7.26까지(GD 단종)|hellowcar 95440A5010
+i30 (PD, 3세대)|2016|PD 2016.9 출시 — 95440-G3000/G3100 8A(DST-AES 128bit) 433MHz SYEC3FOB1608|abkeys 95440-G3000, mk3 i30 PD
+i30 (PD, 3세대)|2017|95440-G3000/G3100 8A 433MHz|abkeys, mk3
+i30 (PD, 3세대)|2018|위와 동일 8A|abkeys
+i30 (PD, 3세대)|2019|위와 동일 8A|abkeys
+i30 (PD, 3세대)|2020|국내 판매 종료 2020 — 95440-G3000 8A|abkeys, 나무위키 i30/3세대
+i40 (VF)|2011|i40 2011.9 출시 — 스마트키 95440-3Z000(적용 11.12.15~12.04.02, 4버튼 433MHz TMS37126 = TI DST80 계열), 95440-3Z100(SCK-SEKSVF10AOB), 비상키 81996-3Z020. 일부 판매처는 3Z001을 8A로 표기 → 칩 자료 상충|carkeyno1 95440-3Z000, abkeys 3Z000 TMS37126·3Z100, mk3 3Z001 8A
+i40 (VF)|2012|95440-3Z000 → 95440-3Z001(2012~, SEKS-VF11NCOB) — TMS37126(4D) vs 8A 표기 상충|abkeys 95440-3Z001, mk3 i40 2014 3Z001
+i40 (VF)|2013|95440-3Z002(적용 13.02.01~)|carkeyno1 95440-3Z002
+i40 (VF)|2014|95440-3Z001/3Z002 — auto-keys 3Z000 "TIRIS 4D+", mk3 3Z001 8A 상충|auto-keys.eu, mk3
+i40 (VF)|2015|페이스리프트 — 95440-3Z003(3버튼 2015+, TIRIS RF430 8A 433MHz)|auto-keys.eu 95440-3Z003, abkeys 3Z003
+i40 (VF)|2016|95440-3Z003/3Z500 8A(Texas Crypto 128bit AES) 433MHz|mk3 95440-3Z500
+i40 (VF)|2017|위와 동일 8A|mk3, auto-keys.eu
+i40 (VF)|2018|위와 동일 8A|mk3
+i40 (VF)|2019|95440-3Z500 "i40 2019" 8A 433MHz — 2019 단종|mk3 i40 2019 3Z500
+벨로스터 (FS, 1세대)|2011|벨로스터 2011.3 출시 — 폴딩키 95430-2V000/2V001(433MHz 3버튼 SEKS-AM08FTX), 스마트키 95440-1R510(모비스 벨로스터 등록, 3버튼 PCF7952A ID46 433MHz). 95440-2V100은 315MHz 미국형 제외|hellowcar 벨로스터 95440J3000/954401R510, abkeys 95430-2V000, mk3 Veloster 1R510
+벨로스터 (FS, 1세대)|2012|위와 동일 ID46|abkeys, mk3
+벨로스터 (FS, 1세대)|2013|위와 동일 ID46|abkeys, mk3
+벨로스터 (FS, 1세대)|2014|위와 동일 ID46|abkeys, mk3
+벨로스터 (FS, 1세대)|2015|위와 동일 ID46|mk3
+벨로스터 (FS, 1세대)|2016|위와 동일 ID46|mk3
+벨로스터 (FS, 1세대)|2017|mk3 "Veloster 2017" 95440-1R510 ID46 433MHz|mk3 Hyundai Veloster 2017 1R510
+벨로스터 (JS, 2세대)|2018|JS 2018.2 출시 — 스마트키 95440-J3000(SY5IGFGE04 433MHz, NCF29A1X ID47 Hitag3)|abkeys 95440-J3000, keyshop-online J3000 ID47
+벨로스터 (JS, 2세대)|2019|95440-J3000, 벨로스터 N 95440-K9000(ID47 433MHz)|mk3 Veloster N 2019 K9000, partsro 95440K9000
+벨로스터 (JS, 2세대)|2020|95440-J3000 ID47|transponderisland 2017-2020
+벨로스터 (JS, 2세대)|2021|95440-J3000 ID47(2017-2021 표기)|keyshop-online
+벨로스터 (JS, 2세대)|2022|2022 일반 벨로스터 단종(N만 유지, 2022.7 단종) — J3000/K9000 ID47|나무위키 벨로스터/2세대
+아슬란 (AG)|2014|아슬란 2014.10.30 출시 — 스마트키 95440-3V036/3V040(그랜저 HG 신형과 공용), 비상키 81996-3N700 → HG와 같은 PCF7952A ID46 433MHz|hellowcar 아슬란 954403V036/954403V040/819963N700, abkeys Azera 3V022 ID46
+아슬란 (AG)|2015|위와 동일 ID46|hellowcar 아슬란
+아슬란 (AG)|2016|위와 동일 ID46|hellowcar 아슬란
+아슬란 (AG)|2017|2017년 단종(재고 판매) — 위와 동일 ID46|hellowcar 아슬란, 나무위키 현대 아슬란
+제네시스 (BH, 1세대)|2008|BH 2008.1 출시 — 국내 스마트키 95440-3M010/3M020/3M030(모비스, 433MHz PCF7952 ID46), 리모컨 95430-3M153/3M160. 원본의 95440-3M220은 SY5HMFNA04 315MHz 미국형이라 제외|hellowcar 제네시스BH 954403M010/3M020/3M030, keystation 95440-3M010 ID46 PCF7952 433, abkeys 3M220 315MHz
+제네시스 (BH, 1세대)|2009|위와 동일 ID46|hellowcar 제네시스BH
+제네시스 (BH, 1세대)|2010|위와 동일 ID46|hellowcar 제네시스BH
+제네시스 (BH, 1세대)|2011|위와 동일 ID46|hellowcar 제네시스BH
+제네시스 (BH, 1세대)|2012|위와 동일 ID46|hellowcar 제네시스BH
+제네시스 (BH, 1세대)|2013|2013.11 DH 교체 — BH 재고분 위와 동일 ID46|hellowcar 제네시스BH
+제네시스 (DH, 2세대)|2013|DH 2013.11.26 출시 — 스마트키 95440-B1200BLH(적용 2013.11~2015.3.4, SY5DHFNA433 NCF2951X/2952X ID47 433MHz), 카드키 95443-B1000, 비상키 81996-B1000. 원본의 "2014년형까지 ID46(3M220)"은 오류|pechanara 95440B1200BLH 13-16, hellowcar 제네시스DH, abkeys B1200BLH ID47, partsro 95443B1000
+제네시스 (DH, 2세대)|2014|95440-B1200BLH ID47, 3버튼 95440-B1100(SVI-DHFGE03 NCF2952X ID47)|abkeys B1100, mk3 Genesis 2014 B1100
+제네시스 (DH, 2세대)|2015|2015.3.4 이후 95440-B1210(ID47), 카드키 95443-B1010, 비상키 81996-B1010|hellowcar 제네시스DH, pechanara
+제네시스 (DH, 2세대)|2016|95440-B1210 ID47 — 2016.7까지 현대 제네시스, 이후 제네시스 G80으로 변경|pechanara 13.11~16.7, mk3 Genesis 2016 B1210
+제네시스 쿠페 (BK)|2008|쿠페 2008.10 출시 — 스마트키 95440-2M050(제네시스 쿠페·아반떼HD·NF·TG 공용, ID46 PCF7952A 433MHz), 리모컨 95430-2M200. 원본의 95440-2M350/2M300/3V021/3X200은 SY5HMFNA04 315MHz 미국형이라 제외|partsro 954402M050, northcoastkeyless SY5HMFNA04 목록
+제네시스 쿠페 (BK)|2009|95440-2M050 ID46|partsro 954402M050
+제네시스 쿠페 (BK)|2010|95440-2M050 ID46|partsro 954402M050
+제네시스 쿠페 (BK)|2011|신형 쿠페 95440-2M420(SY5RBFNA433, PCF7952A ID46 433MHz) — 2011~2016|partsro 954402M420 제네시스 쿠페(신형)
+제네시스 쿠페 (BK)|2012|95440-2M420 ID46|partsro, uhs-hardware 2013-2016
+제네시스 쿠페 (BK)|2013|95440-2M420 ID46|uhs-hardware, royalkeysupply
+제네시스 쿠페 (BK)|2014|95440-2M420 ID46|mk3 Genesis 2014 2M420
+제네시스 쿠페 (BK)|2015|95440-2M420 ID46, 비상키 81996-2M020|keyinnovations 2015-2016
+제네시스 쿠페 (BK)|2016|95440-2M420 ID46 — 2016 단종|keyinnovations 2015-2016
