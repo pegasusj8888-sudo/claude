@@ -6,6 +6,7 @@
 - 모델명/연식 중 하나만 넣어도 되고 둘 다 넣어도 됩니다(입력값을 포함하는 행 모두 표시).
 - 모델명 칸에는 브랜드도 함께 넣을 수 있습니다(예: "기아 K5" → 기아 K5, "기아" → 기아 모든 차).
 - 결과를 고르고 [수정](또는 더블클릭)하면 값을 고칠 수 있고, 원본 엑셀 파일에 바로 저장됩니다.
+- 검색 결과는 엑셀에서 주황·빨강으로 칠한 칸(불완전한 항목)만 같은 색으로 보여 줍니다(행 전체가 아님).
 - 파이썬 표준 라이브러리만 사용합니다(openpyxl 불필요). 저장할 때는 고친 셀만 바꾸고
   서식·색·다른 시트는 그대로 둡니다(한셀·엑셀에서 저장한 파일 모두 가능).
 """
@@ -186,18 +187,17 @@ def load_workbook_rows(fpath):
                 values = {header[c]: cells[c][0] for c in header if c in cells}
                 if not any(str(v).strip() for v in values.values()):
                     continue
-                flag = ''
-                for c in header:  # XT 호환 칸의 'X' 빨강은 행 표시와 무관
+                cflags = {}  # 칸별 색: {컬럼명: 'orange'/'red'} — 엑셀에서 칠한 칸만
+                for c in header:  # XT 호환 칸의 'X' 빨강은 호환 표시라 제외
                     if header[c].startswith('XT'):
                         continue
                     if c in cells and cells[c][1] in flags:
-                        flag = flags[cells[c][1]]
-                        if flag == 'red':
-                            break
+                        cflags[header[c]] = flags[cells[c][1]]
+                flag = 'red' if 'red' in cflags.values() else 'orange' if cflags else ''
                 recs.append({'file': fpath, 'sheet': sname, 'sheet_path': spath,
                              'row': r, 'cols': cols,
                              'colidx': {h: c for c, h in header.items()},
-                             'values': values, 'flag': flag})
+                             'values': values, 'flag': flag, 'flags': cflags})
     return recs
 
 
@@ -354,9 +354,211 @@ def save_changes(rec, changes):
 
 
 # ───────────────────────── 화면 ─────────────────────────
+CELL_BG = {'orange': '#FFD599', 'red': '#FFC7CE'}
+SEL_BG = '#CCE4FF'
+
+
 def run_gui():
     import tkinter as tk
     from tkinter import ttk, filedialog, messagebox
+    import tkinter.font as tkfont
+
+    class CellTable(ttk.Frame):
+        """칸마다 배경색을 줄 수 있는 표(ttk.Treeview는 행 단위 색만 가능해서 Canvas로 그림).
+        보이는 행만 그려서 결과가 많아도 빠름. 머리글 경계를 끌어 컬럼 너비 조절."""
+        PAD = 4
+
+        def __init__(self, master, on_double=None, on_resize=None):
+            super().__init__(master)
+            self.font = tkfont.nametofont('TkDefaultFont')
+            self.hfont = self.font.copy()
+            self.hfont.configure(weight='bold')
+            self.rowh = self.font.metrics('linespace') + 8
+            self.cols, self.widths, self.rows, self.sel = [], [], [], None
+            self.on_double, self.on_resize = on_double, on_resize
+            self._drag = None
+            self._fit_cache = {}
+            self.head = tk.Canvas(self, height=self.rowh, bg='#E8E8E8', highlightthickness=0)
+            self.body = tk.Canvas(self, bg='white', highlightthickness=0, takefocus=1)
+            self.ys = ttk.Scrollbar(self, orient='vertical', command=self._yview)
+            self.xs = ttk.Scrollbar(self, orient='horizontal', command=self._xview)
+            self.body.configure(yscrollcommand=self.ys.set, xscrollcommand=self._xset)
+            self.head.grid(row=0, column=0, sticky='ew')
+            self.body.grid(row=1, column=0, sticky='nsew')
+            self.ys.grid(row=1, column=1, sticky='ns')
+            self.xs.grid(row=2, column=0, sticky='ew')
+            self.rowconfigure(1, weight=1)
+            self.columnconfigure(0, weight=1)
+            self.body.bind('<Configure>', lambda e: self.redraw())
+            self.body.bind('<Button-1>', self._click)
+            self.body.bind('<Double-1>', self._double)
+            for w in (self.body, self.head):
+                w.bind('<MouseWheel>', self._wheel)
+                w.bind('<Shift-MouseWheel>', lambda e: self._xview('scroll', -int(e.delta / 120) or -1, 'units'))
+                w.bind('<Button-4>', lambda e: self._yview('scroll', -3, 'units'))
+                w.bind('<Button-5>', lambda e: self._yview('scroll', 3, 'units'))
+            self.body.bind('<Up>', lambda e: self._move(-1))
+            self.body.bind('<Down>', lambda e: self._move(1))
+            self.head.bind('<Motion>', self._head_motion)
+            self.head.bind('<Button-1>', self._head_press)
+            self.head.bind('<B1-Motion>', self._head_drag)
+            self.head.bind('<ButtonRelease-1>', self._head_release)
+
+        # ── 데이터 ──
+        def set_columns(self, cols, widths):
+            self.cols, self.widths = list(cols), [max(40, int(w)) for w in widths]
+            self._layout()
+
+        def set_rows(self, rows):
+            """rows = [(값 목록, {컬럼 번호: 'orange'/'red'})]"""
+            self.rows, self.sel = rows, None
+            self.body.yview_moveto(0)
+            self._layout()
+
+        def update_row(self, i, values):
+            self.rows[i] = (values, self.rows[i][1])
+            self.redraw()
+
+        def selected(self):
+            return self.sel
+
+        def column_widths(self):
+            return dict(zip(self.cols, self.widths))
+
+        # ── 그리기 ──
+        def _xs(self):
+            xs, x = [], 0
+            for w in self.widths:
+                xs.append(x); x += w
+            return xs, x
+
+        def _layout(self):
+            _, total = self._xs()
+            self.body.configure(scrollregion=(0, 0, total, len(self.rows) * self.rowh))
+            self.head.configure(scrollregion=(0, 0, total, self.rowh))
+            self.redraw()
+
+        def _fit(self, text, width, font):
+            text = str(text).replace('\n', ' ')
+            key = (text, width, str(font))
+            if key in self._fit_cache:
+                return self._fit_cache[key]
+            avail = width - 2 * self.PAD
+            out = text
+            if font.measure(text) > avail:
+                lo, hi = 0, len(text)
+                while lo < hi:  # 말줄임표까지 들어가는 가장 긴 앞부분
+                    mid = (lo + hi + 1) // 2
+                    if font.measure(text[:mid] + '…') <= avail:
+                        lo = mid
+                    else:
+                        hi = mid - 1
+                out = text[:lo] + '…' if lo else ''
+            if len(self._fit_cache) > 20000:
+                self._fit_cache.clear()
+            self._fit_cache[key] = out
+            return out
+
+        def redraw(self):
+            xs, total = self._xs()
+            h = self.head
+            h.delete('all')
+            for i, c in enumerate(self.cols):
+                x, w = xs[i], self.widths[i]
+                h.create_rectangle(x, 0, x + w, self.rowh, fill='#E8E8E8', outline='#B0B0B0')
+                h.create_text(x + self.PAD, self.rowh / 2, anchor='w', font=self.hfont,
+                              text=self._fit(c, w, self.hfont))
+            b = self.body
+            b.delete('all')
+            if not self.rows:
+                return
+            top = b.canvasy(0)
+            first = max(0, int(top // self.rowh))
+            last = min(len(self.rows), int((top + b.winfo_height()) // self.rowh) + 2)
+            left, right = b.canvasx(0), b.canvasx(b.winfo_width())
+            vis = [i for i in range(len(self.cols)) if xs[i] + self.widths[i] >= left and xs[i] <= right]
+            for r in range(first, last):
+                vals, colors = self.rows[r]
+                y = r * self.rowh
+                for i in vis:
+                    x, w = xs[i], self.widths[i]
+                    bg = CELL_BG.get(colors.get(i), SEL_BG if r == self.sel else 'white')
+                    b.create_rectangle(x, y, x + w, y + self.rowh, fill=bg, outline='#D9D9D9')
+                    v = vals[i] if i < len(vals) else ''
+                    if v != '':
+                        b.create_text(x + self.PAD, y + self.rowh / 2, anchor='w', font=self.font,
+                                      text=self._fit(v, w, self.font))
+                if r == self.sel:
+                    b.create_rectangle(0, y, total, y + self.rowh, outline='#3875D7', width=2)
+
+        # ── 스크롤 ──
+        def _yview(self, *a):
+            self.body.yview(*a); self.redraw()
+
+        def _xview(self, *a):
+            self.body.xview(*a); self.head.xview(*a); self.redraw()
+
+        def _xset(self, lo, hi):
+            self.xs.set(lo, hi)
+            self.head.xview_moveto(lo)
+
+        def _wheel(self, e):
+            self._yview('scroll', -int(e.delta / 120) * 3 or (-3 if e.delta > 0 else 3), 'units')
+
+        # ── 선택 ──
+        def _row_at(self, e):
+            r = int(self.body.canvasy(e.y) // self.rowh)
+            return r if 0 <= r < len(self.rows) else None
+
+        def _click(self, e):
+            self.body.focus_set()
+            self.sel = self._row_at(e)
+            self.redraw()
+
+        def _double(self, e):
+            self._click(e)
+            if self.sel is not None and self.on_double:
+                self.on_double()
+
+        def _move(self, d):
+            if not self.rows:
+                return
+            self.sel = 0 if self.sel is None else min(len(self.rows) - 1, max(0, self.sel + d))
+            top, bot = self.body.canvasy(0), self.body.canvasy(self.body.winfo_height())
+            y = self.sel * self.rowh
+            n = len(self.rows) * self.rowh
+            if y < top:
+                self.body.yview_moveto(y / n)
+            elif y + self.rowh > bot:
+                self.body.yview_moveto((y + self.rowh - self.body.winfo_height()) / n)
+            self.redraw()
+
+        # ── 컬럼 너비 조절 ──
+        def _edge(self, e):
+            x = self.head.canvasx(e.x)
+            xs, _ = self._xs()
+            for i in range(len(self.cols)):
+                if abs(xs[i] + self.widths[i] - x) <= 4:
+                    return i
+            return None
+
+        def _head_motion(self, e):
+            self.head.configure(cursor='sb_h_double_arrow' if self._edge(e) is not None else '')
+
+        def _head_press(self, e):
+            i = self._edge(e)
+            self._drag = (i, self.head.canvasx(e.x), self.widths[i]) if i is not None else None
+
+        def _head_drag(self, e):
+            if self._drag:
+                i, x0, w0 = self._drag
+                self.widths[i] = max(40, int(w0 + self.head.canvasx(e.x) - x0))
+                self._layout()
+
+        def _head_release(self, e):
+            if self._drag and self.on_resize:
+                self.on_resize()
+            self._drag = None
 
     class App:
         def __init__(self, root):
@@ -381,20 +583,10 @@ def run_gui():
             for e in (self.e_model, self.e_year):
                 e.bind('<Return>', lambda ev: self.do_search())
 
-            mid = ttk.Frame(root)
-            mid.pack(fill='both', expand=True)
-            self.tree = ttk.Treeview(mid, show='headings', selectmode='browse')
-            ys = ttk.Scrollbar(mid, orient='vertical', command=self.tree.yview)
-            xs = ttk.Scrollbar(mid, orient='horizontal', command=self.tree.xview)
-            self.tree.configure(yscrollcommand=ys.set, xscrollcommand=xs.set)
-            self.tree.grid(row=0, column=0, sticky='nsew')
-            ys.grid(row=0, column=1, sticky='ns')
-            xs.grid(row=1, column=0, sticky='ew')
-            mid.rowconfigure(0, weight=1)
-            mid.columnconfigure(0, weight=1)
-            self.tree.tag_configure('orange', background='#FFD599')
-            self.tree.tag_configure('red', background='#FFC7CE')
-            self.tree.bind('<Double-1>', lambda ev: self.edit())
+            # 결과 표: 엑셀에서 주황·빨강으로 칠한 칸만 같은 색으로 표시
+            self.table = CellTable(root, on_double=self.edit, on_resize=self.save_cfg)
+            self.table.pack(fill='both', expand=True)
+            self.cols = []
 
             self.status = tk.StringVar()
             ttk.Label(root, textvariable=self.status, anchor='w', padding=4).pack(fill='x')
@@ -408,7 +600,6 @@ def run_gui():
                 pass
             self.cfg.setdefault('widths', {})
             # 컬럼 너비를 바꾸면(마우스 놓을 때)·프로그램을 닫을 때 저장
-            self.tree.bind('<ButtonRelease-1>', lambda ev: self.save_cfg(), add='+')
             root.protocol('WM_DELETE_WINDOW', self.on_close)
             last = self.cfg.get('folder', '')
             if last and os.path.isdir(last):
@@ -419,8 +610,8 @@ def run_gui():
 
         def save_cfg(self):
             try:
-                for c in self.tree['columns']:
-                    self.cfg['widths'][c] = int(self.tree.column(c, 'width'))
+                for c, w in self.table.column_widths().items():
+                    self.cfg['widths'][c] = int(w)
                 self.cfg['folder'] = self.folder
                 with open(CONFIG, 'w', encoding='utf-8') as f:
                     json.dump(self.cfg, f, ensure_ascii=False, indent=1)
@@ -453,12 +644,10 @@ def run_gui():
             finally:
                 self.root.config(cursor='')
             self.cols = all_columns(self.recs) + [FILE_COL]
-            self.tree['columns'] = self.cols
-            for c in self.cols:
-                w = self.cfg['widths'].get(c) or (
+            self.table.set_columns(self.cols, [
+                self.cfg['widths'].get(c) or (
                     260 if c in (MODEL, '출처', '비고') else 90 if c.startswith('XT') or c == YEAR else 170)
-                self.tree.heading(c, text=c)
-                self.tree.column(c, width=w, minwidth=40, stretch=False)
+                for c in self.cols])
             msg = '폴더: %s  |  파일 %d개, 행 %d개' % (self.folder, len(files), len(self.recs))
             if errors:
                 msg += '  |  읽기 실패: ' + '; '.join(errors)
@@ -472,24 +661,28 @@ def run_gui():
             self.do_search()
 
         def do_search(self):
-            self.tree.delete(*self.tree.get_children())
-            self.shown = {}
+            self.shown = []
             if not self.e_model.get().strip() and not self.e_year.get().strip():
+                self.table.set_rows([])
                 self.status.set('%s  |  모델명 또는 연식을 입력하고 검색하세요' % getattr(self, 'base_status', ''))
                 return
             res = search(self.recs, self.e_model.get(), self.e_year.get())
+            rows = []
             for r in res:
-                vals = [r['values'].get(c, '') for c in self.cols[:-1]] + [os.path.basename(r['file'])]
-                iid = self.tree.insert('', 'end', values=vals, tags=(r['flag'],) if r['flag'] else ())
-                self.shown[iid] = r
+                colors = {i: r['flags'][c] for i, c in enumerate(self.cols) if c in r.get('flags', {})}
+                rows.append((self.row_values(r), colors))
+            self.shown = res
+            self.table.set_rows(rows)
             self.status.set('%s  |  검색 결과 %d행' % (getattr(self, 'base_status', ''), len(res)))
 
+        def row_values(self, r):
+            return [r['values'].get(c, '') for c in self.cols[:-1]] + [os.path.basename(r['file'])]
+
         def edit(self):
-            sel = self.tree.selection()
-            if not sel:
+            iid = self.table.selected()
+            if iid is None:
                 messagebox.showinfo('수정', '수정할 행을 먼저 고르세요.')
                 return
-            iid = sel[0]
             rec = self.shown[iid]
             win = tk.Toplevel(self.root)
             win.title('수정 - %s / %s' % (os.path.basename(rec['file']), rec['sheet']))
@@ -516,8 +709,7 @@ def run_gui():
                 except Exception as ex:
                     messagebox.showerror('저장 실패', str(ex), parent=win)
                     return
-                vals = [rec['values'].get(c, '') for c in self.cols[:-1]] + [os.path.basename(rec['file'])]
-                self.tree.item(iid, values=vals)
+                self.table.update_row(iid, self.row_values(rec))
                 win.destroy()
                 self.status.set('%s  |  저장됨: %s %d행 (%s)' % (
                     self.base_status, os.path.basename(rec['file']), rec['row'], ', '.join(changes)))

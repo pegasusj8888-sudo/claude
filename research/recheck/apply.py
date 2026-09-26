@@ -20,10 +20,10 @@ XTFILL = {'O': ('FFC6EFCE', 'FF006100'), '△': ('FFFFEB9C', 'FF9C6500'), 'X': (
 
 def xt(chip):
     chip = chip or ''
-    if chip.startswith(('확인', '해당')) or not chip:
+    if not chip or (chip.startswith(('확인', '해당')) and 'ID' not in chip):
         return ('', '', '')
-    new = any(k in chip for k in ('ID4A', 'ID47', 'ID49', 'ID8A', 'ID88', 'AES'))
-    old = any(k in chip for k in ('ID46', 'ID44', 'ID60', 'ID70', 'DST80', '4D70', '4D60x80'))
+    new = any(k in chip for k in ('ID4A', 'ID47', 'ID49', 'ID8A', 'ID6A', 'ID75', 'ID88', 'AES'))
+    old = any(k in chip for k in ('ID46', 'ID44', 'ID60', 'ID70', 'DST80', '4D70', '4D60x80', 'ID6E', 'ID4C'))
     if 'ID48' in chip:
         return ('△', '△', 'O') if old else ('△', '△', '△')
     if old and new: return ('△', '△', 'O')
@@ -77,6 +77,8 @@ def apply_file(path, overrides=None):
                     for c in (CHIP, '이모빌라이저 시스템', '비고'):
                         if c not in hdr: continue
                         cell = ws.cell(r, hdr[c])
+                        if c == '이모빌라이저 시스템' and fl and not str(cell.value or '').strip():
+                            continue  # 빈 이모빌라이저 칸은 칠하지 않음
                         cell.fill = PatternFill('solid', fgColor=FILL[fl]) if fl else PatternFill(fill_type=None)
                         f = copy(cell.font); f.color = FONT.get(fl, 'FF000000'); cell.font = f
                     if '비고' in hdr:
@@ -96,6 +98,13 @@ def apply_file(path, overrides=None):
                 g.cell(r2, 1)._style = copy(ref._style)
                 g.cell(r2, 1).alignment = Alignment(wrap_text=False, vertical='top')
                 n += 1
+        # 빈 이모빌라이저 칸의 주황·빨강 채우기 지우기(불완전한 칸에만 색)
+        if '이모빌라이저 시스템' in hdr:
+            for r in range(hr + 1, ws.max_row + 1):
+                cell = ws.cell(r, hdr['이모빌라이저 시스템'])
+                if not str(cell.value or '').strip() and cell.fill.fill_type and \
+                        str(cell.fill.fgColor.rgb).upper() in (FILL['orange'], FILL['red'], 'FFC7CE'):
+                    cell.fill = PatternFill(fill_type=None); n += 1
         for r in reversed(dels):
             ws.delete_rows(r)
         if dels and ws.auto_filter.ref:
