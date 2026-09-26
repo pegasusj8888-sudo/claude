@@ -77,4 +77,5 @@ g.column_dimensions['A'].width=150
 for c in g['A']: c.font=Font(name='Arial',size=10); c.alignment=Alignment(wrap_text=False,vertical='top')
 wb.save(os.path.join(ROOT,'쉐보레_models.xlsx'))
 sys.path.insert(0,os.path.join(ROOT,'research')); from add_brand import add_brand; add_brand(os.path.join(ROOT,'쉐보레_models.xlsx'))  # 맨 앞 '브랜드' 컬럼
+from notation import apply_file; apply_file(os.path.join(ROOT,'쉐보레_models.xlsx'))  # 칩코드·부품번호 표기 통일
 print(len(rows),'rows written')
