@@ -25,7 +25,7 @@ thin=Side(style='thin',color='FFBFBFBF'); bd=Border(left=thin,right=thin,top=thi
 ws.append(HDR)
 for c in ws[1]:
     c.font=Font(name='Arial',size=11,bold=True,color='FFFFFFFF'); c.fill=PatternFill('solid',fgColor='FF7A1F1F')
-    c.alignment=Alignment(horizontal='center',vertical='center',wrap_text=True); c.border=bd
+    c.alignment=Alignment(horizontal='center',vertical='center',wrap_text=False); c.border=bd
 F=lambda c:PatternFill('solid',fgColor=c)
 XT={'O':(F('FFC6EFCE'),'FF006100'),'△':(F('FFFFEB9C'),'FF9C6500'),'X':(F('FFFFC7CE'),'FF9C0006')}
 FLAG={'orange':(F('FFFFD599'),'FF000000'),'red':(F('FFFFC7CE'),'FF9C0006'),'gen':(F('FFDDEBF7'),'FF000000')}
@@ -34,7 +34,7 @@ for r in rows:
     ws.append([r['model'],r['year'],a,b,c,r['chip'],r['ktype'],r['blade_pn'],r['keyway'],r['card'],r['smart'],r['fold'],r['immo'],r['src'],r['note']])
     i=ws.max_row
     for cell in ws[i]:
-        cell.font=Font(name='Arial',size=10); cell.border=bd; cell.alignment=Alignment(vertical='center',wrap_text=True)
+        cell.font=Font(name='Arial',size=10); cell.border=bd; cell.alignment=Alignment(vertical='center',wrap_text=False)
     for col in (3,4,5):
         cell=ws.cell(i,col); cell.alignment=Alignment(horizontal='center',vertical='center')
         if cell.value in XT: cell.fill,fc=XT[cell.value]; cell.font=Font(name='Arial',size=10,bold=True,color=fc)
@@ -45,7 +45,7 @@ for r in rows:
         for col in cols:
             ws.cell(i,col).fill=fill; ws.cell(i,col).font=Font(name='Arial',size=10,color=fc)
 for col,w in zip('ABCDEFGHIJKLMNO',[30,14,12,11,11,26,16,26,22,12,36,12,22,48,48]): ws.column_dimensions[col].width=w
-ws.row_dimensions[1].height=30; ws.freeze_panes='B2'; ws.auto_filter.ref=f'A1:O{ws.max_row}'
+ws.freeze_panes='B2'; ws.auto_filter.ref=f'A1:O{ws.max_row}'
 
 g=wb.create_sheet('안내')
 notes=['이 표는 락스미스(자동차 키 제작/프로그래밍) 참고용입니다.','',
@@ -79,6 +79,6 @@ notes=['이 표는 락스미스(자동차 키 제작/프로그래밍) 참고용�
 "- E65는 2005 LCI 전 CAS1, 이후 CAS2. E60/E61/E63은 2007.3 LCI 전 CAS2, 이후 CAS3. E83은 2006 중 EWS3→EWS4."]
 for n in notes: g.append([n])
 g.column_dimensions['A'].width=150
-for c in g['A']: c.font=Font(name='Arial',size=10); c.alignment=Alignment(wrap_text=True,vertical='top')
+for c in g['A']: c.font=Font(name='Arial',size=10); c.alignment=Alignment(wrap_text=False,vertical='top')
 wb.save(os.path.join(ROOT,'BMW_코리아_출시모델.xlsx'))
 print(len(rows),'rows written')
