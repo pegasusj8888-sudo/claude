@@ -8,7 +8,7 @@
 - 파이썬 표준 라이브러리만 사용합니다(openpyxl 불필요). 저장할 때는 고친 셀만 바꾸고
   서식·색·다른 시트는 그대로 둡니다(한셀·엑셀에서 저장한 파일 모두 가능).
 """
-import os, re, json, shutil, tempfile, zipfile, posixpath
+import os, sys, re, json, shutil, tempfile, zipfile, posixpath
 import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
 
@@ -22,7 +22,9 @@ MODEL_ALIASES = ('모델명', '모델이름', '모델', '차종', '차명')
 YEAR_ALIASES = ('연식', '년식', '연도', '년도')
 MODEL, YEAR = '모델명', '연식'
 FILE_COL = '파일'
-CONFIG = os.path.join(os.path.expanduser('~'), '.key_db_search.json')
+# 설정(마지막 폴더·컬럼 너비)은 이 파이썬 파일과 같은 폴더에 저장
+_HERE = os.path.dirname(os.path.abspath(sys.executable if getattr(sys, 'frozen', False) else __file__))
+CONFIG = os.path.join(_HERE, 'key_db_search_config.json')
 FLAG_COLORS = {'FFD599': 'orange', 'FFC7CE': 'red'}
 
 
