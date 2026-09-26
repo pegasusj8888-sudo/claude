@@ -10,6 +10,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RESEARCH = os.path.dirname(HERE)
 ROOT = os.path.dirname(RESEARCH)
 sys.path.insert(0, RESEARCH)
+sys.path.insert(0, HERE)
 from openpyxl.styles import PatternFill, Font
 
 CHIP = '칩코드 (예: ID46(PCF7936))'
@@ -107,6 +108,9 @@ def apply_file(path, overrides=None):
                     cell.fill = PatternFill(fill_type=None); n += 1
         for r in reversed(dels):
             ws.delete_rows(r)
+        # 세대가 바뀌는 해: 세대별 행으로 나누기
+        import split_gen
+        n += split_gen.split_ws(ws, hr, hdr, xt, FILL, FONT, XTFILL, CHIP)
         if dels and ws.auto_filter.ref:
             ws.auto_filter.ref = re.sub(r'\d+$', str(ws.max_row), ws.auto_filter.ref)
     if n:
