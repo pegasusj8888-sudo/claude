@@ -128,7 +128,7 @@ def normalize(col, value, brand=''):
 
 
 # 부품번호 칸에는 순정(제조사) 부품번호만 — 애프터마켓 호환품 번호는 뺌
-AFTERMARKET = re.compile(r'애프터마켓|^(ILCO|KD|Keydiy|Xhorse) |^(IKEY|ABK-|KR-B|HU\d+-PT|IN-151$|2013DJ)')
+AFTERMARKET = re.compile(r'애프터마켓|^(ILCO|KD|Keydiy|Xhorse) |^(IKEY|ABK-|KR-B|HU\d+-PT|IN-151\b|2013DJ)')
 
 
 def _aftermarket(it):
