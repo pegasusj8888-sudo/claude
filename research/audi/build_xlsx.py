@@ -89,4 +89,5 @@ for c in g['A']: c.font=Font(name='Arial',size=10); c.alignment=Alignment(wrap_t
 wb.save(os.path.join(ROOT,'아우디_models.xlsx'))
 sys.path.insert(0,os.path.join(ROOT,'research')); from add_brand import add_brand; add_brand(os.path.join(ROOT,'아우디_models.xlsx'))  # 맨 앞 '브랜드' 컬럼
 from notation import apply_file; apply_file(os.path.join(ROOT,'아우디_models.xlsx'))  # 칩코드·부품번호 표기 통일
+sys.path.insert(0,os.path.join(ROOT,'research','recheck')); import apply as recheck; recheck.apply_file(os.path.join(ROOT,'아우디_models.xlsx'))  # 2005+ 불확실 행 재조사 결과
 print(len(rows),'rows written')
