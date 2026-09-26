@@ -463,3 +463,119 @@ i40 (VF)|2019|95440-3Z500 "i40 2019" 8A 433MHz — 2019 단종|mk3 i40 2019 3Z50
 엑센트 (RB, 4세대)|2010|엑센트 2010.11.2 출시 — 폴딩키 95430-1R000/1R001, 블랭킹키 81996-1R100/1R101 ID46(PCF7936) 433MHz|hyundai.com 2010 Accent RB, hellowcar 엑센트 폴딩키, nectechkeysupply HY18 ID46
 엑센트 (RB, 4세대)|2016|95440-1R700 ID46(2015-2018)|abkeys ABK-4321 1R700
 엑센트 (RB, 4세대)|2018|95440-1R700 ID46|mk3 Accent 2018 1R700
+쏘나타 (EF, 4세대)|2000|[재조사] 현대모비스 순정 이모빌라이저 블랭킹키 81996-38010(쏘나타 1998-2005·싼타페 2000-2006 적용, 4D60 HYN7) — 국내 이모빌라이저 사양 존재 확인|partsro·hyundaipartsdeal 81996-38010 key-blanking immobilizer, abkeys 81996-38010 4D60
+쏘나타 (EF, 4세대)|2001|[재조사] 현대모비스 순정 이모빌라이저 블랭킹키 81996-38010(쏘나타 1998-2005·싼타페 2000-2006 적용, 4D60 HYN7) — 국내 이모빌라이저 사양 존재 확인|partsro·hyundaipartsdeal 81996-38010 key-blanking immobilizer, abkeys 81996-38010 4D60
+쏘나타 (EF, 4세대)|2002|[재조사] 현대모비스 순정 이모빌라이저 블랭킹키 81996-38010(쏘나타 1998-2005·싼타페 2000-2006 적용, 4D60 HYN7) — 국내 이모빌라이저 사양 존재 확인|partsro·hyundaipartsdeal 81996-38010 key-blanking immobilizer, abkeys 81996-38010 4D60
+쏘나타 (EF, 4세대)|2003|[재조사] 현대모비스 순정 이모빌라이저 블랭킹키 81996-38010(쏘나타 1998-2005·싼타페 2000-2006 적용, 4D60 HYN7) — 국내 이모빌라이저 사양 존재 확인|partsro·hyundaipartsdeal 81996-38010 key-blanking immobilizer, abkeys 81996-38010 4D60
+쏘나타 (EF, 4세대)|2004|[재조사] 현대모비스 순정 이모빌라이저 블랭킹키 81996-38010(쏘나타 1998-2005·싼타페 2000-2006 적용, 4D60 HYN7) — 국내 이모빌라이저 사양 존재 확인|partsro·hyundaipartsdeal 81996-38010 key-blanking immobilizer, abkeys 81996-38010 4D60
+그랜저 (XG, 3세대)|2000|[재조사] 헬로우카 그랜저XG 블랭킹키·이모빌라이저키 81996-38010(4D60), 리모컨 95430-39311/39050/39021|hellowcar 그랜저XG 블랭킹키 8199638010, hellowcar 그랜저XG 리모콘, abkeys 81996-38010 4D60
+그랜저 (XG, 3세대)|2001|[재조사] 헬로우카 그랜저XG 블랭킹키·이모빌라이저키 81996-38010(4D60), 리모컨 95430-39311/39050/39021|hellowcar 그랜저XG 블랭킹키 8199638010, hellowcar 그랜저XG 리모콘, abkeys 81996-38010 4D60
+그랜저 (XG, 3세대)|2002|[재조사] 헬로우카 그랜저XG 블랭킹키·이모빌라이저키 81996-38010(4D60), 리모컨 95430-39311/39050/39021|hellowcar 그랜저XG 블랭킹키 8199638010, hellowcar 그랜저XG 리모콘, abkeys 81996-38010 4D60
+그랜저 (XG, 3세대)|2003|[재조사] 헬로우카 그랜저XG 블랭킹키·이모빌라이저키 81996-38010(4D60), 리모컨 95430-39311/39050/39021|hellowcar 그랜저XG 블랭킹키 8199638010, hellowcar 그랜저XG 리모콘, abkeys 81996-38010 4D60
+그랜저 (XG, 3세대)|2004|[재조사] 헬로우카 그랜저XG 블랭킹키·이모빌라이저키 81996-38010(4D60), 리모컨 95430-39311/39050/39021|hellowcar 그랜저XG 블랭킹키 8199638010, hellowcar 그랜저XG 리모콘, abkeys 81996-38010 4D60
+그랜저 (XG, 3세대)|2005|[재조사] 헬로우카 그랜저XG 블랭킹키·이모빌라이저키 81996-38010(4D60), 리모컨 95430-39311/39050/39021|hellowcar 그랜저XG 블랭킹키 8199638010, hellowcar 그랜저XG 리모콘, abkeys 81996-38010 4D60
+그랜저 (TG, 4세대)|2005|[재조사] 스마트키 95440-3L100 = Equus·Grandeur 한국형 TIRIS DST80(auto-keys·mk3·vvdi 일치), 이모빌라이저키 81996-3L010(동급 Azera 2006-2011 ID46) → 자료 상충 아님|auto-keys.eu 95440-3L100 TIRIS DST80, mk3 Equus Grandeur 2005 3L100, hellowcar 그랜저TG 819963L010, amazon Azera 2006-2011 46 chip
+그랜저 (TG, 4세대)|2006|[재조사] 스마트키 95440-3L100 = Equus·Grandeur 한국형 TIRIS DST80(auto-keys·mk3·vvdi 일치), 이모빌라이저키 81996-3L010(동급 Azera 2006-2011 ID46) → 자료 상충 아님|auto-keys.eu 95440-3L100 TIRIS DST80, mk3 Equus Grandeur 2005 3L100, hellowcar 그랜저TG 819963L010, amazon Azera 2006-2011 46 chip
+그랜저 (TG, 4세대)|2007|[재조사] 스마트키 95440-3L100 = Equus·Grandeur 한국형 TIRIS DST80(auto-keys·mk3·vvdi 일치), 이모빌라이저키 81996-3L010(동급 Azera 2006-2011 ID46) → 자료 상충 아님|auto-keys.eu 95440-3L100 TIRIS DST80, mk3 Equus Grandeur 2005 3L100, hellowcar 그랜저TG 819963L010, amazon Azera 2006-2011 46 chip
+그랜저 (TG, 4세대)|2008|[재조사] 스마트키 95440-3L100 = Equus·Grandeur 한국형 TIRIS DST80(auto-keys·mk3·vvdi 일치), 이모빌라이저키 81996-3L010(동급 Azera 2006-2011 ID46) → 자료 상충 아님|auto-keys.eu 95440-3L100 TIRIS DST80, mk3 Equus Grandeur 2005 3L100, hellowcar 그랜저TG 819963L010, amazon Azera 2006-2011 46 chip
+그랜저 (TG, 4세대)|2009|[재조사] 스마트키 95440-3L100 = Equus·Grandeur 한국형 TIRIS DST80(auto-keys·mk3·vvdi 일치), 이모빌라이저키 81996-3L010(동급 Azera 2006-2011 ID46) → 자료 상충 아님|auto-keys.eu 95440-3L100 TIRIS DST80, mk3 Equus Grandeur 2005 3L100, hellowcar 그랜저TG 819963L010, amazon Azera 2006-2011 46 chip
+그랜저 (TG, 4세대)|2010|[재조사] 스마트키 95440-3L100 = Equus·Grandeur 한국형 TIRIS DST80(auto-keys·mk3·vvdi 일치), 이모빌라이저키 81996-3L010(동급 Azera 2006-2011 ID46) → 자료 상충 아님|auto-keys.eu 95440-3L100 TIRIS DST80, mk3 Equus Grandeur 2005 3L100, hellowcar 그랜저TG 819963L010, amazon Azera 2006-2011 46 chip
+그랜저 (TG, 4세대)|2011|[재조사] 스마트키 95440-3L100 = Equus·Grandeur 한국형 TIRIS DST80(auto-keys·mk3·vvdi 일치), 이모빌라이저키 81996-3L010(동급 Azera 2006-2011 ID46) → 자료 상충 아님|auto-keys.eu 95440-3L100 TIRIS DST80, mk3 Equus Grandeur 2005 3L100, hellowcar 그랜저TG 819963L010, amazon Azera 2006-2011 46 chip
+아반떼 (CN7, 7세대)|2023|[재조사] 95440-AA500/AA501 = NYOMBEC7FOB2208(아반떼 AA000 MBEC5·캐스퍼 MBEC4와 같은 MBEC 계열) — auto-keys "ATMEL AES 6A", keyshop-online ID6A. remotesandkeys는 같은 FCC 키를 4A·6A로 섞어 표기(신뢰 낮음) → ID6A|auto-keys.eu 95440-AA501 ATMEL AES 6A, keyshop-online AA500 ID6A, remotesandkeys AA500·IB500 표기 불일치
+아반떼 (CN7, 7세대)|2024|[재조사] 95440-AA500/AA501 = NYOMBEC7FOB2208(아반떼 AA000 MBEC5·캐스퍼 MBEC4와 같은 MBEC 계열) — auto-keys "ATMEL AES 6A", keyshop-online ID6A. remotesandkeys는 같은 FCC 키를 4A·6A로 섞어 표기(신뢰 낮음) → ID6A|auto-keys.eu 95440-AA501 ATMEL AES 6A, keyshop-online AA500 ID6A, remotesandkeys AA500·IB500 표기 불일치
+아반떼 (CN7, 7세대)|2025|[재조사] 95440-AA500/AA501 = NYOMBEC7FOB2208(아반떼 AA000 MBEC5·캐스퍼 MBEC4와 같은 MBEC 계열) — auto-keys "ATMEL AES 6A", keyshop-online ID6A. remotesandkeys는 같은 FCC 키를 4A·6A로 섞어 표기(신뢰 낮음) → ID6A|auto-keys.eu 95440-AA501 ATMEL AES 6A, keyshop-online AA500 ID6A, remotesandkeys AA500·IB500 표기 불일치
+아반떼 (CN7, 7세대)|2026|[재조사] 95440-AA500/AA501 = NYOMBEC7FOB2208(아반떼 AA000 MBEC5·캐스퍼 MBEC4와 같은 MBEC 계열) — auto-keys "ATMEL AES 6A", keyshop-online ID6A. remotesandkeys는 같은 FCC 키를 4A·6A로 섞어 표기(신뢰 낮음) → ID6A|auto-keys.eu 95440-AA501 ATMEL AES 6A, keyshop-online AA500 ID6A, remotesandkeys AA500·IB500 표기 불일치
+아반떼 N (CN7)|2024|[재조사] 95440-IB500YPN = NYOMBEC7FOB2208, HITAG-AES(6A) 표기(uhs-hardware·remotesandkeys) → ID6A|uhs-hardware IB500YPN 6A, remotesandkeys 2024-2025 Elantra N IB500 6A
+아반떼 N (CN7)|2025|[재조사] 95440-IB500YPN = NYOMBEC7FOB2208, HITAG-AES(6A) 표기(uhs-hardware·remotesandkeys) → ID6A|uhs-hardware IB500YPN 6A, remotesandkeys 2024-2025 Elantra N IB500 6A
+아반떼 N (CN7)|2026|[재조사] 95440-IB500YPN = NYOMBEC7FOB2208, HITAG-AES(6A) 표기(uhs-hardware·remotesandkeys) → ID6A|uhs-hardware IB500YPN 6A, remotesandkeys 2024-2025 Elantra N IB500 6A
+아이오닉 6 (CE)|2022|[재조사] 95440-KL000/KL200 ATMEL AES 6A(auto-keys), KL300 ID6A(abkeys), FCC NYOMBEC7FOB2208(MBEC 6A 계열), 비상키 81996-KL010 → ID6A|auto-keys.eu KL000·KL200 ATMEL AES 6A, abkeys KL300 ID6A, partsro 81996KL010 아이오닉6
+아이오닉 6 (CE)|2023|[재조사] 95440-KL000/KL200 ATMEL AES 6A(auto-keys), KL300 ID6A(abkeys), FCC NYOMBEC7FOB2208(MBEC 6A 계열), 비상키 81996-KL010 → ID6A|auto-keys.eu KL000·KL200 ATMEL AES 6A, abkeys KL300 ID6A, partsro 81996KL010 아이오닉6
+아이오닉 6 (CE)|2024|[재조사] 95440-KL000/KL200 ATMEL AES 6A(auto-keys), KL300 ID6A(abkeys), FCC NYOMBEC7FOB2208(MBEC 6A 계열), 비상키 81996-KL010 → ID6A|auto-keys.eu KL000·KL200 ATMEL AES 6A, abkeys KL300 ID6A, partsro 81996KL010 아이오닉6
+아이오닉 6 (CE)|2025|[재조사] 더 뉴 아이오닉6 95440-KL500(헬로우카 CE1 페이스리프트) — 칩·FCC 원문 여전히 없음|hellowcar 아이오닉6 스마트키, mk3 Ioniq 6 2025 KL500
+아이오닉 6 (CE)|2026|[재조사] 더 뉴 아이오닉6 95440-KL500(헬로우카 CE1 페이스리프트) — 칩·FCC 원문 여전히 없음|hellowcar 아이오닉6 스마트키, mk3 Ioniq 6 2025 KL500
+베르나 (LC, 1세대)|2000|[재조사] 현대모비스 목록에 LC용은 칩 없는 보조키 81996-1C400(베르나 LC·클릭 TB)만 있음 — 이모빌라이저키 품번 없음|partsro 819961C400 베르나 LC 클릭 TB
+베르나 (LC, 1세대)|2001|[재조사] 현대모비스 목록에 LC용은 칩 없는 보조키 81996-1C400(베르나 LC·클릭 TB)만 있음 — 이모빌라이저키 품번 없음|partsro 819961C400 베르나 LC 클릭 TB
+베르나 (LC, 1세대)|2002|[재조사] 현대모비스 목록에 LC용은 칩 없는 보조키 81996-1C400(베르나 LC·클릭 TB)만 있음 — 이모빌라이저키 품번 없음|partsro 819961C400 베르나 LC 클릭 TB
+베르나 (LC, 1세대)|2003|[재조사] 현대모비스 목록에 LC용은 칩 없는 보조키 81996-1C400(베르나 LC·클릭 TB)만 있음 — 이모빌라이저키 품번 없음|partsro 819961C400 베르나 LC 클릭 TB
+베르나 (LC, 1세대)|2004|[재조사] 현대모비스 목록에 LC용은 칩 없는 보조키 81996-1C400(베르나 LC·클릭 TB)만 있음 — 이모빌라이저키 품번 없음|partsro 819961C400 베르나 LC 클릭 TB
+베르나 (LC, 1세대)|2005|[재조사] 현대모비스 목록에 LC용은 칩 없는 보조키 81996-1C400(베르나 LC·클릭 TB)만 있음 — 이모빌라이저키 품번 없음|partsro 819961C400 베르나 LC 클릭 TB
+베르나 (MC, 2세대)|2005|[재조사] 현대모비스 베르나 블랭킹키·이모빌라이저키 81996-1E010(마스터 이모빌라이저 키, Accent·Verna 2006-2011, ID46)/81996-1E000(칩 없음)|hellowcar 베르나 819961E010/819961E000, amazon 81996-1E010 master immobilizer, superb-keys 1E010 ID46
+베르나 (MC, 2세대)|2006|[재조사] 현대모비스 베르나 블랭킹키·이모빌라이저키 81996-1E010(마스터 이모빌라이저 키, Accent·Verna 2006-2011, ID46)/81996-1E000(칩 없음)|hellowcar 베르나 819961E010/819961E000, amazon 81996-1E010 master immobilizer, superb-keys 1E010 ID46
+베르나 (MC, 2세대)|2007|[재조사] 현대모비스 베르나 블랭킹키·이모빌라이저키 81996-1E010(마스터 이모빌라이저 키, Accent·Verna 2006-2011, ID46)/81996-1E000(칩 없음)|hellowcar 베르나 819961E010/819961E000, amazon 81996-1E010 master immobilizer, superb-keys 1E010 ID46
+베르나 (MC, 2세대)|2008|[재조사] 현대모비스 베르나 블랭킹키·이모빌라이저키 81996-1E010(마스터 이모빌라이저 키, Accent·Verna 2006-2011, ID46)/81996-1E000(칩 없음)|hellowcar 베르나 819961E010/819961E000, amazon 81996-1E010 master immobilizer, superb-keys 1E010 ID46
+베르나 (MC, 2세대)|2009|[재조사] 81996-1E010 이모빌라이저키 존재, 트랜스폼(2009.6)부터 이모빌라이저 삭제(나무위키)|hellowcar 베르나 819961E010, 나무위키 베르나
+베르나 (MC, 2세대)|2010|[재조사] 81996-1E010 이모빌라이저키 존재, 트랜스폼(2009.6)부터 이모빌라이저 삭제(나무위키)|hellowcar 베르나 819961E010, 나무위키 베르나
+i40 (VF)|2011|[재조사] 품번별로 칩이 다름(상충 아님): 95440-3Z000(2011.12.15~2012.4.2) TMS37126 TIRIS 4D+(DST80), 95440-3Z001·3Z002 DST-AES(8A)|abkeys 3Z000 TMS37126, auto-keys.eu 3Z000 TIRIS 4D+, 검색요약 3Z001 DST-AES, carkeyno1 3Z000 11.12.15~12.04.02·3Z002 13.02.01~
+i40 (VF)|2012|[재조사] 품번별로 칩이 다름(상충 아님): 95440-3Z000(2011.12.15~2012.4.2) TMS37126 TIRIS 4D+(DST80), 95440-3Z001·3Z002 DST-AES(8A)|abkeys 3Z000 TMS37126, auto-keys.eu 3Z000 TIRIS 4D+, 검색요약 3Z001 DST-AES, carkeyno1 3Z000 11.12.15~12.04.02·3Z002 13.02.01~
+i40 (VF)|2013|[재조사] 품번별로 칩이 다름(상충 아님): 95440-3Z000(2011.12.15~2012.4.2) TMS37126 TIRIS 4D+(DST80), 95440-3Z001·3Z002 DST-AES(8A)|abkeys 3Z000 TMS37126, auto-keys.eu 3Z000 TIRIS 4D+, 검색요약 3Z001 DST-AES, carkeyno1 3Z000 11.12.15~12.04.02·3Z002 13.02.01~
+i40 (VF)|2014|[재조사] 품번별로 칩이 다름(상충 아님): 95440-3Z000(2011.12.15~2012.4.2) TMS37126 TIRIS 4D+(DST80), 95440-3Z001·3Z002 DST-AES(8A)|abkeys 3Z000 TMS37126, auto-keys.eu 3Z000 TIRIS 4D+, 검색요약 3Z001 DST-AES, carkeyno1 3Z000 11.12.15~12.04.02·3Z002 13.02.01~
+싼타페 (SM, 1세대)|2004|[재조사] 현대모비스 이모빌라이저 블랭킹키 81996-38010이 싼타페 2000-2006 적용(4D60 HYN7) — 국내형은 4D60 키|partsro·hyundaipartsdeal 81996-38010, abkeys 81996-38010 4D60
+싼타페 (SM, 1세대)|2005|[재조사] 현대모비스 이모빌라이저 블랭킹키 81996-38010이 싼타페 2000-2006 적용(4D60 HYN7) — 국내형은 4D60 키|partsro·hyundaipartsdeal 81996-38010, abkeys 81996-38010 4D60
+투싼 (JM, 1세대)|2004|[재조사] 헬로우카 투싼 구형 블랭킹키·이모빌라이저키 81996-2E010(투싼 2004-2009 순정 이모빌라이저 블랭크), 리모컨 95430-2E000/2E110/2E115 — 같은 차 해외 키 81996-25010 PCF7936 ID46|hellowcar 투싼구형 819962E010, motorialkorea 819962E010 2004-2009, hellowcar 투싼구형 리모콘, abkeys 81996-25010
+투싼 (JM, 1세대)|2005|[재조사] 헬로우카 투싼 구형 블랭킹키·이모빌라이저키 81996-2E010(투싼 2004-2009 순정 이모빌라이저 블랭크), 리모컨 95430-2E000/2E110/2E115 — 같은 차 해외 키 81996-25010 PCF7936 ID46|hellowcar 투싼구형 819962E010, motorialkorea 819962E010 2004-2009, hellowcar 투싼구형 리모콘, abkeys 81996-25010
+투싼 (JM, 1세대)|2006|[재조사] 헬로우카 투싼 구형 블랭킹키·이모빌라이저키 81996-2E010(투싼 2004-2009 순정 이모빌라이저 블랭크), 리모컨 95430-2E000/2E110/2E115 — 같은 차 해외 키 81996-25010 PCF7936 ID46|hellowcar 투싼구형 819962E010, motorialkorea 819962E010 2004-2009, hellowcar 투싼구형 리모콘, abkeys 81996-25010
+투싼 (JM, 1세대)|2007|[재조사] 헬로우카 투싼 구형 블랭킹키·이모빌라이저키 81996-2E010(투싼 2004-2009 순정 이모빌라이저 블랭크), 리모컨 95430-2E000/2E110/2E115 — 같은 차 해외 키 81996-25010 PCF7936 ID46|hellowcar 투싼구형 819962E010, motorialkorea 819962E010 2004-2009, hellowcar 투싼구형 리모콘, abkeys 81996-25010
+투싼 (JM, 1세대)|2008|[재조사] 헬로우카 투싼 구형 블랭킹키·이모빌라이저키 81996-2E010(투싼 2004-2009 순정 이모빌라이저 블랭크), 리모컨 95430-2E000/2E110/2E115 — 같은 차 해외 키 81996-25010 PCF7936 ID46|hellowcar 투싼구형 819962E010, motorialkorea 819962E010 2004-2009, hellowcar 투싼구형 리모콘, abkeys 81996-25010
+투싼 (JM, 1세대)|2009|[재조사] 헬로우카 투싼 구형 블랭킹키·이모빌라이저키 81996-2E010(투싼 2004-2009 순정 이모빌라이저 블랭크), 리모컨 95430-2E000/2E110/2E115 — 같은 차 해외 키 81996-25010 PCF7936 ID46|hellowcar 투싼구형 819962E010, motorialkorea 819962E010 2004-2009, hellowcar 투싼구형 리모콘, abkeys 81996-25010
+투싼 (NX4, 4세대)|2023|[재조사] 더 뉴 투싼(2023.11) 스마트키 95440-N95xx(TQ8-FOB-4F61M43·4F89U44) HITAG AES NCF29A1M ID4A — 이전 N9070 계열 ID47|abkeys N9530/N9570 2024-2025, abkeys N9550·N9520 2025-2026 ID4A
+투싼 (NX4, 4세대)|2024|[재조사] 더 뉴 투싼 95440-N9500/N9520/N9530/N9550/N9570 HITAG AES NCF29A1M ID4A(2024-2026) — 이전 기록의 ID47(N9070)은 부분변경 이전 키|abkeys N9550 2025-2026 ID4A, abkeys N9570 2024-2025, royalkeysupply 2026 Tucson N9500
+투싼 (NX4, 4세대)|2025|[재조사] 더 뉴 투싼 95440-N9500/N9520/N9530/N9550/N9570 HITAG AES NCF29A1M ID4A(2024-2026) — 이전 기록의 ID47(N9070)은 부분변경 이전 키|abkeys N9550 2025-2026 ID4A, abkeys N9570 2024-2025, royalkeysupply 2026 Tucson N9500
+투싼 (NX4, 4세대)|2026|[재조사] 더 뉴 투싼 95440-N9500/N9520/N9530/N9550/N9570 HITAG AES NCF29A1M ID4A(2024-2026) — 이전 기록의 ID47(N9070)은 부분변경 이전 키|abkeys N9550 2025-2026 ID4A, abkeys N9570 2024-2025, royalkeysupply 2026 Tucson N9500
+코나 N (OS)|2021|[재조사] 코나 N 스마트키 95440-I3450(TQ8-FOB-4F43, HITAG3 ID47)|remotesandkeys 2023 Kona N 95440-I3450, royalkeysupply I3450, abkeys I3450 NCF29A1X
+코나 N (OS)|2022|[재조사] 코나 N 스마트키 95440-I3450(TQ8-FOB-4F43, HITAG3 ID47)|remotesandkeys 2023 Kona N 95440-I3450, royalkeysupply I3450, abkeys I3450 NCF29A1X
+코나 N (OS)|2023|[재조사] 코나 N 스마트키 95440-I3450(TQ8-FOB-4F43, HITAG3 ID47)|remotesandkeys 2023 Kona N 95440-I3450, royalkeysupply I3450, abkeys I3450 NCF29A1X
+스타렉스 (A1)|2004|[재조사] 순정 이모빌라이저키 81996-4A250(스타렉스 2000.4~2007.12, 4D60 HYN6) vs transpondery 2004-2006 Texas 4C — 상충|ebay 819964A250 Starex 2000-2007, abkeys 81996-4A250 4D60, transpondery Hyundai
+스타렉스 (A1)|2005|[재조사] 순정 이모빌라이저키 81996-4A250(스타렉스 2000.4~2007.12, 4D60 HYN6) vs transpondery 2004-2006 Texas 4C — 상충|ebay 819964A250 Starex 2000-2007, abkeys 81996-4A250 4D60, transpondery Hyundai
+스타렉스 (A1)|2006|[재조사] 81996-4A250 4D60(ID60)|abkeys 81996-4A250 4D60
+스타렉스 (A1)|2007|[재조사] 81996-4A250 4D60(ID60)|abkeys 81996-4A250 4D60
+그랜드 스타렉스 (TQ)|2015|[재조사] 이모빌라이저 모듈 95420-D4000(그랜드 스타렉스 2015~·2017~, 포터2 2016~ 적용, 엑센트 2018-2021 ID46 차량 공용) — 2018 이후도 같은 모듈이라 ID46 유지|partsro 95420D4000 올뉴K7·포터2·그랜드 스타렉스, amazon 95420-D4000 Accent 18-21
+그랜드 스타렉스 (TQ)|2016|[재조사] 이모빌라이저 모듈 95420-D4000(그랜드 스타렉스 2015~·2017~, 포터2 2016~ 적용, 엑센트 2018-2021 ID46 차량 공용) — 2018 이후도 같은 모듈이라 ID46 유지|partsro 95420D4000 올뉴K7·포터2·그랜드 스타렉스, amazon 95420-D4000 Accent 18-21
+그랜드 스타렉스 (TQ)|2017|[재조사] 이모빌라이저 모듈 95420-D4000(그랜드 스타렉스 2015~·2017~, 포터2 2016~ 적용, 엑센트 2018-2021 ID46 차량 공용) — 2018 이후도 같은 모듈이라 ID46 유지|partsro 95420D4000 올뉴K7·포터2·그랜드 스타렉스, amazon 95420-D4000 Accent 18-21
+그랜드 스타렉스 (TQ)|2018|[재조사] 이모빌라이저 모듈 95420-D4000(그랜드 스타렉스 2015~·2017~, 포터2 2016~ 적용, 엑센트 2018-2021 ID46 차량 공용) — 2018 이후도 같은 모듈이라 ID46 유지|partsro 95420D4000 올뉴K7·포터2·그랜드 스타렉스, amazon 95420-D4000 Accent 18-21
+그랜드 스타렉스 (TQ)|2019|[재조사] 이모빌라이저 모듈 95420-D4000(그랜드 스타렉스 2015~·2017~, 포터2 2016~ 적용, 엑센트 2018-2021 ID46 차량 공용) — 2018 이후도 같은 모듈이라 ID46 유지|partsro 95420D4000 올뉴K7·포터2·그랜드 스타렉스, amazon 95420-D4000 Accent 18-21
+그랜드 스타렉스 (TQ)|2020|[재조사] 이모빌라이저 모듈 95420-D4000(그랜드 스타렉스 2015~·2017~, 포터2 2016~ 적용, 엑센트 2018-2021 ID46 차량 공용) — 2018 이후도 같은 모듈이라 ID46 유지|partsro 95420D4000 올뉴K7·포터2·그랜드 스타렉스, amazon 95420-D4000 Accent 18-21
+그랜드 스타렉스 (TQ)|2021|[재조사] 이모빌라이저 모듈 95420-D4000(그랜드 스타렉스 2015~·2017~, 포터2 2016~ 적용, 엑센트 2018-2021 ID46 차량 공용) — 2018 이후도 같은 모듈이라 ID46 유지|partsro 95420D4000 올뉴K7·포터2·그랜드 스타렉스, amazon 95420-D4000 Accent 18-21
+포터2 (HR)|2004|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2005|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2006|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2007|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2008|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2009|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2010|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2011|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2012|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2013|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2014|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2015|[재조사] 이모빌라이저 모듈 안테나 95440-4F100|partsro 954404F100 포터2 이모빌라이저 모듈 안테나
+포터2 (HR)|2016|[재조사] 이모빌라이저 모듈 95420-D4000(2016~), 95420-4F500. 스마트키(버튼시동)는 2024 포터II LPG(2023.12)부터 — 디젤은 스마트키 없음|partsro 95420D4000, partsro 954204F500, cvinfo 2024 포터II LPG 출시
+포터2 (HR)|2017|[재조사] 이모빌라이저 모듈 95420-D4000(2016~), 95420-4F500. 스마트키(버튼시동)는 2024 포터II LPG(2023.12)부터 — 디젤은 스마트키 없음|partsro 95420D4000, partsro 954204F500, cvinfo 2024 포터II LPG 출시
+포터2 (HR)|2018|[재조사] 이모빌라이저 모듈 95420-D4000(2016~), 95420-4F500. 스마트키(버튼시동)는 2024 포터II LPG(2023.12)부터 — 디젤은 스마트키 없음|partsro 95420D4000, partsro 954204F500, cvinfo 2024 포터II LPG 출시
+포터2 (HR)|2019|[재조사] 이모빌라이저 모듈 95420-D4000(2016~), 95420-4F500. 스마트키(버튼시동)는 2024 포터II LPG(2023.12)부터 — 디젤은 스마트키 없음|partsro 95420D4000, partsro 954204F500, cvinfo 2024 포터II LPG 출시
+포터2 (HR)|2020|[재조사] 이모빌라이저 모듈 95420-D4000(2016~), 95420-4F500. 스마트키(버튼시동)는 2024 포터II LPG(2023.12)부터 — 디젤은 스마트키 없음|partsro 95420D4000, partsro 954204F500, cvinfo 2024 포터II LPG 출시
+포터2 (HR)|2021|[재조사] 이모빌라이저 모듈 95420-D4000(2016~), 95420-4F500. 스마트키(버튼시동)는 2024 포터II LPG(2023.12)부터 — 디젤은 스마트키 없음|partsro 95420D4000, partsro 954204F500, cvinfo 2024 포터II LPG 출시
+포터2 (HR)|2022|[재조사] 이모빌라이저 모듈 95420-D4000(2016~), 95420-4F500. 스마트키(버튼시동)는 2024 포터II LPG(2023.12)부터 — 디젤은 스마트키 없음|partsro 95420D4000, partsro 954204F500, cvinfo 2024 포터II LPG 출시
+포터2 (HR)|2023|[재조사] 이모빌라이저 모듈 95420-D4000(2016~), 95420-4F500. 스마트키(버튼시동)는 2024 포터II LPG(2023.12)부터 — 디젤은 스마트키 없음|partsro 95420D4000, partsro 954204F500, cvinfo 2024 포터II LPG 출시
+포터2 (HR)|2024|[재조사] LPG 버튼시동·스마트키 패키지(2026년형 프리미엄 기본), 스마트키 95440-4FGA0 + 비상키 81996-CN000(포터2 일렉트릭 공용) — 칩 원문 없음(기아 봉고3 LPG 95440-4EGA0도 봉고 EV 비상키 공용)|cvinfo 2024 포터II, hyundaimotorgroup 2026 포터II, ebay 954404FGA0/81996CN000, 기아 DB 봉고3 2024
+포터2 (HR)|2025|[재조사] LPG 버튼시동·스마트키 패키지(2026년형 프리미엄 기본), 스마트키 95440-4FGA0 + 비상키 81996-CN000(포터2 일렉트릭 공용) — 칩 원문 없음(기아 봉고3 LPG 95440-4EGA0도 봉고 EV 비상키 공용)|cvinfo 2024 포터II, hyundaimotorgroup 2026 포터II, ebay 954404FGA0/81996CN000, 기아 DB 봉고3 2024
+포터2 (HR)|2026|[재조사] LPG 버튼시동·스마트키 패키지(2026년형 프리미엄 기본), 스마트키 95440-4FGA0 + 비상키 81996-CN000(포터2 일렉트릭 공용) — 칩 원문 없음(기아 봉고3 LPG 95440-4EGA0도 봉고 EV 비상키 공용)|cvinfo 2024 포터II, hyundaimotorgroup 2026 포터II, ebay 954404FGA0/81996CN000, 기아 DB 봉고3 2024
+제네시스 GV80 쿠페 (JX1)|2024|[재조사] 95440-T6AA0 GV80 쿠페 호환(TQ8-FOB-4F75U44, HITAG-AES 4A), 헬로우카 GV80 페이스리프트 T6AA0/T6AB0/T6AC0/T6BA0/T6BB0/T6DA0/T6DB0, 카드키 T6CA0/T6CB0, 비상키 81996-T6500/81995-T6000|검색요약 T6AA0 GV80 Coupe 4A, hellowcar 제네시스GV80페이스리프트, uhs-hardware T6AB0
+제네시스 GV80 쿠페 (JX1)|2025|[재조사] 95440-T6AA0 GV80 쿠페 호환(TQ8-FOB-4F75U44, HITAG-AES 4A), 헬로우카 GV80 페이스리프트 T6AA0/T6AB0/T6AC0/T6BA0/T6BB0/T6DA0/T6DB0, 카드키 T6CA0/T6CB0, 비상키 81996-T6500/81995-T6000|검색요약 T6AA0 GV80 Coupe 4A, hellowcar 제네시스GV80페이스리프트, uhs-hardware T6AB0
+제네시스 GV80 쿠페 (JX1)|2026|[재조사] 95440-T6AA0 GV80 쿠페 호환(TQ8-FOB-4F75U44, HITAG-AES 4A), 헬로우카 GV80 페이스리프트 T6AA0/T6AB0/T6AC0/T6BA0/T6BB0/T6DA0/T6DB0, 카드키 T6CA0/T6CB0, 비상키 81996-T6500/81995-T6000|검색요약 T6AA0 GV80 Coupe 4A, hellowcar 제네시스GV80페이스리프트, uhs-hardware T6AB0
+제네시스 GV80 (JX1)|2024|[재조사] 헬로우카 GV80 페이스리프트 스마트키 T6AA0/T6AB0/T6AC0(블랙 패키지)/T6BA0/T6BB0/T6DA0/T6DB0, 카드키 T6CA0/T6CB0, 비상키 81996-T6500·81995-T6000|hellowcar 제네시스GV80페이스리프트
+제네시스 GV80 (JX1)|2025|[재조사] 헬로우카 GV80 페이스리프트 스마트키 T6AA0/T6AB0/T6AC0(블랙 패키지)/T6BA0/T6BB0/T6DA0/T6DB0, 카드키 T6CA0/T6CB0, 비상키 81996-T6500·81995-T6000|hellowcar 제네시스GV80페이스리프트
+제네시스 GV80 (JX1)|2026|[재조사] 헬로우카 GV80 페이스리프트 스마트키 T6AA0/T6AB0/T6AC0(블랙 패키지)/T6BA0/T6BB0/T6DA0/T6DB0, 카드키 T6CA0/T6CB0, 비상키 81996-T6500·81995-T6000|hellowcar 제네시스GV80페이스리프트
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2022|[재조사] 일렉트리파이드 GV70 스마트키 95440-DS000/DS010(8버튼 TQ8-FOB-4F35, PHILIPS ID47)|remotesandkeys 2023 GV70 Electrified DS010 ID47, transponderisland 2023-2025 DS010, noblekeysupply DS000
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2023|[재조사] 일렉트리파이드 GV70 스마트키 95440-DS000/DS010(8버튼 TQ8-FOB-4F35, PHILIPS ID47)|remotesandkeys 2023 GV70 Electrified DS010 ID47, transponderisland 2023-2025 DS010, noblekeysupply DS000
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2024|[재조사] 일렉트리파이드 GV70 스마트키 95440-DS000/DS010(8버튼 TQ8-FOB-4F35, PHILIPS ID47)|remotesandkeys 2023 GV70 Electrified DS010 ID47, transponderisland 2023-2025 DS010, noblekeysupply DS000
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2025|[재조사] 부분변경 2025.1.16 출시, 카드키 95440-DSBA0/DSBB0/DSDA0/DSDB0(제네시스 부티크) — 부분변경 스마트키 품번 원문 없음|hyundaimotorgroup GV70 전동화 부분변경 출시, shop.genesis.com Electrified GV70 스마트 카드 키
+제네시스 일렉트리파이드 GV70 (JK1 EV)|2026|[재조사] 부분변경 2025.1.16 출시, 카드키 95440-DSBA0/DSBB0/DSDA0/DSDB0(제네시스 부티크) — 부분변경 스마트키 품번 원문 없음|hyundaimotorgroup GV70 전동화 부분변경 출시, shop.genesis.com Electrified GV70 스마트 카드 키
+제네시스 GV70 (JK1)|2025|[재조사] 헬로우카 GV70 페이스리프트 95440-ARBA0/ARDA0/ARBB0/ARDB0, 비상키 81996-T6500/81995-T6000|hellowcar 제네시스GV70 페이스리프트
+제네시스 GV70 (JK1)|2026|[재조사] 헬로우카 GV70 페이스리프트 95440-ARBA0/ARDA0/ARBB0/ARDB0, 비상키 81996-T6500/81995-T6000|hellowcar 제네시스GV70 페이스리프트
+제네시스 일렉트리파이드 G80 (RG3 EV)|2024|[재조사] 부분변경 출시 확인(휠베이스 연장), 부분변경 전용 스마트키 품번 원문 없음 — 모비스 목록 95440-T1210(전기차 공용)은 부분변경 이전|eacar 2024 G80 일렉트리파이드 부분변경, partsro 95440T1210 전기차 공용
+제네시스 일렉트리파이드 G80 (RG3 EV)|2025|[재조사] 부분변경 출시 확인(휠베이스 연장), 부분변경 전용 스마트키 품번 원문 없음 — 모비스 목록 95440-T1210(전기차 공용)은 부분변경 이전|eacar 2024 G80 일렉트리파이드 부분변경, partsro 95440T1210 전기차 공용
+제네시스 일렉트리파이드 G80 (RG3 EV)|2026|[재조사] 부분변경 출시 확인(휠베이스 연장), 부분변경 전용 스마트키 품번 원문 없음 — 모비스 목록 95440-T1210(전기차 공용)은 부분변경 이전|eacar 2024 G80 일렉트리파이드 부분변경, partsro 95440T1210 전기차 공용
+제네시스 GV60 (JW1)|2026|[재조사] 95440-CU260 칩 원문 없음(FCC TQ8-FOB-4F75M44 = G70 G9720·GV70 ARAA0와 같은 ID4A 키 모델)|royalkeysupply 2026 GV60 CU260
+포터2 일렉트릭|2019|[재조사] 95440-CN000 칩 원문 없음 — 같은 비상키 81996-CN000을 쓰는 후속 CN100은 AES 6A|hellowcar 포터2 전기차, vvdi 95440-CN100 AES 6A
+포터2 일렉트릭|2020|[재조사] 95440-CN000 칩 원문 없음 — 같은 비상키 81996-CN000을 쓰는 후속 CN100은 AES 6A|hellowcar 포터2 전기차, vvdi 95440-CN100 AES 6A
+포터2 일렉트릭|2021|[재조사] 95440-CN000 칩 원문 없음 — 같은 비상키 81996-CN000을 쓰는 후속 CN100은 AES 6A|hellowcar 포터2 전기차, vvdi 95440-CN100 AES 6A
+포터2 일렉트릭|2022|[재조사] 95440-CN000 칩 원문 없음 — 같은 비상키 81996-CN000을 쓰는 후속 CN100은 AES 6A|hellowcar 포터2 전기차, vvdi 95440-CN100 AES 6A
