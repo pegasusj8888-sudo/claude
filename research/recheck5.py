@@ -64,6 +64,22 @@ NEW.append(dict(brand='제네시스', model='제네시스 일렉트리파이드 
                 append={SK: '95440-T1AA0[추정]'},
                 guide='제네시스 G80 부분변경(24MY) FOB 스마트키 95440-T1AA0(제네시스 부티크) — 일렉트리파이드 G80 부분변경 적용은 미확인이라 [추정]'))
 
+# ── 벤츠 (부품번호 공란 행) — auto-keys.eu 순정(중고·신품 OEM) 키 433/434MHz 표기 번호
+def M(model, years, val, guide=None):
+    NEW.append(dict(brand='벤츠', model=model, years=years, append={SK: val}, **({'guide': guide} if guide else {})))
+OS = '[해외 공용 품번]'
+M('C클래스 (W204, 3세대)', list(range(2007, 2015)), 'A2049051704[2버튼, 해외 공용 품번], A2049055702[3버튼, 해외 공용 품번]',
+  guide='벤츠 순정 부품번호(공란 행 보완, auto-keys.eu OEM 키 433/434MHz): W204 A2049051704(2버튼, FBS3)·A2049055702(3버튼), '
+        'W213 A2139059209·A2139056509(AMG), W206 A2239058707, W223 A2239057507·A2239054408(AMG), W167 A1679054203 — 315MHz 번호(A1679054503 등) 제외, 한국 사양 번호 미확인이라 [해외 공용 품번]')
+M('E클래스 (W213, 10세대)', list(range(2016, 2025)), 'A2139059209' + OS)
+M('E53/E63 AMG (W213)', list(range(2017, 2024)), 'A2139056509[AMG, 해외 공용 품번]')
+M('C클래스 (W206, 5세대)', list(range(2022, 2027)), 'A2239058707' + OS)
+M('C63 AMG (W206)', [2024, 2025, 2026], 'A2239058707' + OS)
+M('S클래스 (W223, 7세대)', list(range(2021, 2027)), 'A2239057507' + OS)
+M('S63 AMG (W223)', list(range(2022, 2027)), 'A2239054408[AMG, 해외 공용 품번]')
+M('GLE (W167/V167/C167, 4세대)', list(range(2019, 2027)), 'A1679054203' + OS)
+M('GLE43/53/63 AMG', list(range(2020, 2027)), 'A1679054203' + OS)
+
 if __name__ == '__main__':
     p = os.path.join(ROOT, 'research', 'recheck', 'overrides.json')
     ovs = [o for o in json.load(open(p, encoding='utf-8')) if not o.get('r5')]
@@ -72,5 +88,5 @@ if __name__ == '__main__':
     ovs += NEW
     json.dump(ovs, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('overrides', len(ovs))
-    for f in ('BMW_코리아_출시모델.xlsx', '아우디_models.xlsx', '현대_트랜스폰더_칩코드_DB.xlsx'):
+    for f in ('BMW_코리아_출시모델.xlsx', '아우디_models.xlsx', '현대_트랜스폰더_칩코드_DB.xlsx', '벤츠_models.xlsx'):
         print(f, recheck.apply_file(os.path.join(ROOT, f), ovs))
