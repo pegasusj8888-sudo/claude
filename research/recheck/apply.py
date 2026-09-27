@@ -1,6 +1,7 @@
 # 2005년 이후 주황·빨강 행 재조사 결과 적용 (research/recheck/overrides.json)
 #   항목: {"brand","model","years":[...], "set":{컬럼:값}, "flag":"orange"|"red"|"", "note":"...", "delete":true}
 #   - flag ""  → 색 지우고 비고 비움(확인됨)
+#   - append {컬럼:값} → 기존 값 뒤에 ", 값"으로 덧붙임(이미 있으면 건너뜀)
 #   - delete → 그 연식 행 삭제(국내 판매 없음 확인)
 #   - 칩코드를 바꾸면 XT 호환 칸도 다시 계산
 # 사용: python3 research/recheck/apply.py [파일…]   /   build_xlsx.py에서 apply_file(경로)
@@ -62,6 +63,11 @@ def apply_file(path, overrides=None):
                 for col, val in o.get('set', {}).items():
                     ws.cell(r, hdr[col]).value = val if val != '' else None
                     n += 1
+                for col, val in o.get('append', {}).items():  # 기존 값 뒤에 덧붙임(이미 있으면 그대로)
+                    cur = str(ws.cell(r, hdr[col]).value or '')
+                    if val not in cur:
+                        ws.cell(r, hdr[col]).value = (cur + ', ' if cur else '') + val
+                        n += 1
                 for col in o.get('clear_fill', []):
                     ws.cell(r, hdr[col]).fill = PatternFill(fill_type=None)
                     n += 1
@@ -123,6 +129,18 @@ def apply_file(path, overrides=None):
                     cell.fill = PatternFill(fill_type=None); n += 1
         for r in reversed(dels):
             ws.delete_rows(r)
+        # 순정 블레이드 번호로 확인한 키웨이 덧붙이기(keyway_pn.json)
+        if '키블레이드(키웨이)' in hdr and '키블레이드(부품번호)' in hdr:
+            kmap = {k.replace('-', ''): v for k, v in json.load(open(os.path.join(HERE, 'keyway_pn.json'), encoding='utf-8')).items() if not k.startswith('_')}
+            for r in range(hr + 1, ws.max_row + 1):
+                pns = re.findall(r'8199[5-9]-?[0-9A-Z]{5}', str(ws.cell(r, hdr['키블레이드(부품번호)']).value or ''))
+                add = [kw for p in pns for kw in kmap.get(p.replace('-', ''), [])]
+                if not add: continue
+                cell = ws.cell(r, hdr['키블레이드(키웨이)'])
+                cur = [x.strip() for x in re.split(r',\s*(?![^\[]*\])', str(cell.value or '')) if x.strip()]
+                new = cur + [kw for kw in dict.fromkeys(add) if kw not in cur]
+                if new != cur:
+                    cell.value = ', '.join(new); n += 1
         # 세대가 바뀌는 해: 세대별 행으로 나누기
         import split_gen
         n += split_gen.split_ws(ws, hr, hdr, xt, FILL, FONT, XTFILL, CHIP)

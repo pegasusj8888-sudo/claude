@@ -124,7 +124,20 @@ def normalize(col, value, brand=''):
             v = r
     if col in PN_COLS:
         v = ', '.join(it for it in _top_items(v) if it and not _aftermarket(it))
+    if col == KEYWAY:
+        v = ', '.join(dict.fromkeys(_kw_tag(it) for it in _top_items(v) if it))
     return v
+
+
+# 키웨이: 'ILCO HY22' → 'HY22[ILCO]' (규격 이름을 붙인 회사는 [ ]에)
+KW_MAKERS = ('ILCO', 'Silca', 'JMA', 'Keyline', 'Lishi', 'Original Lishi', 'Genuine Lishi')
+
+
+def _kw_tag(it):
+    m = re.match(r'^(%s) (\S+)(\[([^\]]*)\])?$' % '|'.join(sorted(KW_MAKERS, key=len, reverse=True)), it)
+    if not m:
+        return it
+    return m.group(2) + '[' + ', '.join(x for x in (m.group(1), m.group(4)) if x) + ']'
 
 
 # 부품번호 칸에는 순정(제조사) 부품번호만 — 애프터마켓 호환품 번호는 뺌
