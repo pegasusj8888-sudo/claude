@@ -86,15 +86,8 @@ MODELS = [
    seg(2018, 2022, **SMART18, smart=K18,
        src=TPC.format('Range Rover Sport L494 2018–2022 Hitag Pro ID49 NCF29, LR116874·JK52-15K601-BG') + ', ' + SRC_K)]),
  ('레인지로버 스포츠 (3세대)', '2023-현재', [
-   seg(2023, 2026, chip='ID49', immo='RFA', keyway='', ktype_hint='스마트키',
-       src=TPC.format('Range Rover Sport L461 2023–2026+ Hitag Pro ID49 NCF29, LR163588·LR177484, K8D2 RFA·PEPS') + ' — 433/434MHz 품번 확인 안 됨, 뉴시스(3세대 공개·국내 출시)')]),
- ('디펜더 (구형)', '1997-2015', [
-   seg(2000, 2003, chip='ID44(PCF7935)', immo='이모빌라이저 모듈', keyway='NE38', ktype_hint='막대키',
-       src=TPC.format('Defender L316 1999–2003 PCF7935 ID44, Lucas 10AS'), flag='orange', note=NEVER_NOTE),
-   seg(2004, 2013, chip='ID46(PCF7936)', immo='이모빌라이저 모듈', keyway='NE38', ktype_hint='막대키',
-       src=TPC.format('Defender L316 2003–2013 PCF7936 ID46, YWX101220·YWX101230'), flag='orange', note=NEVER_NOTE),
-   seg(2014, 2015, chip='ID49(PCF7953P)', immo='KVM', keyway='HU101', ktype_hint='스마트키',
-       src=TPC.format('Defender L316 2014–2016 PCF7953P ID49'), flag='orange', note=NEVER_NOTE)]),
+   seg(2023, 2026, chip='ID49', immo='RFA', keyway='HU101', ktype_hint='스마트키',
+       src=TPC.format('Range Rover Sport L461 2023–2026+ Hitag Pro ID49 NCF29, LR163588·LR177484, K8D2 RFA·PEPS') + ' — 433/434MHz 품번 확인 안 됨, abkeys·CLK(JLR 스마트키 비상키 HU101), 뉴시스(3세대 공개·국내 출시)')]),
  ('디펜더 (신형, L663)', '2020-현재', [
    seg(2020, 2026, **SMART18, smart=g('LR116874'),
        src=TPC.format('Defender L663 2020–2026+ Hitag Pro ID49 NCF29, LR116874·LR133282·LR163588, K8D2 RFA') + ', ' + SRC_K + ', 서울신문·탑라이더(신형 디펜더 2020.7 국내 출시)')]),
@@ -119,8 +112,8 @@ MODELS = [
    seg(2018, 2021, **SMART18, smart=K18,
        src=TPC.format('Range Rover L405 2018–2021 Hitag Pro ID49 NCF29, LR116874·JK52-15K601-BG') + ', ' + SRC_K)]),
  ('레인지로버 (5세대, L460)', '2022-현재', [
-   seg(2022, 2026, chip='ID49', immo='RFA', keyway='', ktype_hint='스마트키',
-       src=TPC.format('Range Rover L460 2022–2026+ Hitag Pro ID49 NCF29, LR163588·LR177484, K8D2 RFA·PEPS') + ' — 433/434MHz 품번 확인 안 됨')]),
+   seg(2022, 2026, chip='ID49', immo='RFA', keyway='HU101', ktype_hint='스마트키',
+       src=TPC.format('Range Rover L460 2022–2026+ Hitag Pro ID49 NCF29, LR163588·LR177484, K8D2 RFA·PEPS') + ' — 433/434MHz 품번 확인 안 됨, abkeys·CLK(JLR 스마트키 비상키 HU101)')]),
 ]
 
 GUIDE = [
@@ -139,10 +132,10 @@ GUIDE = [
  '- 키웨이: NE38(구형), HU92(L322 초기), HU101(2004년 이후 플립키·스마트키 비상키)',
  '',
  '※ 색상',
- '- 주황색: 추정이거나 자료가 서로 다른 값, 칩 전환 시점을 모르는 연식(전·후 2행), 또는 국내 정식 판매 기록이 없는 모델(구형 디펜더·P38A).',
+ '- 주황색: 추정이거나 자료가 서로 다른 값, 칩 전환 시점을 모르는 연식(전·후 2행).',
  '',
  '※ 목록과 국내 판매 연식이 다른 모델',
- '- 레인지로버 L405: 국내 2013년부터(L322 마지막 2012) / 구형 디펜더: 국내 정식 판매 기록을 찾지 못해 목록 연식대로 남기고 주황색 / 이보크 1세대 2011.12, 디스커버리 스포츠 2015.5, 벨라 2017.9, 신형 디펜더 2020.7 국내 출시.',
+ '- 레인지로버 L405: 국내 2013년부터(L322 마지막 2012) / 구형 디펜더(L316, 목록 1997-2015): 국내 정식 판매 기록이 없어 뺐습니다 / 이보크 1세대 2011.12, 디스커버리 스포츠 2015.5, 벨라 2017.9, 신형 디펜더 2020.7 국내 출시.',
  '',
  '※ 출처',
  '- transpondery.com Land Rover & Range Rover Transponder Catalog, abkeys.com·auto-keys.eu·jlridssddmongoose.com 순정 키, 한국어 위키백과·나무위키, 국내 출시 기사(이데일리·오토뷰·서울신문 등).',

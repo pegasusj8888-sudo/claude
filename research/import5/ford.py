@@ -53,12 +53,6 @@ MODELS = [
    seg(2024, 2026, chip='ID49(NCF29A1)', immo=PATS, keyway='HU101', ktype_hint='스마트키',
        smart=g('164-R8347', '164-R8346', 'PR3T-15K601-BA', 'PR3T-15K601-BB'), blade_pn=g('164-R8168[비상키]'),
        src=TP.format('Mustang S650·Dark Horse 2024–2026 HiTag Pro ID49 NCF29A1, 스마트키 164-R8347·164-R8346·PR3T-15K601-BA·BB 434MHz, 비상키 164-R8168') + ', 아주경제(머스탱 2024 국내 출시)')]),
- ('GT (슈퍼카, 1세대)', '2005-2006', [
-   seg(2005, 2006, chip='ID4C', immo=PATS, keyway='FO38', ktype_hint='막대키', blade_pn=g('011-R0221'),
-       src=TP.format('Ford GT 2005–2006 Texas Fixed 4C, 트랜스폰더 키 Strattec 597602·598333·011-R0221 H72-PT'), flag='orange', note=NEVER_NOTE)]),
- ('GT (슈퍼카, 2세대)', '2017-2020', [
-   seg(2017, 2020, chip='ID49', immo=PATS, keyway='HU101', ktype_hint='스마트키',
-       src=TP.format('Ford GT 2017–2022 HiTag Pro ID49, HU101'), flag='orange', note=NEVER_NOTE)]),
  ('이스케이프', '2001-2012', [
    seg(2001, 2004, chip='ID60(4D60)', immo=PATS, keyway='FO38', ktype_hint='막대키',
        src=TP.format('Escape 2001–2004 Texas Crypto 4D60, FO38') + ', OEM 키 카탈로그(Escape 2001–2004 98AG15K601AA·AB·AC·AD 433MHz — 유럽 공용 리모컨, 국내 적용 미확인), 나무위키(이스케이프 2001년부터 국내 판매)'),
@@ -101,17 +95,6 @@ MODELS = [
  ('프리스타일', '2005-2007', [
    seg(2005, 2007, chip='ID63(4D63)', immo=PATS, keyway='FO38', ktype_hint='막대키', blade_pn=g('164-R0475'),
        src=TP.format('Five Hundred 2005–2007·Taurus X 2008–2009 Texas Crypto 4D63 DST40 — 프리스타일은 파이브 헌드레드 왜건형, 트랜스폰더 키 164-R0475'))]),
- ('익스페디션', '1997-2017', [
-   seg(2000, 2002, chip='ID4C', immo=PATS, keyway='FO38', ktype_hint='막대키', blade_pn=g('011-R0221'),
-       src=TP.format('Expedition 1997–2002 Texas Fixed 4C, 011-R0221 H72-PT'), flag='orange', note=NEVER_NOTE),
-   seg(2003, 2006, chip='ID60(4D60)', immo=PATS, keyway='FO38', ktype_hint='막대키', blade_pn=TKEY40,
-       src=TP.format('Expedition 2003–2006 Texas Crypto 4D60, 164-R0475·164-R8040 H84-PT'), flag='orange', note=NEVER_NOTE),
-   seg(2007, 2010, chip='ID63(4D63)', immo=PATS, keyway='FO38', ktype_hint='막대키',
-       src=TP.format('Expedition 2006–2010 Texas Crypto 4D63 DST40'), flag='orange', note=NEVER_NOTE),
-   seg(2011, 2014, chip=X80, immo=PATS, keyway='FO38', ktype_hint='막대키',
-       src=TP.format('Expedition 2011–2017 DST80 ID63-6F 80bit'), flag='orange', note=NEVER_NOTE),
-   seg(2015, 2017, chip=X80 + '[일반 키], ID46(PCF7953A)[스마트키]', immo=PATS, keyway='FO38, HU101', ktype_hint='막대키,스마트키', blade_pn=g('164-R8041[비상키]'),
-       src=TP.format('Expedition 2015–2017 ID46 PCF7953A 스마트키, 비상키 164-R8041') + ', 위키백과(국내는 2021.3.22 4세대부터 판매)', flag='orange', note=NEVER_NOTE)]),
  ('레인저', '2019-현재', [
    seg(2021, 2022, chip='ID49', immo=PATS, keyway='HU101', ktype_hint='폴딩키', fold=g('EB3T-15K601-BA', 'EB3T-15K601-BB'),
        src=TP.format('Ranger T6 Facelift 2015–2022 Europe·Australia HiTag Pro ID49, 플립키 EB3T-15K601-BA·BB 434MHz FSK') + ', 아주경제(레인저 2021.4.12 국내 첫 출시)'),
@@ -135,11 +118,11 @@ GUIDE = [
  '- 키웨이: FO38(북미 구형), HU101(유럽형·스마트키 비상키), HU198(2020년 이후 센터밀 비상키)',
  '',
  '※ 색상',
- '- 주황색: 추정이거나 자료가 서로 다른 값, 칩 전환 시점을 모르는 연식(전·후 2행), 또는 국내 정식 판매 이력이 없는 모델(해외 사양 기준).',
+ '- 주황색: 추정이거나 자료가 서로 다른 값, 칩 전환 시점을 모르는 연식(전·후 2행).',
  '',
  '※ 목록과 국내 판매 연식이 다른 모델',
  '- 이스케이프: 2001년부터 2015년 말까지 국내 판매(목록 2001-2012) → 2001~2015 / 쿠가: 2015 서울모터쇼 국내 첫선 → 2015~2018 / 레인저: 2021.4.12 국내 첫 출시 → 2021~ / 퓨전: 2012년형 하이브리드(1세대)와 2012.12 출시 2세대 → 2012~2015.',
- '- 익스페디션: 국내는 2021.3.22 4세대부터 판매 — 목록 세대(1997-2017)는 국내 판매 이력이 없어 주황색 / GT(1·2세대): 포드코리아 정식 판매 이력을 찾지 못해 주황색.',
+ '- 국내 미출시라 뺀 모델: 익스페디션(목록 1997-2017 — 국내는 2021.3.22 4세대부터 판매, 목록에 4세대 없음), GT 슈퍼카 1·2세대(포드코리아 정식 판매 이력 없음).',
  '- 익스플로러는 1996년 2세대부터 국내 판매 — 2000년식부터 세대별로 기록(2001년 중반 4C→4D60 전환은 2행).',
  '',
  '※ 출처',

@@ -19,7 +19,7 @@ AB = 'abkeys({})'
 AK = 'auto-keys.eu({})'
 NEVER_NOTE = '국내 정식 판매 이력 없음 — 해외 사양 기준'
 
-ENDED = {m: False for m in ('코롤라 (E210, 12세대)', '프리우스 (XW60, 5세대)', '캠리 (XV80, 9세대)', '크라운 (크로스오버)', 'GR 수프라', 'GR86',
+ENDED = {m: False for m in ('프리우스 (XW60, 5세대)', '캠리 (XV80, 9세대)', '크라운 (크로스오버)', 'GR 수프라', 'GR86',
                             'RAV4 (XA60, 6세대)', '하이랜더 (XU70, 4세대)', '시에나 (XL40, 4세대)', '알파드 (AH40, 4세대)')}
 
 def seg(y0, y1, **k):
@@ -29,25 +29,16 @@ SMART = dict(immo=ISK, ktype_hint='스마트키')
 
 MODELS = [
  ('프리우스 C (아쿠아)', '2012-2016', [
-   seg(2018, 2019, chip=S80, keyway='TOY48', **SMART,
+   seg(2018, 2019, chip=S80 + '[스마트키], ' + G80 + '[일반 키]', keyway='TOY48', immo=ISK, ktype_hint='막대키,스마트키',
        src=TP.format('Prius c·Aqua 2012–2015 Texas G DST80 스마트키, 89904-0E091·89904-47370(주파수 미표기라 뺌)')
-           + ', 위키백과(프리우스 C 2018.5.14 국내 판매 시작 후 판매 부진으로 수입 중단), CEO스코어데일리(2019.2 프리우스C 판매 정리)',
-       flag='orange', note='2016년 이후 생산분 칩 자료 없음 — 2012~2015 G 칩 기준 추정')]),
+           + ', 위키백과(프리우스 C 2018.5.14 국내 판매 시작 후 판매 부진으로 수입 중단), CEO스코어데일리(2019.2 프리우스C 판매 정리)'
+       + ', programautokeys·toyotapartsdeal(2012~2022 Prius c 리모컨 일체형 키 89070-52F60 HYQ12BDM G 칩 — 2018년식도 G 칩 계열, 북미형이라 품번 뺌)')]),
  ('코롤라 (E140/E150, 10세대 후기형)', '2014-2019', [
    seg(2011, 2012, chip=G80, immo=IMM, keyway='TOY43', ktype_hint='막대키',
        src=TP.format('Corolla 2008–2012 Texas G DST80 G-Type Key, TOY43AT') + ', 위키백과(코롤라 2011 서울모터쇼 국내 공개·판매 개시, 1.8 132마력)'),
    seg(2013, 2013, chip=G80, immo=IMM, keyway='TOY43', ktype_hint='막대키',
        src=TP.format('Corolla 2008–2012 G DST80, 2013–2018 Texas H 8A — 2013년식 전환') + ', 위키백과(2014년 초 수입 중단)',
        flag='orange', note='2013년식 G→H 칩 전환 자료 상충')]),
- ('코롤라 (E210, 12세대)', '2019-현재', [
-   seg(2019, 2023, chip='ID4A(NCF29A1M)', immo=ISK, ktype_hint='스마트키', smart=g('8990H-02050'), blade_pn=g('69515-33100[비상키]'),
-       src=TP.format('Corolla E210 2018–2021 NXP HITAG-AES 4A-AA(8990H-02030 314MHz 뺌), 비상키 69515-33100') + ', '
-           + AK.format('순정 Corolla 8990H-02050 434MHz NCF29A1M') + ', 위키백과(E140 이후 코롤라 국내 미수입)',
-       flag='orange', note=NEVER_NOTE),
-   seg(2024, 2026, chip='ID4A(NCF29A1M)', immo=ISK, ktype_hint='스마트키', smart=g('8990H-02441', '8990H-02420'), blade_pn=g('69515-K0020[비상키]'),
-       src=TP.format('Corolla E210 Facelift 2024–2026 HITAG-AES 4A-BA, 비상키 69515-K0020') + ', '
-           + AK.format('순정 Corolla 2024+ 8990H-02441·8990H-02420 433MHz HITAG AES'),
-       flag='orange', note=NEVER_NOTE)]),
  ('프리우스 (XW30, 3세대)', '2009-2016', [
    seg(2009, 2015, chip=S80, keyway='TOY48', **SMART, smart=g('89904-47190'), blade_pn=g('69515-52120[비상키]'),
        src=TP.format('Prius Smart Key 2010–2015 Texas G DST80(89904-47150 315MHz 뺌), 비상키 69515-52120') + ', '
@@ -92,8 +83,8 @@ MODELS = [
        src=TP.format('GR Supra A90·A91 2020–2026 NXP Hitag Pro ID49, BMW BDC, 8990A-WAA12 FCC N5F-ID21A 433MHz, HU100R')
            + ', 위키백과(GR 수프라 2020.1.21 국내 정식 출시)')]),
  ('GR86', '2022-현재', [
-   seg(2022, 2026, chip=H8A, **SMART, smart=g('SU003-10030'),
-       src=TP.format('GR86 2022–2026 Texas H-8A DST-AES 스바루 계열 스마트키 SU003-10030 FCC HYQ14AHK 433/434MHz')
+   seg(2022, 2026, chip=H8A, keyway='LXP90', **SMART, smart=g('SU003-10030'),
+       src=TP.format('GR86 2022–2026 Texas H-8A DST-AES 스바루 계열 스마트키 SU003-10030 FCC HYQ14AHK 433/434MHz') + ', american key supply(GR86 2022-2025 HYQ14AHK 비상키 LXP90)'
            + ', 위키백과(2세대 86 2022.5.16 국내 출시, 6단 수동만)')]),
  ('RAV4 (XA30, 3세대)', '2009-2013', [
    seg(2009, 2012, chip=G80, immo=IMM, keyway='TOY43', ktype_hint='막대키', blade_pn=g('89070-42531[리모컨키]', '89070-28812[리모컨키]'),
@@ -157,15 +148,15 @@ GUIDE = [
  '※ 칩 코드(토요타)',
  '- ID67(TMS37126): 스마트키 DST40(Page1 94·D4, 2007~2011년경 캠리)  |  ID72(TMS37126): 스마트키 Texas G DST80(Page1 98, 프리우스 3세대·벤자·시에나 3세대)',
  '- ID72: Texas G DST80 트랜스폰더 키(G 칩, 2010~2013년경 일반 키)  |  ID8A: Texas H DST-AES 128bit(2012년 이후 스마트키, Page1 88·A8·A9·AA·BA)',
- '- ID4A: NXP HITAG-AES(코롤라 E210·캠리 9세대·하이랜더 2025~)  |  ID49: NXP Hitag Pro(GR 수프라 — BMW BDC, RAV4 6세대)',
+ '- ID4A: NXP HITAG-AES(캠리 9세대·하이랜더 2025~)  |  ID49: NXP Hitag Pro(GR 수프라 — BMW BDC, RAV4 6세대)',
  '- 이모빌라이저: 이모빌라이저 ECU(일반 키) → 스마트키 ECU(DENSO·TOKAI RIKA)',
  '- 키웨이: TOY43(일반 키), TOY48(2011년 이전 스마트키 비상키), TOY51(2012년 이후 스마트키 비상키), HU100R(GR 수프라)',
  '',
  '※ 색상',
- '- 주황색: 추정이거나 자료가 서로 다른 값, 또는 국내 정식 판매 이력이 없는 모델(해외 사양 기준).',
+ '- 주황색: 추정이거나 자료가 서로 다른 값.',
  '',
  '※ 목록과 국내 판매 연식이 다른 모델',
- '- 프리우스 C: 2018.5.14 국내 판매 시작, 판매 부진으로 수입 중단 → 2018~2019 / 코롤라 E140: 2011 국내 판매 개시, 2014년 초 수입 중단 → 2011~2013 / 코롤라 E210: 국내 미수입 — 목록 연식대로 남기고 주황색.',
+ '- 프리우스 C: 2018.5.14 국내 판매 시작, 판매 부진으로 수입 중단 → 2018~2019 / 코롤라 E140: 2011 국내 판매 개시, 2014년 초 수입 중단 → 2011~2013 / 코롤라 E210(목록 2019-현재): 국내 미수입이라 뺐습니다.',
  '- 프리우스 3세대: 2009.10~2015(4세대 2016.3) / 캠리 XV40: 2009.10~2011, XV50: 2012~2017, XV70: 2017.10.19~2024, XV80: 2024.11.26~ / 아발론 XX50: 2018.11.6~2022(북미 단종으로 수입 중단).',
  '- GR 수프라: 2020.1.21 국내 출시 / RAV4 3세대: 2009.10~2012, 4세대: 2013.5~2018, 5세대: 2019.5~2025, 6세대: 2026.6.16 국내 출시(목록에 없어 행 추가).',
  '- 벤자: 2012.11 부분변경 모델부터 수입 → 2012~2015 / FJ 크루저: 2013.12.24 100대 한정 판매 → 2014 / 하이랜더: 2023.7.25 국내 첫 출시 → 2023~ / 시에나 3세대: 2011.3 국내 출시 → 2011~2020.',

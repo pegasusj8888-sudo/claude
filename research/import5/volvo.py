@@ -30,8 +30,8 @@ SRC_SPA = ('transpondery(XC90 2015+·S90 2017+·V90 2016+·XC60 2016+·V60 2019+
 
 MODELS = [
  ('S40/V40 (구, 1세대)', '2000-2004', [
-   seg(2000, 2004, chip='ID44(PCF7935)', immo='이모빌라이저 모듈', keyway='', ktype_hint='막대키',
-       src='transpondery(S40 1998–2004·V40 1998–2004 Philips Crypto ID44 PCF7935, JMA TP14·Silca T15)')]),
+   seg(2000, 2004, chip='ID44(PCF7935)', immo='이모빌라이저 모듈', keyway='HU56', ktype_hint='막대키',
+       src='transpondery(S40 1998–2004·V40 1998–2004 Philips Crypto ID44 PCF7935, JMA TP14·Silca T15), UHS·American Key Supply(S40·V40 1996-2004 HU56 2트랙 트랜스폰더 키 ID44)')]),
  ('S40/V40 (구, 2세대)', '2004-2012', [
    seg(2004, 2012, **P1, src=SRC_P1)]),
  ('V50', '2004-2012', [
@@ -68,8 +68,8 @@ MODELS = [
    seg(2026, 2026, chip='확인 불가', immo='확인 불가', keyway='', ktype_hint='스마트키,카드키',
        src='머니투데이·파이낸셜뉴스(ES90 2026.7 국내 출시) — SPA2 신형 키 칩 자료 없음', flag='red', note='SPA2 신형 키·이모빌라이저 자료 없음')]),
  ('EX30 (전기차)', '2024-현재', [
-   seg(2024, 2026, chip='확인 불가', immo='확인 불가', keyway='', ktype_hint='카드키',
-       src='오토뷰·블로터(EX30 2023.11 사전예약, 2024 국내 출시 — 카드키·디지털키) — 키 칩 자료 없음', flag='red', note='EX30(SEA 플랫폼) 카드키 칩·이모빌라이저 자료 없음')]),
+   seg(2024, 2026, chip='확인 불가', immo='확인 불가', keyway='', ktype_hint='카드키', card=g('80001529'),
+       src='볼보 부품 카탈로그(EX30 Key Card 80001529, CH-624564), 오토뷰·블로터(EX30 2023.11 사전예약, 2024 국내 출시 — 카드키·디지털키) — 키 칩 자료 없음', flag='red', note='EX30(SEA 플랫폼) 카드키 칩·이모빌라이저 자료 없음')]),
  ('XC40', '2018-현재', [
    seg(2018, 2026, **{**SPA, 'smart': g('32256971[3키 세트]', '32279988[2키 세트]')},
        src='transpondery(XC40 2020+ Texas Crypto AES), keyshop-online·abkeys(32256971 433MHz ID8A HU101), XC40 2018.8 국내 출시')]),
@@ -89,8 +89,7 @@ MODELS = [
    seg(2017, 2026, **SPA, src=SRC_SPA + ', 한국일보(2세대 XC60 2017 국내 출시, 2025.8 부분변경)')]),
  ('XC90 (1세대)', '2003-2015', [
    seg(2003, 2014, **{**P2, 'blade_pn': P2['blade_pn'] + ', ' + P2R}, src=SRC_P2 + ', auto-keys.eu(XC90 5WK49271 433MHz 키리스 세트 31300258)'),
-   seg(2015, 2015, **{**P2, 'blade_pn': P2['blade_pn']}, src='transpondery(XC90 2003–2015 Megamos Crypto 48), 2세대 2015 출시 전 재고분', flag='orange',
-       note='1세대 마지막 연식 — 국내 2015년식 존재 여부 확인 필요')]),
+   seg(2015, 2015, **{**P2, 'blade_pn': P2['blade_pn']}, src='transpondery(XC90 2003–2015 Megamos Crypto 48), 다음자동차(XC90 1세대 2015년식 국내 판매), 나무위키(1세대 2015.4 생산 종료, 2세대 2015.5 판매 시작)')]),
  ('XC90 (2세대)', '2015-현재', [
    seg(2015, 2026, **SPA, src=SRC_SPA + ', auto-keys.eu(XC90 Texas Crypto 128bit AES 434MHz 순정, 세트 32256926), 이투데이·오토뷰(국내 판매)')]),
 ]
