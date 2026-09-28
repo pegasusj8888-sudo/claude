@@ -41,7 +41,7 @@ def expand(cfg):
 def xt(chip):
     if chip.startswith(('확인', '해당')) or not chip: return ('', '', '')
     new = any(k in chip for k in ('ID4A', 'ID47', 'ID49', 'ID8A', 'ID88', 'AES', 'ID6A'))
-    old = any(k in chip for k in ('ID46', 'ID44', 'ID60', 'ID63', 'ID70', 'ID4C', 'ID67', 'ID68', 'ID72', 'ID33', 'ID73', 'ID13', '4D60x80'))
+    old = any(k in chip for k in ('ID46', 'ID44', 'ID60', 'ID63', 'ID70', 'ID4C', 'ID67', 'ID68', 'ID72', 'ID33', 'ID73', 'ID13', '4D60x80', '4D63x80'))
     if 'ID48' in chip:
         return ('△', '△', 'O') if old else ('△', '△', '△')
     if old and new: return ('△', '△', 'O')

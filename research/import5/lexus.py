@@ -41,8 +41,9 @@ MODELS = [
  ('IS (2세대, XE20)', '2005-2013', [
    seg(2005, 2008, chip=S40, immo=ISK, keyway=KWS, ktype_hint='스마트키', smart=g('89904-30320', '89904-30322'), blade_pn=g('69515-30300', '69515-50260'),
        src='transpondery(IS 250 2005–2008 TMS37126 DST40 Page1 94, 비상키 69515-30300·50260), abkeys(89904-30320·30322 ES GS IS LS 2006+ 433MHz P1 D4), 위키백과(국내 V6 2.5만)'),
-   seg(2009, 2013, chip=S80, immo=ISK, keyway=KWS, ktype_hint='스마트키', smart=g('89904-53361'), blade_pn=g('69515-50260'),
-       src='transpondery(IS 2009–2013 Texas G DST80), abkeys(순정 89904-53361 433MHz P1 98 IS250 2007-2013 유럽·중동)')]),
+   seg(2009, 2013, chip=S80, immo=ISK, keyway=KWS, ktype_hint='스마트키,카드키', smart=g('89904-53361', '89904-53321', '89904-53322'),
+       card=g('89904-50480', '89904-50481', '89904-53131'), blade_pn=g('69515-50260'),
+       src='transpondery(IS 2009–2013 Texas G DST80, 카드키 블랭크 69515-50270→69515-30350), abkeys(순정 89904-53361 433MHz P1 98 IS250 2007-2013 유럽·중동), auto-keys.eu(순정 89904-53321·53322 433MHz P1 98, IS250·350 스마트 카드 89904-53131·50480·50481 433MHz)')]),
  ('IS (3세대, XE30)', '2013-2021', [
    seg(2013, 2019, chip=H8A, immo='스마트키 ECU(TMLF12-1)', keyway=KWS, ktype_hint='스마트키', smart=g('89904-53831'), blade_pn=g('69515-30380'),
        src='transpondery(IS 2014–2020 Texas H-8A DST-AES Page1 A8, 비상키 69515-30380, TMLF12-1), abkeys(순정 89904-53831 433MHz BG1EK IS 2014-2019)'),
@@ -87,12 +88,12 @@ MODELS = [
    seg(2004, 2006, chip=C68, immo=I4D, keyway=KW, ktype_hint='막대키,스마트키', smart=g('89994-50260'),
        src='transpondery(LS 430 2001–2006 4D-68, 스마트키 89994-50240·50241 계열), abkeys(순정 89994-50260 LS430 2004-2006 433MHz 12BZF P1 B0)')]),
  ('LS (XF40, 4세대)', '2006-2017', [
-   seg(2006, 2008, chip=S40, immo=ISK, keyway=KWS, ktype_hint='스마트키', smart=g('89904-30320', '89904-30322'), blade_pn=g('69515-50260'),
-       src='transpondery(LS 460 2007–2008 TMS37126 DST40 Page1 94, 비상키 69515-50260), abkeys(89904-30320·30322 ES GS IS LS 2006+ 433MHz)'),
-   seg(2009, 2012, chip=S80, immo=ISK, keyway=KWS, ktype_hint='스마트키', blade_pn=g('69515-50260'),
-       src='transpondery(LS 460·600h 2009–2012 Texas G DST80 — 433MHz 품번 자료 없음)'),
-   seg(2013, 2017, chip=S80, immo=ISK, keyway=KWS, ktype_hint='스마트키', blade_pn=g('69515-30380'),
-       src='transpondery(LS 460·600h 2013–2017 Texas G DST80, 비상키 69515-30380 — 433MHz 품번 자료 없음)')]),
+   seg(2006, 2008, chip=S40, immo=ISK, keyway=KWS, ktype_hint='스마트키', smart=g('89904-30322', '89904-30323', '89904-50561'), blade_pn=g('69515-50260'),
+       src='transpondery(LS 460 2007–2008 TMS37126 DST40 Page1 94, 비상키 69515-50260), auto-keys.eu(순정 89904-30322·30323 433MHz ES350·GS·IS·LS460, LS460 2008 89904-50561 433MHz Tiris 4D)'),
+   seg(2009, 2012, chip=S80, immo=ISK, keyway=KWS, ktype_hint='스마트키', smart=g('89904-50L00', '89904-50L01'), blade_pn=g('69515-50260'),
+       src='transpondery(LS 460·600h 2009–2012 Texas G DST80), auto-keys.eu(순정 LS 460 89904-50L00·50L01 433MHz P1 98)'),
+   seg(2013, 2017, chip=S80, immo=ISK, keyway=KWS, ktype_hint='스마트키', smart=g('89904-50L00', '89904-50L01'), blade_pn=g('69515-30380'),
+       src='transpondery(LS 460·600h 2013–2017 Texas G DST80, 비상키 69515-30380), auto-keys.eu(LS 460 89904-50L00·50L01 433MHz P1 98)')]),
  ('LS (XF50, 5세대)', '2017-현재', [
    seg(2017, 2026, chip=H8A, immo='스마트키 ECU(TMLF15-1)', keyway=KWS, ktype_hint='스마트키,카드키', smart=g('8990H-50120'), blade_pn=g('69515-50310'),
        src='transpondery(LS 500·500h 2018–2026 H-8A, 카드키 적용, 비상키 69515-50310, TMLF15-1), abkeys(순정 8990H-50120 LS350·LS500 2018-2020 433MHz 14FCB), 위키백과(국내 2017.12.24 출시)')]),
@@ -131,7 +132,7 @@ MODELS = [
    seg(2003, 2008, chip=C68, immo=I4D, keyway=KW, ktype_hint='막대키',
        src='transpondery(RX 300 2004–2006·RX 330 2004–2006·RX 350 2007–2009·RX 400h 2006–2009 Texas Crypto 4D-68, DENSO 93C66)')]),
  ('RX (XU30 2차, 3세대)', '2008-2015', [
-   seg(2009, 2015, chip=S80, immo=ISK, keyway=KWS, ktype_hint='스마트키', smart=g('89904-48242', '89904-48243', '89904-48521'), blade_pn=g('69515-30300', '69515-50260'),
+   seg(2009, 2015, chip=S80, immo=ISK, keyway=KWS, ktype_hint='스마트키', smart=g('89904-48242', '89904-48243', '89904-48244', '89904-48245', '89904-48521'), blade_pn=g('69515-30300', '69515-50260'),
        src='transpondery(RX 350·450h 2010–2015 Texas G DST80, 비상키 69515-30300·50260), abkeys(순정 89904-48242·48243 RX350 2008-2011 433MHz B74EA P1 98, 89904-48521 RX 2009-2012), 3세대 2009 출시')]),
  ('RX (XU40, 4세대)', '2015-2022', [
    seg(2016, 2019, chip=H8A, immo='스마트키 ECU(TMLF15-2)', keyway=KWS, ktype_hint='스마트키',
