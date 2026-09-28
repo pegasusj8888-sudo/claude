@@ -145,9 +145,9 @@ def process(brand,rows):
             r['blade_pn']=r['fold']+' — 리모컨 일체형 막대키' if '리모컨키' not in r['fold'] else r['fold']; r['fold']=''
         if brand=='kgm' and r['fold'].startswith('2버튼 리모컨키'):
             bar,fold=r['fold'].split(' / ',1); r['blade_pn']=bar; r['fold']=fold
-        r['ktype']=join(KT[brand](r))
+        r['ktype']=join(KT.get(brand,lambda r:set(r['ktype_hint'].split(',')))(r))
         if r.get('flag') in ('orange','red'):
-            why=RS[brand](r)
+            why=RS.get(brand,lambda r:r['note'])(r)
             if not why: raise SystemExit(f'사유 없음: {brand} {r["model"]} {r["year"]}')
             r['note']=why
         else:
