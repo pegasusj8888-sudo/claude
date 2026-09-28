@@ -12201,5 +12201,124 @@
    "출처": "같은 세대·같은 칩 앞 연식 스마트키 품번과 동일(BMW ETK 03.2019판 이후 연식이라 이어 씀)"
   },
   "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "SQ2",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "delete": true,
+  "r6del": true
+ },
+ {
+  "brand": "아우디",
+  "model": "RS Q3",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "delete": true,
+  "r6del": true
+ },
+ {
+  "brand": "아우디",
+  "model": "TT RS",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "delete": true,
+  "r6del": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "콜벳 (쉐보레, C7)",
+  "years": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "delete": true,
+  "r6del": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "콜벳 (쉐보레, C8)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "delete": true,
+  "r6del": true
+ },
+ {
+  "brand": "아우디",
+  "model": "",
+  "years": [],
+  "guide": "국내 미출시로 삭제: SQ2(2018 부산모터쇼 전시만), RS Q3(국내 출시 기록 없음), TT RS(2018 부산모터쇼 공개·2019 인증 후 미출시) — 한국일보·탑라이더·데일리카",
+  "r6del": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "",
+  "years": [],
+  "guide": "국내 미출시로 삭제: 콜벳 C7(한국GM 정식 수입 없음, 그레이 임포터 직수입만 — 콜벳 정식 수입은 C6까지), 콜벳 C8(국내 정식 출시 기록 없음) — 모터그래프·위키백과",
+  "r6del": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "볼트 EV (쉐보레)",
+  "years": [
+   2022,
+   2023
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "ID49"
+  },
+  "append": {
+   "출처": "Intelligent Key Solutions·American Key Supply(2022-2023 Bolt EV·EUV 순정 스마트키 13535665·13535663 HYQ4ES 434MHz NXP HITAG-PRO ID49 — ID46 표기는 애프터마켓 호환품)"
+  },
+  "flag": "",
+  "r6del": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "볼트 EUV (쉐보레)",
+  "years": [
+   2022,
+   2023
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "ID49"
+  },
+  "append": {
+   "출처": "Intelligent Key Solutions·American Key Supply(2022-2023 Bolt EV·EUV 순정 스마트키 13535665·13535663 HYQ4ES 434MHz NXP HITAG-PRO ID49 — ID46 표기는 애프터마켓 호환품)"
+  },
+  "flag": "",
+  "r6del": true
  }
 ]
