@@ -6566,5 +6566,5640 @@
    "카드키(부품번호)": "KC CCP-RSM-T002"
   },
   "r5": true
+ },
+ {
+  "brand": "현대",
+  "model": "",
+  "years": [],
+  "guide": "6차 세대별 보완: 빈 키웨이는 같은 세대 다른 연식 값·transpondery Hyundai Catalog(세대별 Key Blade)·제네시스 비상키(LXP90 2017-2020, KK12 2020~)로, 이모빌라이저는 칩·키종류로 세대별 판정(4D60 SMARTRA, ID46 일반 키 SMARTRA2·3, DST80 SMARTRA 80bit, ID46 스마트키 SMK, ID8A SMK, ID47·ID4A·ID6A IBU)",
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "",
+  "years": [],
+  "guide": "6차 세대별 보완: 제네시스 비상키 G80(DH)·EQ900 LXP90(순정 81996-D2000), 2020년 이후 G70·G80·G90·GV60·GV70·GV80 KK12(순정 81996-AR000·81996-T6000), 이모빌라이저 IBU",
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "",
+  "years": [],
+  "guide": "6차 세대별 보완: 빈 키웨이는 transpondery Kia Catalog(세대별 Key Blade)·같은 세대 값으로, 이모빌라이저는 Kia Catalog 세대별 표기(Shinchang Immobox·SMARTRA 2·3·SMARTRA 80bit·SMK·IBU)로 채움. 봉고3 순정 블레이드 81996-4E030(HYN14), 봉고3 EV 81996-CP000",
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "",
+  "years": [],
+  "guide": "6차 세대별 보완: MLB evo(A6·A7·A8·Q8·e-트론 등 2018~) 비상키 HU162T(auto-keys·keyshop), R8 4S HU66·HU162T, Q4 e-트론 MEB HU66. 2025년 이후 신형(A5 B10·Q5 GU·Q6 e-트론·A6 e-트론)은 Audi 순정 공용 키 4M0959754CG 기준 MLB evo 계열로 추정(주황)",
+  "r6": true
+ },
+ {
+  "brand": "KG모빌리티(쌍용)",
+  "model": "",
+  "years": [],
+  "guide": "6차 세대별 보완: 무쏘 SSY2(Autokeymaster), G4 렉스턴·렉스턴 스포츠 TOY48(Keystation), 토레스·액티언 2세대·무쏘 EV는 같은 회사 스마트키 기준 TOY48[추정]",
+  "r6": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "",
+  "years": [],
+  "guide": "6차 세대별 보완: 마티즈·스파크(M150~M300) DWO4R, 토스카(Epica) DWO5, 콜벳 C8 HU100, 스파크 2013 폴딩키 ID46(PCF7937E)",
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "",
+  "years": [],
+  "guide": "6차 세대별 보완: 2019년 이후 신형(EPC 범위 밖)은 같은 플랫폼 순정 433MHz 키 품번을 [추정]으로 기재 — MFA2(CLA·GLA·GLB) A1779057902·A2479054303, MRA2(W214·X254·C236) A2069057403, W223·EQS·EQE A2239057507·A2239054408, X167 A1679053303·A1679054203(auto-keys.eu)",
+  "r6": true
+ },
+ {
+  "brand": "BMW",
+  "model": "",
+  "years": [],
+  "guide": "6차 세대별 보완: ETK(03.2019판) 이후 연식 중 칩이 같은 행(BDC3 변형 제외)은 같은 세대 앞 연식 스마트키 품번을 이어 씀",
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "옵티마 (Optima, MS)",
+  "years": [
+   2000
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY12[ILCO], HYN7R-HY7R-HY16[Lishi]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(MS 2001~2005)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "옵티마 (Optima, MS)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SHINCHANG 이모빌라이저"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "로체 (Optima, MG)",
+  "years": [
+   2005,
+   2006,
+   2007,
+   2008,
+   2009
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R, HY22[ILCO]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Optima·Magentis MG 2006–2010 Hitag2 ID46, HYN14R), 같은 세대 다른 연식 행 키웨이와 동일(로체 2010 HY22)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "로체 (Optima, MG)",
+  "years": [
+   2005,
+   2006,
+   2007
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "로체 (Optima, MG)",
+  "years": [
+   2008,
+   2009,
+   2010
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2[일반 키], SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "포르테 (Forte, TD 세단)",
+  "years": [
+   2008
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "포르테 (Forte/포르테쿠페, TD/XK)",
+  "years": [
+   2009,
+   2010,
+   2011
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2[일반 키], SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K3 (Forte, YD)",
+  "years": [
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA 80bit[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K3 (Forte, YD 페이스리프트)",
+  "years": [
+   2016,
+   2017,
+   2018
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K3 (Forte, BD)",
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K3 (Forte, BD 페이스리프트)",
+  "years": [
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K3 (Forte, BD PE)",
+  "years": [
+   2024
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K5 (Optima, TF)",
+  "years": [
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K5 (Optima, TF)",
+  "years": [
+   2014,
+   2015
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY22[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(TF 2010~2013 HY22)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K5 (Optima, JF)",
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN17B"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Optima JF 2015–2020 Hitag3 NCF2951 95440-D4000·D4100, HYN17B)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K5 (Optima, JF)",
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K5 (Optima, DL3)",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K5 (Optima, DL3/DL3 페이스리프트)",
+  "years": [
+   2023
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K5 (Optima, DL3 페이스리프트)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K7 (Cadenza, VG)",
+  "years": [
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K7 (Cadenza, YG 프리미어)",
+  "years": [
+   2020,
+   2021
+  ],
+  "set": {
+   "키블레이드(키웨이)": "LXP90[ILCO], TOYO-18[JMA]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(YG 2015~2019)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K8 (GL3)",
+  "years": [
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K8 (GL3/GL3 페이스리프트)",
+  "years": [
+   2024
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K8 (GL3 페이스리프트)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K9 (K900/Quoris, KH)",
+  "years": [
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "K9 (K900, RJ)",
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "프라이드 JB",
+  "years": [
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Rio JB 2005–2011 Hitag2 ID46 PCF7936AS, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "프라이드 JB",
+  "years": [
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "프라이드 UB",
+  "years": [
+   2011,
+   2012,
+   2013
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY22[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(UB 2014~2017 HY22)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "프라이드 UB",
+  "years": [
+   2011
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "프라이드 UB",
+  "years": [
+   2012,
+   2013
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA 80bit[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "프라이드 UB (더 뉴 프라이드)",
+  "years": [
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA 80bit[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "오피러스 (Opirus, GH)",
+  "years": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Opirus·Amanti GH 2004–2010 4D60·ID46, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "오피러스 (Opirus, GH)",
+  "years": [
+   2003,
+   2004,
+   2005,
+   2006
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SHINCHANG 이모빌라이저"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "오피러스 (Opirus, GH)",
+  "years": [
+   2007,
+   2008
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "오피러스 (Opirus, GH 프리미엄)",
+  "years": [
+   2009,
+   2010,
+   2011,
+   2012
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Opirus·Amanti GH 2004–2010 4D60·ID46, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "오피러스 (Opirus, GH 프리미엄)",
+  "years": [
+   2009,
+   2010,
+   2011,
+   2012
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스팅어 (Stinger, CK)",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN17B, KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Stinger CK 2018–2023 Hitag3 NCF2951 95440-J5000·J5210, HYN17B·KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스팅어 (Stinger, CK)",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스팅어 (Stinger, CK 페이스리프트)",
+  "years": [
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN17B, KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Stinger CK 2018–2023 Hitag3 NCF2951 95440-J5000·J5210, HYN17B·KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스팅어 (Stinger, CK 페이스리프트)",
+  "years": [
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스토닉",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12, HYN17B"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Stonic YB 2017–2026 DST80·AES, KK12·HYN17B)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스토닉",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "셀토스 (SP2)",
+  "years": [
+   2019,
+   2020,
+   2021
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU, SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "셀토스 (SP2/SP2 PE)",
+  "years": [
+   2022
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU, SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "셀토스 (SP2 PE)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU, SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘울 (Soul, AM)",
+  "years": [
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R, HYN17B"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Soul AM 2008–2013 Hitag2 ID46 95440-2K200, HYN14R·HYN17B)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘울 (Soul, AM)",
+  "years": [
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘울 (Soul, PS)",
+  "years": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN17B"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Soul PS 2014–2019 DST80 95440-B2000, HYN17B)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘울 (Soul, PS)",
+  "years": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘울 부스터 (Soul, SK3)",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Soul SK3 2019–2026 AES ID4A 95440-K0000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘울 부스터 (Soul, SK3)",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "레이 (Ray, TAM)",
+  "years": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "레이 (Ray, TAM)",
+  "years": [
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK10[ILCO], KIA7[Silca]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(TAM 2018~2022 KK10·KIA7)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "레이 (Ray, TAM)",
+  "years": [
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모닝 (Morning, SA)",
+  "years": [
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Picanto SA 2004–2011 Hitag2 ID46 PCF7936AS, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모닝 (Morning, SA)",
+  "years": [
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모닝 (Morning, TA)",
+  "years": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN17BT"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Picanto TA 2011–2017 DST80 95440-1Y100, HYN17BT)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모닝 (Morning, TA)",
+  "years": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA 80bit[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모닝 (Morning, TA)",
+  "years": [
+   2017
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA 80bit, SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모닝 (Morning, JA)",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12, HYN17B"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Picanto JA 2017–2026 DST80·AES 95440-G6000, KK12·HYN17B)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모닝 (Morning, JA)",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA 80bit[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "EV3 (SV)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog EV3·EV6·EV9 Hitag AES ID4A, 비상키 KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "EV3 (SV)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "EV4 (CT1)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog EV3·EV6·EV9 Hitag AES ID4A, 비상키 KK12) — EV4 같은 세대 기준"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "EV4 (CT1)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "EV6 (CV)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog EV3·EV6·EV9 Hitag AES ID4A, 비상키 KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "EV6 (CV)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "EV9",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog EV3·EV6·EV9 Hitag AES ID4A, 비상키 KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "EV9",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스포티지 (Sportage, NB-Ⅶ)",
+  "years": [
+   2000,
+   2001,
+   2002
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN6"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Sportage JA 1999–2001 ID48, HYN6)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스포티지 (Sportage, NB-Ⅶ)",
+  "years": [
+   2000,
+   2001,
+   2002
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SHINCHANG 이모빌라이저"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스포티지 (Sportage, JE/KM)",
+  "years": [
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Sportage KM 2004–2010 Hitag2 ID46 PCF7936AS, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스포티지 (Sportage, JE/KM)",
+  "years": [
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스포티지 (Sportage, SL)",
+  "years": [
+   2011,
+   2012
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA 80bit[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스포티지 (Sportage, SL)",
+  "years": [
+   2013,
+   2014,
+   2015
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2[일반 키], SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스포티지 (Sportage, QL)",
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스포티지 (Sportage, NQ5)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "스포티지 (Sportage, NQ5)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(NQ5 2021~2024 KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, BL)",
+  "years": [
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Sorento BL 2002–2009 Hitag2 ID46 PCF7936AS, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, BL)",
+  "years": [
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, XM)",
+  "years": [
+   2009
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY22[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(XM 2010~2012 HY22)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, XM)",
+  "years": [
+   2009
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, XM)",
+  "years": [
+   2010,
+   2011,
+   2012,
+   2013,
+   2014
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, UM)",
+  "years": [
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, UM 페이스리프트)",
+  "years": [
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY18R[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(UM 2014~2017 HY18R), transpondery(Kia Catalog Sorento UM Facelift 2018–2020 95440-C6000, HYN17B·KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, UM 페이스리프트)",
+  "years": [
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, MQ4)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Sorento MQ4 2020–2026 Hitag AES ID4A 95440-P2000·P2020, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, MQ4)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, MQ4 페이스리프트)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Sorento MQ4 2020–2026 Hitag AES ID4A 95440-P2000·P2020, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "쏘렌토 (Sorento, MQ4 페이스리프트)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모하비 (Mohave, HM)",
+  "years": [
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모하비 (Mohave, HM 더마스터)",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "모하비 (Mohave, HM 더마스터)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY22[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(더마스터 2019 HY22)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "니로 (Niro, DE)",
+  "years": [
+   2016,
+   2017,
+   2018
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(DE 2019~2022 KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "니로 (Niro, DE)",
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "니로 (Niro, SG2)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "니로 (Niro, SG2/SG2 PE)",
+  "years": [
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카렌스 (Carens, RS)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Carens RS 2001–2005·UN 2006–2012, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카렌스 (Carens, RS)",
+  "years": [
+   2000,
+   2001
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SHINCHANG 이모빌라이저"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카렌스 (Carens, RS)",
+  "years": [
+   2002,
+   2003,
+   2004,
+   2005,
+   2006
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SHINCHANG 이모빌라이저, SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카렌스 (Carens, UN)",
+  "years": [
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Carens RS 2001–2005·UN 2006–2012, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카렌스 (Carens, UN)",
+  "years": [
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카렌스 (Carens, RP)",
+  "years": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA 80bit[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, KV-II/GQ)",
+  "years": [
+   2000,
+   2001
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN6, HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Carnival GQ 1998–2001 ID48 HYN6, 2000–2005 4D60 HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, KV-II/GQ)",
+  "years": [
+   2000,
+   2001
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SHINCHANG 이모빌라이저"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, KV-II/GQ)",
+  "years": [
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Carnival GQ 2000–2005 4D60, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, KV-II/GQ)",
+  "years": [
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, VQ)",
+  "years": [
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Carnival VQ 2006–2014 Hitag2 ID46 PCF7936AS, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, VQ)",
+  "years": [
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, YP)",
+  "years": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, KA4)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Carnival KA4 2021–2026 Hitag AES ID4A 95440-R0000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, KA4)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, KA4 PE)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog Carnival KA4 2021–2026 Hitag AES ID4A 95440-R0000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "카니발 (Carnival, KA4 PE)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "봉고3 (Bongo3, J)",
+  "years": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14"
+  },
+  "append": {
+   "출처": "abkeys·MK3(Kia Bongo 2006+ 순정 리모컨 키 블레이드 81996-4E030 HYN14)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "기아",
+  "model": "봉고3 EV (전기차)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "쏘나타 (EF, 4세대)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "쏘나타 (NF, 5세대)",
+  "years": [
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2[일반 키], SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "쏘나타 (YF, 6세대)",
+  "years": [
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "쏘나타 (LF, 7세대)",
+  "years": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "쏘나타 (DN8, 8세대)",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "그랜저 (XG, 3세대)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "그랜저 (TG, 4세대)",
+  "years": [
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "그랜저 (HG, 5세대)",
+  "years": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "그랜저 (IG, 6세대)",
+  "years": [
+   2016,
+   2017,
+   2018
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Azera·Grandeur 2018–2022 Hitag3 ID47 95440-G8000·G8100, 비상키 KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "그랜저 (IG, 6세대)",
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "그랜저 (GN7, 7세대)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (XD, 3세대)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN6"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(XD 2004~2006 HYN6)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (XD, 3세대)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004
+  ],
+  "set": {
+   "이모빌라이저 시스템": "해당 없음"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (XD, 3세대)",
+  "years": [
+   2004,
+   2005,
+   2006
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (HD, 4세대)",
+  "years": [
+   2006,
+   2007,
+   2008
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (HD, 4세대)",
+  "years": [
+   2009,
+   2010
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2[일반 키], SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (MD, 5세대)",
+  "years": [
+   2010,
+   2011,
+   2012
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY15[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(MD 2013~2015 HY15)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (MD, 5세대)",
+  "years": [
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (AD, 6세대)",
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (CN7, 7세대)",
+  "years": [
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(CN7 2023~ KK12), transpondery(Hyundai Catalog Avante·Elantra 2021–2026 Hitag AES ID4A 95440-AA000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 (CN7, 7세대)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 N (CN7)",
+  "years": [
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(아반떼 N 2024~ KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아반떼 N (CN7)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "베르나 (LC, 1세대)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Verna·Accent 1999–2011 Hitag2 ID46 PCF7936, HYN14R·HYN14)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "베르나 (LC, 1세대)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "이모빌라이저 시스템": "해당 없음"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "베르나 (MC, 2세대)",
+  "years": [
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Verna·Accent 1999–2011 Hitag2 ID46 PCF7936, HYN14R·HYN14)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "베르나 (MC, 2세대)",
+  "years": [
+   2005,
+   2006,
+   2007,
+   2008,
+   2009
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "베르나 (MC, 2세대)",
+  "years": [
+   2009,
+   2010
+  ],
+  "set": {
+   "이모빌라이저 시스템": "해당 없음"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "엑센트 (RB, 4세대)",
+  "years": [
+   2010
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "엑센트 (RB, 4세대)",
+  "years": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2[일반 키], SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "i30 (FD, 1세대)",
+  "years": [
+   2007,
+   2008,
+   2009,
+   2010,
+   2011
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog i30 2007–2011 Hitag2 ID46 95430-2L000·95440-2L000, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "i30 (FD, 1세대)",
+  "years": [
+   2007,
+   2008,
+   2009,
+   2010,
+   2011
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "i30 (GD, 2세대)",
+  "years": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog i30 2012–2016 DST80 ID6E-MA, HYN14R·비상키)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "i30 (GD, 2세대)",
+  "years": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "i30 (PD, 3세대)",
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY22, KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog i30·i30N 2017–2024 Hitag3 ID47 95440-G3000·G3100, 비상키 HY22·KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "i30 (PD, 3세대)",
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "i40 (VF)",
+  "years": [
+   2011
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog DST80 스마트키 세대: SMARTRA 80bit & SMK), 같은 세대 i40 스마트키"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "i40 (VF)",
+  "years": [
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "벨로스터 (FS, 1세대)",
+  "years": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Veloster 2011–2017 95430-2V000·95440-2V000, HYN14R·비상키)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "벨로스터 (FS, 1세대)",
+  "years": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "벨로스터 (JS, 2세대)",
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY22, KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Veloster·Veloster N 2018–2022 95440-J3000·J3100·K9000, 비상키 HY22·KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "벨로스터 (JS, 2세대)",
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아슬란 (AG)",
+  "years": [
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "제네시스 (BH, 1세대)",
+  "years": [
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R, HYN17B"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Genesis·Genesis Coupe 2009–2014 Hitag2 ID46 95440-3M000·2M100, HYN14R·HYN17B)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "제네시스 (BH, 1세대)",
+  "years": [
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "제네시스 (DH, 2세대)",
+  "years": [
+   2013,
+   2014,
+   2015,
+   2016
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "제네시스 (DH, 2세대)",
+  "years": [
+   2016
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12[ILCO], KIA9[Silca]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(DH 2013~2015 KK12·KIA9)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "제네시스 쿠페 (BK)",
+  "years": [
+   2008,
+   2009,
+   2010
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY15R[ILCO], HY17[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(BK 2011~2016 HY15R·HY17)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "제네시스 쿠페 (BK)",
+  "years": [
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아이오닉 (AE)",
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY22, KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog IONIQ 2016–2022 Hitag3 ID47 95440-G2000·G2100·G2500, HY22·KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아이오닉 (AE)",
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아이오닉 5 (NE)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아이오닉 5 (NE)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(아이오닉 5 2021~2023 KK12), transpondery(Hyundai Catalog IONIQ 5 2021–2026 Hitag AES ID4A 95440-GI000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아이오닉 5 N (NE)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(아이오닉 5 2021~2023 KK12), transpondery(Hyundai Catalog IONIQ 5 2021–2026 Hitag AES ID4A 95440-GI000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아이오닉 5 N (NE)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아이오닉 6 (CE)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아이오닉 9 (ME)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog IONIQ 9 2024–2026 Hitag AES ID4A UWB 95440-N0000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "아이오닉 9 (ME)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "싼타페 (SM, 1세대)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN7, HYN7R[Silca], HY-6D.P1[JMA], HY12[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(SM 2004~2005)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "싼타페 (SM, 1세대)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004
+  ],
+  "set": {
+   "이모빌라이저 시스템": "해당 없음"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "싼타페 (SM, 1세대)",
+  "years": [
+   2004,
+   2005
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "싼타페 (CM, 2세대)",
+  "years": [
+   2005
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "싼타페 (CM, 2세대)",
+  "years": [
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2[일반 키], SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "싼타페 (DM, 3세대)",
+  "years": [
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "싼타페 (TM, 4세대)",
+  "years": [
+   2018,
+   2019
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(TM 2020~2023 KK12), transpondery(Hyundai Catalog Santa Fe 2019–2023 Hitag3 ID47 95440-S1000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "싼타페 (TM, 4세대)",
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "싼타페 (MX5, 5세대)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "팰리세이드 (LX2, 1세대)",
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12[ILCO]"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(LX2 2022~2024 KK12), transpondery(Hyundai Catalog Palisade 2020–2022 Hitag3 ID47 95440-S8000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "팰리세이드 (LX2, 1세대)",
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "팰리세이드 (LX3, 2세대)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Palisade 2023–2026 Hitag AES ID4A 95440-S8500·S8600, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "팰리세이드 (LX3, 2세대)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "투싼 (JM, 1세대)",
+  "years": [
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "투싼ix (LM, 2세대)",
+  "years": [
+   2009,
+   2010,
+   2011,
+   2012
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HY22"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(LM 2013~2015 HY22)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "투싼ix (LM, 2세대)",
+  "years": [
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "투싼 (TL, 3세대)",
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "투싼 (NX4, 4세대)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Tucson 2022–2026 Hitag AES ID4A 95440-N9000·N9100, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "투싼 (NX4, 4세대)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "베라크루즈 (EN)",
+  "years": [
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2[일반 키], SMARTRA3[일반 키], SMK[스마트키]"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "맥스크루즈 (NC)",
+  "years": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMK"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "코나 (OS, 1세대)",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "코나 N (OS)",
+  "years": [
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "코나 (SX2, 2세대)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Kona·Kona Electric 2024–2026 Hitag AES ID4A 95440-BE000·BE100, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "코나 (SX2, 2세대)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "코나 일렉트릭 (SX2)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Kona·Kona Electric 2024–2026 Hitag AES ID4A 95440-BE000·BE100, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "코나 일렉트릭 (SX2)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "베뉴 (QX)",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "캐스퍼 (AX1)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Casper 2021–2026 Hitag AES 95440-CW000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "캐스퍼 (AX1)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "캐스퍼 일렉트릭 (AX1 EV)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Casper 2021–2026 Hitag AES 95440-CW000, KK12)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "캐스퍼 일렉트릭 (AX1 EV)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "넥쏘 (FE, 1세대)",
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "넥쏘 (NH2, 2세대)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "스타렉스 (A1)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN6"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(A1 2005~2007 HYN6)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "스타렉스 (A1)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "이모빌라이저 시스템": "해당 없음"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "스타렉스 (A1)",
+  "years": [
+   2005,
+   2006,
+   2007
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "그랜드 스타렉스 (TQ)",
+  "years": [
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14R"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Starex·H-1 2011–2016 Hitag2 ID46, 2017–2021, HYN14R)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "그랜드 스타렉스 (TQ)",
+  "years": [
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014
+  ],
+  "set": {
+   "이모빌라이저 시스템": "SMARTRA2, SMARTRA3"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "스타리아 (US4)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "포터2 (HR)",
+  "years": [
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HYN14"
+  },
+  "append": {
+   "출처": "transpondery(Hyundai Catalog Porter II 2004–2016 HYN14), abkeys(Porter 2014+ 리모컨 키 블레이드 HYN14 순정 81996-4F500)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "현대",
+  "model": "포터2 일렉트릭",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 G80 (DH)",
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "키블레이드(키웨이)": "LXP90"
+  },
+  "append": {
+   "출처": "American Key Supply(Genesis G80·G90 2017-2020 비상키 LXP90, 순정 81996-D2000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 G80 (DH)",
+  "years": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 G80 (RG3)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "Locksmith Keyless·Royal Key Supply(Genesis G70·G80·GV70·GV80 2020-2023 비상키 KK12, 순정 81996-AR000·81996-T6000), Your Car Key Guys(2023-2026 Genesis 비상키 81996-CU000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 G80 (RG3)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 일렉트리파이드 G80 (RG3 EV)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "Locksmith Keyless·Royal Key Supply(Genesis G70·G80·GV70·GV80 2020-2023 비상키 KK12, 순정 81996-AR000·81996-T6000), Your Car Key Guys(2023-2026 Genesis 비상키 81996-CU000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 일렉트리파이드 G80 (RG3 EV)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 EQ900/G90 (HI)",
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "키블레이드(키웨이)": "LXP90"
+  },
+  "append": {
+   "출처": "American Key Supply(Genesis G80·G90 2017-2020 비상키 LXP90, 순정 81996-D2000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 EQ900/G90 (HI)",
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 G90 (RS4)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "Locksmith Keyless·Royal Key Supply(Genesis G70·G80·GV70·GV80 2020-2023 비상키 KK12, 순정 81996-AR000·81996-T6000), Your Car Key Guys(2023-2026 Genesis 비상키 81996-CU000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 G90 (RS4)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 G70 (IK)",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 G70 (IK)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "Locksmith Keyless·Royal Key Supply(Genesis G70·G80·GV70·GV80 2020-2023 비상키 KK12, 순정 81996-AR000·81996-T6000), Your Car Key Guys(2023-2026 Genesis 비상키 81996-CU000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 GV80 (JX1)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "Locksmith Keyless·Royal Key Supply(Genesis G70·G80·GV70·GV80 2020-2023 비상키 KK12, 순정 81996-AR000·81996-T6000), Your Car Key Guys(2023-2026 Genesis 비상키 81996-CU000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 GV80 (JX1)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 GV80 쿠페 (JX1)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "Locksmith Keyless·Royal Key Supply(Genesis G70·G80·GV70·GV80 2020-2023 비상키 KK12, 순정 81996-AR000·81996-T6000), Your Car Key Guys(2023-2026 Genesis 비상키 81996-CU000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 GV80 쿠페 (JX1)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 GV70 (JK1)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "Locksmith Keyless·Royal Key Supply(Genesis G70·G80·GV70·GV80 2020-2023 비상키 KK12, 순정 81996-AR000·81996-T6000), Your Car Key Guys(2023-2026 Genesis 비상키 81996-CU000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 GV70 (JK1)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 일렉트리파이드 GV70 (JK1 EV)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "Locksmith Keyless·Royal Key Supply(Genesis G70·G80·GV70·GV80 2020-2023 비상키 KK12, 순정 81996-AR000·81996-T6000), Your Car Key Guys(2023-2026 Genesis 비상키 81996-CU000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 일렉트리파이드 GV70 (JK1 EV)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 GV60 (JW1)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "KK12"
+  },
+  "append": {
+   "출처": "Locksmith Keyless·Royal Key Supply(Genesis G70·G80·GV70·GV80 2020-2023 비상키 KK12, 순정 81996-AR000·81996-T6000), Your Car Key Guys(2023-2026 Genesis 비상키 81996-CU000)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "제네시스",
+  "model": "제네시스 GV60 (JW1)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "이모빌라이저 시스템": "IBU"
+  },
+  "append": {
+   "출처": "transpondery(Kia Catalog 세대별 이모빌라이저: Shinchang Immobox(4D60)·SMARTRA 2·3(ID46)·SMARTRA 80bit(DST80)·SMK(스마트키 유닛)·IBU), UHS(Hyundai·Kia 2008-2016 SMARTRA 2·3), ECUBUG(SMARTRA 1·2·3 → 2010 이후 DST80), 현대모비스(SMK 스마트키 시스템)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "A5 (B10, 3세대)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "MLB evo 전용 칩[추정]"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true,
+  "flag": "orange",
+  "note": "2025년 이후 신형(PPE·PPC) 전용 칩 자료 없음 — MLB evo 공용 키 기준 추정"
+ },
+ {
+  "brand": "아우디",
+  "model": "A5 (B10, 3세대)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "S5",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "MLB evo 전용 칩[추정]"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true,
+  "flag": "orange",
+  "note": "2025년 이후 신형(PPE·PPC) 전용 칩 자료 없음 — MLB evo 공용 키 기준 추정"
+ },
+ {
+  "brand": "아우디",
+  "model": "S5",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "RS5",
+  "years": [
+   2026
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "MLB evo 전용 칩[추정]"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true,
+  "flag": "orange",
+  "note": "2025년 이후 신형(PPE·PPC) 전용 칩 자료 없음 — MLB evo 공용 키 기준 추정"
+ },
+ {
+  "brand": "아우디",
+  "model": "RS5",
+  "years": [
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "A6 (C8, 8세대)",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "A6 e-트론 (GH)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "MLB evo 전용 칩[추정]"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true,
+  "flag": "orange",
+  "note": "2025년 이후 신형(PPE·PPC) 전용 칩 자료 없음 — MLB evo 공용 키 기준 추정"
+ },
+ {
+  "brand": "아우디",
+  "model": "A6 e-트론 (GH)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "S6",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "S6",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "MLB evo 전용 칩[추정]"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true,
+  "flag": "orange",
+  "note": "2025년 이후 신형(PPE·PPC) 전용 칩 자료 없음 — MLB evo 공용 키 기준 추정"
+ },
+ {
+  "brand": "아우디",
+  "model": "S6",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "RS6 아반트",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "A7 (C8, 2세대)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "S7",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "RS7",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "A8 (D5, 5세대)",
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "S8",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "Q4 e-트론",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU66"
+  },
+  "append": {
+   "출처": "MEB 플랫폼 키(폭스바겐 ID.4와 공용) — 비상키 HU66"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "Q5 (GU, 3세대)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "MLB evo 전용 칩[추정]"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true,
+  "flag": "orange",
+  "note": "2025년 이후 신형(PPE·PPC) 전용 칩 자료 없음 — MLB evo 공용 키 기준 추정"
+ },
+ {
+  "brand": "아우디",
+  "model": "Q5 (GU, 3세대)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "SQ5",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "MLB evo 전용 칩[추정]"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true,
+  "flag": "orange",
+  "note": "2025년 이후 신형(PPE·PPC) 전용 칩 자료 없음 — MLB evo 공용 키 기준 추정"
+ },
+ {
+  "brand": "아우디",
+  "model": "SQ5",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "Q6 e-트론",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "MLB evo 전용 칩[추정]"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true,
+  "flag": "orange",
+  "note": "2025년 이후 신형(PPE·PPC) 전용 칩 자료 없음 — MLB evo 공용 키 기준 추정"
+ },
+ {
+  "brand": "아우디",
+  "model": "Q6 e-트론",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "Audi USA 순정 부품(2025 Q6 e-tron·Q5·A5·SQ5 스마트키 4M0959754CG 공용 — 북미형이라 품번 뺌) — MLB evo 계열 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "SQ8",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "RS Q8",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "e-트론/Q8 e-트론",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "SQ8 e-트론",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "R8 (4S, 2세대)",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU66, HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi R8 2021+ 순정 스마트키 4H0959754FK 비상키 HU162T), key4·Keymall(R8 HU66 비상키)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "e-트론 GT",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "아우디",
+  "model": "RS e-트론 GT",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU162T"
+  },
+  "append": {
+   "출처": "auto-keys.eu(Audi A8·A6·Q8 2018+ 스마트키 4N0959754AL·e-tron 4M0959754BF 비상키 HU162T), keyshop-online(Audi MLB 2016+ 비상키 HU162T)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "KG모빌리티(쌍용)",
+  "model": "무쏘",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "키블레이드(키웨이)": "SSY2"
+  },
+  "append": {
+   "출처": "Autokeymaster(SsangYong Musso 1993-2011 ID48 키 블레이드 SSY2)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "KG모빌리티(쌍용)",
+  "model": "무쏘 스포츠 (픽업)",
+  "years": [
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "키블레이드(키웨이)": "SSY2"
+  },
+  "append": {
+   "출처": "Autokeymaster(SsangYong Musso 1993-2011 ID48 키 블레이드 SSY2)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "KG모빌리티(쌍용)",
+  "model": "렉스턴 스포츠 & 칸 (픽업)",
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "set": {
+   "키블레이드(키웨이)": "TOY48"
+  },
+  "append": {
+   "출처": "Keystation(SsangYong Rexton 2버튼 리모컨 키 케이스 TOY48 블레이드), Autokeymaster(Rexton·Actyon 4D60x80 키 TOY40·TOY48)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "KG모빌리티(쌍용)",
+  "model": "토레스",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "TOY48[추정]"
+  },
+  "append": {
+   "출처": "Keystation(SsangYong Rexton 2버튼 리모컨 키 케이스 TOY48 블레이드), Autokeymaster(Rexton·Actyon 4D60x80 키 TOY40·TOY48) — 같은 회사 스마트키 비상키 기준 추정(신형 전용 자료 없음)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "KG모빌리티(쌍용)",
+  "model": "토레스 EVX (전기차)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "TOY48[추정]"
+  },
+  "append": {
+   "출처": "Keystation(SsangYong Rexton 2버튼 리모컨 키 케이스 TOY48 블레이드), Autokeymaster(Rexton·Actyon 4D60x80 키 TOY40·TOY48) — 같은 회사 스마트키 비상키 기준 추정(신형 전용 자료 없음)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "KG모빌리티(쌍용)",
+  "model": "액티언 (2세대, J120)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "TOY48[추정]"
+  },
+  "append": {
+   "출처": "Keystation(SsangYong Rexton 2버튼 리모컨 키 케이스 TOY48 블레이드), Autokeymaster(Rexton·Actyon 4D60x80 키 TOY40·TOY48) — 같은 회사 스마트키 비상키 기준 추정(신형 전용 자료 없음)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "KG모빌리티(쌍용)",
+  "model": "무쏘 EV (픽업, 전기차)",
+  "years": [
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "TOY48[추정]"
+  },
+  "append": {
+   "출처": "Keystation(SsangYong Rexton 2버튼 리모컨 키 케이스 TOY48 블레이드), Autokeymaster(Rexton·Actyon 4D60x80 키 TOY40·TOY48) — 같은 회사 스마트키 비상키 기준 추정(신형 전용 자료 없음)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "KG모빌리티(쌍용)",
+  "model": "G4 렉스턴 (2세대)",
+  "years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "TOY48"
+  },
+  "append": {
+   "출처": "Keystation(SsangYong Rexton 2버튼 리모컨 키 케이스 TOY48 블레이드), Autokeymaster(Rexton·Actyon 4D60x80 키 TOY40·TOY48)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "마티즈 II (GM대우, M150)",
+  "years": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005
+  ],
+  "set": {
+   "키블레이드(키웨이)": "DWO4R"
+  },
+  "append": {
+   "출처": "Eurocarkeyshop(Chevrolet Matiz 2005-2012 키 블레이드 DWO4R), UHS(Daewoo DWO4RAP 기계식 키)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "올 뉴 마티즈 (GM대우, M200)",
+  "years": [
+   2005,
+   2006,
+   2007,
+   2008,
+   2009
+  ],
+  "set": {
+   "키블레이드(키웨이)": "DWO4R"
+  },
+  "append": {
+   "출처": "Eurocarkeyshop(Chevrolet Matiz 2005-2012 키 블레이드 DWO4R), UHS(Daewoo DWO4RAP 기계식 키)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "마티즈 크리에이티브 (GM대우, M300)",
+  "years": [
+   2009,
+   2010,
+   2011
+  ],
+  "set": {
+   "키블레이드(키웨이)": "DWO4R"
+  },
+  "append": {
+   "출처": "Eurocarkeyshop(Chevrolet Matiz 2005-2012 키 블레이드 DWO4R), UHS(Daewoo DWO4RAP 기계식 키)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "스파크 (쉐보레, M300)",
+  "years": [
+   2011,
+   2012,
+   2013
+  ],
+  "set": {
+   "키블레이드(키웨이)": "DWO4R"
+  },
+  "append": {
+   "출처": "Eurocarkeyshop(Chevrolet Matiz 2005-2012 키 블레이드 DWO4R), UHS(Daewoo DWO4RAP 기계식 키)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "스파크 (쉐보레, M300)",
+  "years": [
+   2013
+  ],
+  "set": {
+   "칩코드 (예: ID46(PCF7936))": "ID46(PCF7937E)"
+  },
+  "append": {
+   "출처": "transpondery(Chevrolet Spark 2013+ Hitag2 Extended ID46E PCF7937E·NCF2951E)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "스파크 (쉐보레, M300)",
+  "years": [
+   2013
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU100"
+  },
+  "append": {
+   "출처": "같은 세대 다른 연식 행 키웨이와 동일(스파크 폴딩키 2014~ HU100)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "토스카 (GM대우/쉐보레)",
+  "years": [
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011
+  ],
+  "set": {
+   "키블레이드(키웨이)": "DWO5"
+  },
+  "append": {
+   "출처": "CLK Supplies·Ilco(Chevrolet Epica 2004-2007 트랜스폰더 키 DW05T5), car-keys-online(Epica·Evanda DWO5 ID60) — 토스카는 수출명 Epica(V250)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "쉐보레(GM대우)",
+  "model": "콜벳 (쉐보레, C8)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "키블레이드(키웨이)": "HU100"
+  },
+  "append": {
+   "출처": "UHS·American Key Supply(Corvette C8 2020-2024 스마트키 13538852 YG0G20TB1, 비상키 HU100)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "CLA (C118, 2세대)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "set": {
+   "스마트키(부품번호)": "A1779057902[추정, 해외 공용 품번], A2479054303[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: W177 A클래스 2019 A1779057902·W247 A2479054303, HELLA 제조 키리스고) — 같은 MFA2 플랫폼(A·B·CLA·GLA·GLB) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "CLA45 AMG (C117/C118)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A1779057902[추정, 해외 공용 품번], A2479054303[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: W177 A클래스 2019 A1779057902·W247 A2479054303, HELLA 제조 키리스고) — 같은 MFA2 플랫폼(A·B·CLA·GLA·GLB) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "CLE (C236)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2069057403[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: C클래스 W206 2020+ A2069057403 HU64 키리스고) — 같은 MRA2 플랫폼(W206·W214·X254·C236) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "E클래스 (W214, 11세대)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2069057403[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: C클래스 W206 2020+ A2069057403 HU64 키리스고) — 같은 MRA2 플랫폼(W206·W214·X254·C236) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "E53 AMG (W214)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2069057403[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: C클래스 W206 2020+ A2069057403 HU64 키리스고) — 같은 MRA2 플랫폼(W206·W214·X254·C236) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "메르세데스-마이바흐 S클래스 (Z223)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2239057507[추정, 해외 공용 품번], A2239054408[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: S클래스 2020+ A2239057507·A2239054408) — S클래스(W223)와 같은 세대 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "GLA (H247, 2세대)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A1779057902[추정, 해외 공용 품번], A2479054303[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: W177 A클래스 2019 A1779057902·W247 A2479054303, HELLA 제조 키리스고) — 같은 MFA2 플랫폼(A·B·CLA·GLA·GLB) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "GLA35/45 AMG",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A1779057902[추정, 해외 공용 품번], A2479054303[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: W177 A클래스 2019 A1779057902·W247 A2479054303, HELLA 제조 키리스고) — 같은 MFA2 플랫폼(A·B·CLA·GLA·GLB) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "GLB (X247, 1세대)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A1779057902[추정, 해외 공용 품번], A2479054303[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: W177 A클래스 2019 A1779057902·W247 A2479054303, HELLA 제조 키리스고) — 같은 MFA2 플랫폼(A·B·CLA·GLA·GLB) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "GLB35 AMG",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A1779057902[추정, 해외 공용 품번], A2479054303[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: W177 A클래스 2019 A1779057902·W247 A2479054303, HELLA 제조 키리스고) — 같은 MFA2 플랫폼(A·B·CLA·GLA·GLB) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "GLC (X254/C254, 2세대)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2069057403[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: C클래스 W206 2020+ A2069057403 HU64 키리스고) — 같은 MRA2 플랫폼(W206·W214·X254·C236) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "GLC63 AMG (X254)",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2069057403[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: C클래스 W206 2020+ A2069057403 HU64 키리스고) — 같은 MRA2 플랫폼(W206·W214·X254·C236) 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "GLS (X167, 2세대)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A1679053303[추정, 해외 공용 품번], A1679054203[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: FBS4 A1679053303·A1679054203 HU64 키리스고) — GLE(W167)와 같은 MHA 플랫폼 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "메르세데스-마이바흐 GLS (X167)",
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A1679053303[추정, 해외 공용 품번], A1679054203[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: FBS4 A1679053303·A1679054203 HU64 키리스고) — GLE(W167)와 같은 MHA 플랫폼 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "EQS 세단 (V297)",
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2239057507[추정, 해외 공용 품번], A2239054408[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: S클래스 2020+ A2239057507·A2239054408) — S클래스(W223)와 같은 세대 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "EQE 세단 (V295)",
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2239057507[추정, 해외 공용 품번], A2239054408[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: S클래스 2020+ A2239057507·A2239054408) — S클래스(W223)와 같은 세대 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "EQS SUV (X296)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2239057507[추정, 해외 공용 품번], A2239054408[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: S클래스 2020+ A2239057507·A2239054408) — S클래스(W223)와 같은 세대 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "벤츠",
+  "model": "EQE SUV (X294)",
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "A2239057507[추정, 해외 공용 품번], A2239054408[추정, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "auto-keys.eu(메르세데스 순정 스마트키 433.92MHz: S클래스 2020+ A2239057507·A2239054408) — S클래스(W223)와 같은 세대 키 기준 추정"
+  },
+  "r6": true
+ },
+ {
+  "brand": "BMW",
+  "model": "2시리즈 쿠페 (G42, 2세대)",
+  "years": [
+   2023
+  ],
+  "set": {
+   "스마트키(부품번호)": "FCC N5F-ID21A"
+  },
+  "append": {
+   "출처": "같은 세대·같은 칩 앞 연식 스마트키 품번과 동일(BMW ETK 03.2019판 이후 연식이라 이어 씀)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "BMW",
+  "model": "2시리즈 액티브 투어러 (F45, 1세대)",
+  "years": [
+   2021,
+   2022
+  ],
+  "set": {
+   "스마트키(부품번호)": "66126805997"
+  },
+  "append": {
+   "출처": "같은 세대·같은 칩 앞 연식 스마트키 품번과 동일(BMW ETK 03.2019판 이후 연식이라 이어 씀)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "BMW",
+  "model": "2시리즈 그란 쿠페 (F44)",
+  "years": [
+   2024,
+   2025
+  ],
+  "set": {
+   "스마트키(부품번호)": "FCC IYZBK1[추정]"
+  },
+  "append": {
+   "출처": "같은 세대·같은 칩 앞 연식 스마트키 품번과 동일(BMW ETK 03.2019판 이후 연식이라 이어 씀)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "BMW",
+  "model": "M5 (G90)",
+  "years": [
+   2026
+  ],
+  "set": {
+   "스마트키(부품번호)": "FCC IYZBK1"
+  },
+  "append": {
+   "출처": "같은 세대·같은 칩 앞 연식 스마트키 품번과 동일(BMW ETK 03.2019판 이후 연식이라 이어 씀)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "BMW",
+  "model": "X1 (F48, 2세대)",
+  "years": [
+   2021,
+   2022
+  ],
+  "set": {
+   "스마트키(부품번호)": "66126805990[기본형, 해외 공용 품번]"
+  },
+  "append": {
+   "출처": "같은 세대·같은 칩 앞 연식 스마트키 품번과 동일(BMW ETK 03.2019판 이후 연식이라 이어 씀)"
+  },
+  "r6": true
+ },
+ {
+  "brand": "BMW",
+  "model": "X2 (F39, 1세대)",
+  "years": [
+   2021,
+   2022,
+   2023
+  ],
+  "set": {
+   "스마트키(부품번호)": "NBGIDGNG1-08"
+  },
+  "append": {
+   "출처": "같은 세대·같은 칩 앞 연식 스마트키 품번과 동일(BMW ETK 03.2019판 이후 연식이라 이어 씀)"
+  },
+  "r6": true
  }
 ]

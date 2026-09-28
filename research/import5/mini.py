@@ -28,9 +28,9 @@ F_TXT = ('한국 사양 L802A 리모컨 66128781934(434 MHZ KO), 2019.3 이후 �
 F = dict(chip='ID49(PCF7953P)', immo='BDC', keyway='HU100R', ktype_hint='스마트키', smart='66128781934', blade_pn=g('51217359252[비상키]'))
 F19 = dict(F, smart='66128781934, 66128728017[컴포트 액세스]')
 TP_F = TPB.format('Cooper 2013+ Philips Crypto 3 Hitag Pro PCF7953 ID49, BDC')
-NEW = dict(chip='ID49', keyway='HU100R[추정]', ktype_hint='스마트키', flag='orange',
+NEW = dict(chip='ID49', immo='BCP[추정]', keyway='HU100R[추정]', ktype_hint='스마트키', flag='orange',
            note='2024년 이후 신형 MINI 칩 자료 없음 — 같은 시기 BMW(ID49) 기준 추정')
-NEW_SRC = 'BMW ETK 03.2019판에 2024년 이후 신형 미수록, transpondery MINI는 2013+ ID49까지만 — 같은 세대 BMW U11(X1) ID49·HU100R 기준 추정'
+NEW_SRC = 'BMW ETK 03.2019판에 2024년 이후 신형 미수록, transpondery MINI는 2013+ ID49까지만 — 같은 세대 BMW U11(X1) ID49·BCP·HU100R 기준 추정'
 
 def fseg(y0, y1, s, extra=''):
     """F 계열: 2019.3 이전은 일반 리모컨만, 2019년 이후 컴포트 액세스 품번 추가"""
